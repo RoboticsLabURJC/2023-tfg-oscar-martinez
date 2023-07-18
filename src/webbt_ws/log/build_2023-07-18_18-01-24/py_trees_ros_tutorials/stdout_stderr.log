@@ -1,0 +1,63 @@
+/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/py_trees_ros_tutorials/setup.py:5: DeprecationWarning: The distutils package is deprecated and slated for removal in Python 3.12. Use setuptools or check PEP 632 for potential alternatives
+  from distutils import log
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+/usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.16.0-unknown is an invalid version and will not be supported in a future release
+  warnings.warn(
+/usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+  warnings.warn(
+/usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release
+  warnings.warn(
+/usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.12.1-git20200711.33e2d80-dfsg1-0.6 is an invalid version and will not be supported in a future release
+  warnings.warn(
+redirecting scripts
+  from: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/py_trees_ros_tutorials/bin
+    to: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/py_trees_ros_tutorials/lib/py_trees_ros_tutorials
+running egg_info
+creating py_trees_ros_tutorials.egg-info
+writing py_trees_ros_tutorials.egg-info/PKG-INFO
+writing dependency_links to py_trees_ros_tutorials.egg-info/dependency_links.txt
+writing entry points to py_trees_ros_tutorials.egg-info/entry_points.txt
+writing top-level names to py_trees_ros_tutorials.egg-info/top_level.txt
+writing manifest file 'py_trees_ros_tutorials.egg-info/SOURCES.txt'
+reading manifest file 'py_trees_ros_tutorials.egg-info/SOURCES.txt'
+writing manifest file 'py_trees_ros_tutorials.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/py_trees_ros_tutorials/lib/python3.10/site-packages/py-trees-ros-tutorials.egg-link (link to .)
+Installing mock-battery script to /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/py_trees_ros_tutorials/lib/py_trees_ros_tutorials
+Installing mock-dashboard script to /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/py_trees_ros_tutorials/lib/py_trees_ros_tutorials
+Installing mock-dock-client script to /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/py_trees_ros_tutorials/lib/py_trees_ros_tutorials
+Installing mock-docking-controller script to /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/py_trees_ros_tutorials/lib/py_trees_ros_tutorials
+Installing mock-led-strip script to /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/py_trees_ros_tutorials/lib/py_trees_ros_tutorials
+Installing mock-move-base script to /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/py_trees_ros_tutorials/lib/py_trees_ros_tutorials
+Installing mock-move-base-client script to /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/py_trees_ros_tutorials/lib/py_trees_ros_tutorials
+Installing mock-rotate-client script to /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/py_trees_ros_tutorials/lib/py_trees_ros_tutorials
+Installing mock-rotation-controller script to /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/py_trees_ros_tutorials/lib/py_trees_ros_tutorials
+Installing mock-safety-sensors script to /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/py_trees_ros_tutorials/lib/py_trees_ros_tutorials
+Installing tree-action-clients script to /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/py_trees_ros_tutorials/lib/py_trees_ros_tutorials
+Installing tree-battery-check script to /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/py_trees_ros_tutorials/lib/py_trees_ros_tutorials
+Installing tree-context-switching script to /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/py_trees_ros_tutorials/lib/py_trees_ros_tutorials
+Installing tree-data-gathering script to /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/py_trees_ros_tutorials/lib/py_trees_ros_tutorials
+Installing tree-docking-cancelling-failing script to /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/py_trees_ros_tutorials/lib/py_trees_ros_tutorials
+Installing tree-dynamic-application-loading script to /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/py_trees_ros_tutorials/lib/py_trees_ros_tutorials
+
+Installed /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/py_trees_ros_tutorials
+running install_data
+copying package.xml -> /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/py_trees_ros_tutorials/share/py_trees_ros_tutorials
+creating /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/py_trees_ros_tutorials/share/ament_index
+creating /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/py_trees_ros_tutorials/share/ament_index/resource_index
+creating /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/py_trees_ros_tutorials/share/ament_index/resource_index/packages
+copying resources/py_trees_ros_tutorials -> /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/py_trees_ros_tutorials/share/ament_index/resource_index/packages
+creating /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/py_trees_ros_tutorials/share/py_trees_ros_tutorials/launch
+copying launch/tutorial_one_data_gathering_launch.py -> /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/py_trees_ros_tutorials/share/py_trees_ros_tutorials/launch
+copying launch/tutorial_two_battery_check_launch.py -> /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/py_trees_ros_tutorials/share/py_trees_ros_tutorials/launch
+copying launch/tutorial_four_introspect_the_tree_launch.py -> /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/py_trees_ros_tutorials/share/py_trees_ros_tutorials/launch
+copying launch/tutorial_seven_docking_cancelling_failing_launch.py -> /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/py_trees_ros_tutorials/share/py_trees_ros_tutorials/launch
+copying launch/tutorial_six_context_switching_launch.py -> /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/py_trees_ros_tutorials/share/py_trees_ros_tutorials/launch
+copying launch/mock_robot_launch.py -> /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/py_trees_ros_tutorials/share/py_trees_ros_tutorials/launch
+copying launch/tutorial_three_introspect_the_blackboard_launch.py -> /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/py_trees_ros_tutorials/share/py_trees_ros_tutorials/launch
+copying launch/tutorial_eight_dynamic_application_loading_launch.py -> /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/py_trees_ros_tutorials/share/py_trees_ros_tutorials/launch
+copying launch/tutorial_five_action_clients_launch.py -> /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/py_trees_ros_tutorials/share/py_trees_ros_tutorials/launch

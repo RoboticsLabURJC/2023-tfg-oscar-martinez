@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+btpy/__init__.py
+btpy/translator.py
+btpy.egg-info/PKG-INFO
+btpy.egg-info/SOURCES.txt
+btpy.egg-info/dependency_links.txt
+btpy.egg-info/entry_points.txt
+btpy.egg-info/requires.txt
+btpy.egg-info/top_level.txt
+btpy.egg-info/zip-safe
+launch/demo.launch.py
+resource/btpy

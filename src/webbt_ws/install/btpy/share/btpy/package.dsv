@@ -1,0 +1,9 @@
+source;share/btpy/hook/pythonpath.ps1
+source;share/btpy/hook/pythonpath.dsv
+source;share/btpy/hook/pythonpath.sh
+source;share/btpy/hook/ament_prefix_path.ps1
+source;share/btpy/hook/ament_prefix_path.dsv
+source;share/btpy/hook/ament_prefix_path.sh
+source;../../build/btpy/share/btpy/hook/pythonpath_develop.ps1
+source;../../build/btpy/share/btpy/hook/pythonpath_develop.dsv
+source;../../build/btpy/share/btpy/hook/pythonpath_develop.sh

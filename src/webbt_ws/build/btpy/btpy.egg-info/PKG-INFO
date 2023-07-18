@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: btpy
+Version: 0.0.1
+Summary: A execution engine BT.cpp trees in python
+Home-page: UNKNOWN
+Author: Óscar Martínez
+Author-email: oscar.robotics@tutanota.com
+Maintainer: Your Name
+Maintainer-email: oscar.robotics@tutanota.com
+License: BSD
+Keywords: ROS2,py_trees
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development
+
+UNKNOWN
+

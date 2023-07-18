@@ -1,0 +1,3 @@
+[console_scripts]
+tree_batter_check = btpy.translator:tutorial_main
+
