@@ -1,0 +1,9 @@
+<root>
+    <BehaviorTree ID="MainTree">
+        <Sequence name="root_sequence">
+            <Move name="move1" />
+            <Turn name="turn1" />
+            <CheckObstacle name="move3" />
+        </Sequence>
+    </BehaviorTree>
+</root>
