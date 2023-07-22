@@ -1,42 +1,76 @@
-import typing
-from lxml import etree
 import html
+import xml.etree.ElementTree as ET
 
+# Get the indentation of a given line
+def get_line_indentation(line) -> int:
 
-def get_indentation(element) -> str:
-    if element is None:
-        return ""
-    else:
-        parent = element.getparent()
-        return get_indentation(parent) + "    "
+    indent = len(line) - len(line.strip())
 
-def prettify_xml(element, actions):
+    return indent
 
-    pretty_str = etree.tostring(element, pretty_print=True).decode()
-    pretty_str = html.unescape(pretty_str)  # unescape HTML entities
-    indent_dict = dict()
+# Fix the tag style in a xml_string
+def fix_style(xml_string, actions):
 
-    lines = pretty_str.split("\n")
-    for i, line in enumerate(lines):
+    lines = xml_string.split("\n")
+    processed_lines = list()
+
+    for line in lines:
+
+        # Check if the line has to be splitted in two
+        split_line = False
         for action in actions:
             if action in line and "<" in line and ">" in line:
-                key_list = list(indent_dict.keys())
-                if action not in key_list: 
-                    indent = len(line) - len(line.strip())
-                    indent_dict[action] = indent
-                else:
-                    indent = indent_dict[action]
-                    lines[i] = indent * " " + line  # directly modifying the list
-    
-    pretty_str = "\n".join(line for line in lines)
+                split_line = line.count('>') > 1
+        
+        # Add the lines to the processed line list
+        if split_line:
+            new_lines = line.split('><')
+            for new_line in new_lines:
+                if '>' in new_line: new_line = '<' + new_line
+                elif '<' in new_line: new_line: new_line = new_line + '>'
+                else: new_line: new_line = '<' + new_line + '>'
+                processed_lines.append(new_line)
+        else:
+            processed_lines.append(line)
+        
+    pretty_str = "\n".join(line for line in processed_lines)
 
     return pretty_str
 
+# Fix the indentation in a xml_string
+def fix_indentation(xml_string, actions):
+
+    lines = xml_string.split("\n")
+    processed_lines = list()
+
+    code_section = False
+
+    for line in lines:
+
+        if '<Code>' in line:
+            code_section = True
+        
+        new_line = line
+        if code_section:
+            if '<Code>' in line or '</Code>' in line:
+                new_line = " " * 4 + new_line
+            elif any(action + '>' in line for action in actions):
+                new_line = " " * 8 + new_line
+            else:
+                new_line = " " * 12 + new_line
+        
+        if '</Code>' in line:
+            code_section = False
+
+        processed_lines.append(new_line)
+    
+    pretty_str = "\n".join(line for line in processed_lines)
+    return pretty_str
 
 # Extract a BT structure from a XML file
 def get_bt_structure(xml_string) -> str:
 
-    root = etree.fromstring(xml_string)
+    root = ET.fromstring(xml_string)
     behavior_tree_element = root.find('.//BehaviorTree')
     
     if behavior_tree_element is None:
@@ -74,6 +108,7 @@ def main():
     # Obtain the defined actions
     actions = get_action_set(tree)
     
+    code_section = ET.SubElement(tree, "Code")
     for action_name in actions:
 
         # Get the action code
@@ -81,16 +116,19 @@ def main():
         action_file = open(action_route, 'r')
         action_code = action_file.read()
 
-        # Append the action code to the subsection of the xml
-        action_elements = tree.findall('.//' + action_name)
-        for elem in action_elements:
-            indented_code = "\n".join(get_indentation(elem) + line for line in action_code.split("\n"))
-            elem.text = "\n" + indented_code + "\n"
+        # Add a new subelement to the code_section
+        action_section = ET.SubElement(code_section, action_name)
+        action_section.text = "\n" + action_code + "\n"
 
     # Serialize the modified XML back to a string
-    pretty_str = prettify_xml(tree, actions)
+    xml_string = ET.tostring(tree, encoding='unicode')
+    xml_string = html.unescape(xml_string)  # unescape HTML entities
+    styled_string = fix_style(xml_string, actions)
+    indented_string = fix_indentation(styled_string, actions)
+
+    # Write in a file
     output_xml = open("output.xml", "w")
-    output_xml.write(pretty_str)
+    output_xml.write(indented_string)
     output_xml.close()
 
 main()
