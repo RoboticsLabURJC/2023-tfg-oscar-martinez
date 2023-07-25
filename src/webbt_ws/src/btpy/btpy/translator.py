@@ -44,11 +44,12 @@ def create_hello_sequence() -> py_trees.behaviour.Behaviour:
 
     return root
 
+##############################################################################
+# Entry point
+##############################################################################
 
-def tutorial_main():
-    """
-    Entry point for the demo script.
-    """
+def translator_main():
+
     rclpy.init(args=None)
     root = create_hello_sequence()
     tree = py_trees_ros.trees.BehaviourTree(

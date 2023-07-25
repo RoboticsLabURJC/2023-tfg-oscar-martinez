@@ -67,6 +67,16 @@ def fix_indentation(xml_string, actions):
     pretty_str = "\n".join(line for line in processed_lines)
     return pretty_str
 
+# Get a properly formatted string from a tree
+def get_formatted_string(tree, actions) -> str:
+
+    xml_string = ET.tostring(tree, encoding='unicode')
+    xml_string = html.unescape(xml_string)  # unescape HTML entities
+    styled_string = fix_style(xml_string, actions)
+    indented_string = fix_indentation(styled_string, actions)
+
+    return indented_string
+
 # Extract a BT structure from a XML file
 def get_bt_structure(xml_string) -> str:
 
@@ -93,6 +103,22 @@ def get_action_set(tree) -> set:
     
     return actions
 
+def add_action_code(tree, actions, action_dir):
+
+    code_section = ET.SubElement(tree, "Code")
+
+    # Add each actiion code to the tree
+    for action_name in actions:
+
+        # Get the action code
+        action_route = action_dir + action_name + ".py"
+        action_file = open(action_route, 'r')
+        action_code = action_file.read()
+
+        # Add a new subelement to the code_section
+        action_section = ET.SubElement(code_section, action_name)
+        action_section.text = "\n" + action_code + "\n"
+
 def main():
 
     # Define the directory where the node files are located
@@ -107,28 +133,16 @@ def main():
     
     # Obtain the defined actions
     actions = get_action_set(tree)
-    
-    code_section = ET.SubElement(tree, "Code")
-    for action_name in actions:
 
-        # Get the action code
-        action_route = action_dir + action_name + ".py"
-        action_file = open(action_route, 'r')
-        action_code = action_file.read()
+    # Add subsections for the action code
+    add_action_code(tree, actions, action_dir)
 
-        # Add a new subelement to the code_section
-        action_section = ET.SubElement(code_section, action_name)
-        action_section.text = "\n" + action_code + "\n"
-
-    # Serialize the modified XML back to a string
-    xml_string = ET.tostring(tree, encoding='unicode')
-    xml_string = html.unescape(xml_string)  # unescape HTML entities
-    styled_string = fix_style(xml_string, actions)
-    indented_string = fix_indentation(styled_string, actions)
+    # Serialize the modified XML to a properly formatted string
+    final_str = get_formatted_string(tree, actions)
 
     # Write in a file
-    output_xml = open("output.xml", "w")
-    output_xml.write(indented_string)
+    output_xml = open("../resource/final_tree.xml", "w")
+    output_xml.write(final_str)
     output_xml.close()
 
 main()

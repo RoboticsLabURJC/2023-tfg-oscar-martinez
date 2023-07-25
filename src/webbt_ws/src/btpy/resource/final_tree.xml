@@ -7,16 +7,17 @@
         </Sequence>
     </BehaviorTree>
     <Code>
-        <Move>
+        <CheckObstacle>
             import py_trees
             # import HAL
+            import random
             
-            class Move(py_trees.behaviour.Behaviour):
+            class CheckObstacle(py_trees.behaviour.Behaviour):
             
-                def __init__(self, name: str = "Move"):
+                def __init__(self, name: str = "CheckObstacle"):
             
                     """Configure the name of the behaviour."""
-                    super(Move, self).__init__(name)
+                    super(CheckObstacle, self).__init__(name)
                     self.logger.debug("%s.__init__()" % (self.__class__.__name__))
             
                 def setup(self, **kwargs: int) -> None:
@@ -33,12 +34,11 @@
                 def update(self) -> py_trees.common.Status:
             
                     """Increment the counter and decide on a new status."""
-                    self.counter += 1
+                    number = random.randint(-10, 5)
             
-                    new_status = (py_trees.common.Status.SUCCESS if self.counter == 3 else py_trees.common.Status.RUNNING)
-            
-                    if new_status == py_trees.common.Status.SUCCESS: self.feedback_message = "Move finished"
-                    else: self.feedback_message = "Moving"
+                    if (number >= -10 and number < -9): new_status = py_trees.common.Status.SUCCESS
+                    elif (number > -9 and number < 4): new_status = py_trees.common.Status.RUNNING
+                    else: new_status = py_trees.common.Status.FAILURE
             
                     return new_status
             
@@ -53,7 +53,8 @@
                         % (self.__class__.__name__, self.status, new_status)
             
                     )
-        </Move>
+            
+        </CheckObstacle>
         <Turn>
             import py_trees
             # import HAL
@@ -106,17 +107,16 @@
                     )
             
         </Turn>
-        <CheckObstacle>
+        <Move>
             import py_trees
             # import HAL
-            import random
             
-            class CheckObstacle(py_trees.behaviour.Behaviour):
+            class Move(py_trees.behaviour.Behaviour):
             
-                def __init__(self, name: str = "CheckObstacle"):
+                def __init__(self, name: str = "Move"):
             
                     """Configure the name of the behaviour."""
-                    super(CheckObstacle, self).__init__(name)
+                    super(Move, self).__init__(name)
                     self.logger.debug("%s.__init__()" % (self.__class__.__name__))
             
                 def setup(self, **kwargs: int) -> None:
@@ -133,11 +133,12 @@
                 def update(self) -> py_trees.common.Status:
             
                     """Increment the counter and decide on a new status."""
-                    number = random.randint(-10, 5)
+                    self.counter += 1
             
-                    if (number >= -10 and number < -9): new_status = py_trees.common.Status.SUCCESS
-                    elif (number > -9 and number < 4): new_status = py_trees.common.Status.RUNNING
-                    else: new_status = py_trees.common.Status.FAILURE
+                    new_status = (py_trees.common.Status.SUCCESS if self.counter == 3 else py_trees.common.Status.RUNNING)
+            
+                    if new_status == py_trees.common.Status.SUCCESS: self.feedback_message = "Move finished"
+                    else: self.feedback_message = "Moving"
             
                     return new_status
             
@@ -152,7 +153,6 @@
                         % (self.__class__.__name__, self.status, new_status)
             
                     )
-            
-        </CheckObstacle>
+        </Move>
     </Code>
 </root>
