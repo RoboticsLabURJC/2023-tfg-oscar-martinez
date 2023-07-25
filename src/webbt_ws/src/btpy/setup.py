@@ -11,7 +11,13 @@ setup(
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
-        ('share/' + package_name + '/launch', ['launch/demo.launch.py'])
+        ('share/' + package_name + '/launch', ['launch/demo.launch.py']),
+        ('share/' + package_name + '/resource', [
+            'resource/tree.xml.urdf',
+        ]),
+        ('share/' + package_name + '/nodes', [
+            'nodes/move.py',
+        ]),
     ],
     install_requires=['setuptools', 'py_trees', 'py_trees_ros'],
     zip_safe=True,

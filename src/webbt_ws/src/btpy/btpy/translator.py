@@ -7,6 +7,7 @@ import py_trees_ros.trees
 import py_trees.console as console
 import rclpy
 import sys
+import random
 
 ##############################################################################
 # Auxiliary functions
@@ -19,7 +20,12 @@ class SayHello(py_trees.behaviour.Behaviour):
 
     def update(self):
         print(self.message)
-        return py_trees.common.Status.RUNNING
+
+        n = random.randint(0, 10)
+        if (n > 5): status = py_trees.common.Status.RUNNING
+        else: status = py_trees.common.Status.SUCCESS
+
+        return status
 
 def create_hello_sequence() -> py_trees.behaviour.Behaviour:
     """
@@ -38,16 +44,17 @@ def create_hello_sequence() -> py_trees.behaviour.Behaviour:
 
     return root
 
+##############################################################################
+# Entry point
+##############################################################################
 
-def tutorial_main():
-    """
-    Entry point for the demo script.
-    """
+def translator_main():
+
     rclpy.init(args=None)
     root = create_hello_sequence()
     tree = py_trees_ros.trees.BehaviourTree(
         root=root,
-        unicode_tree_debug=True
+        unicode_tree_debug=False
     )
     try:
         tree.setup(timeout=15)
@@ -63,7 +70,7 @@ def tutorial_main():
         rclpy.try_shutdown()
         sys.exit(1)
 
-    tree.tick_tock(period_ms=1000.0)
+    tree.tick_tock(period_ms=5000)
 
     try:
         rclpy.spin(tree.node)
