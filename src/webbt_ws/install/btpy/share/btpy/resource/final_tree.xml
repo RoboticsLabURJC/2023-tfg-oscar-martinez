@@ -1,17 +1,13 @@
 <root>
     <BehaviorTree ID="MainTree">
         <Sequence name="mseq">
-            <ReactiveFallback name="rfall">
-                <CheckObstacle name="check1" />
-                <CheckObstacle name="check2" />
-            </ReactiveFallback>
-            <ReactiveSequence name="rseq">
-                <CheckObstacle name="check3" />
-                <CheckObstacle name="check4" />
-                <CheckObstacle name="check5" />
-            </ReactiveSequence>
+            <ForceSuccess>
+                <KeepRunningUntilFailure>
+                    <CheckObstacle name="check1" />
+                </KeepRunningUntilFailure>
+            </ForceSuccess>
+            <CheckObstacle name="check2" />
         </Sequence>
-
     </BehaviorTree>
     <Code>
         <CheckObstacle>
@@ -42,8 +38,8 @@
                     """Increment the counter and decide on a new status."""
                     number = random.randint(-10, 5)
             
-                    if (number &gt;= -10 and number &lt; -9): new_status = py_trees.common.Status.SUCCESS
-                    elif (number &gt; -9 and number &lt; 4): new_status = py_trees.common.Status.RUNNING
+                    if (number &gt;= -10 and number &lt; -1): new_status = py_trees.common.Status.SUCCESS
+                    elif (number &gt; -1 and number &lt; 4): new_status = py_trees.common.Status.RUNNING
                     else: new_status = py_trees.common.Status.FAILURE
             
                     return new_status

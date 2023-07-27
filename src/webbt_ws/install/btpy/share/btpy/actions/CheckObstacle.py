@@ -25,8 +25,8 @@ class CheckObstacle(py_trees.behaviour.Behaviour):
         """Increment the counter and decide on a new status."""
         number = random.randint(-10, 5)
 
-        if (number >= -10 and number < -9): new_status = py_trees.common.Status.SUCCESS
-        elif (number > -9 and number < 4): new_status = py_trees.common.Status.RUNNING
+        if (number >= -10 and number < -1): new_status = py_trees.common.Status.SUCCESS
+        elif (number > -1 and number < 4): new_status = py_trees.common.Status.RUNNING
         else: new_status = py_trees.common.Status.FAILURE
 
         return new_status

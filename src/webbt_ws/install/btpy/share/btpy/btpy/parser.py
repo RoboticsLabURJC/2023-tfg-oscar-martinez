@@ -93,8 +93,9 @@ def get_bt_structure(xml_string) -> str:
 def get_action_set(tree) -> set:
 
     actions = set()
-    structure_elements = ["Sequence", "ReactiveSequence","BehaviorTree", 'ReactiveFallback']
-
+    structure_elements = ["Sequence","ReactiveSequence","BehaviorTree",
+                          "ReactiveFallback","RetryUntilSuccessful", "Inverter",
+                          "ForceSuccess", "ForceFailure", "KeepRunningUntilFailure"]
     for leaf in tree:
 
         if leaf.tag not in actions and leaf.tag not in structure_elements: actions.add(leaf.tag)

@@ -1,16 +1,12 @@
 <root>
     <BehaviorTree ID="MainTree">
         <Sequence name="mseq">
-            <ReactiveFallback name="rfall">
-                <CheckObstacle name="check1" />
-                <CheckObstacle name="check2" />
-            </ReactiveFallback>
-            <ReactiveSequence name="rseq">
-                <CheckObstacle name="check3" />
-                <CheckObstacle name="check4" />
-                <CheckObstacle name="check5" />
-            </ReactiveSequence>
+            <ForceSuccess>
+                <KeepRunningUntilFailure>
+                    <CheckObstacle name="check1" />
+                </KeepRunningUntilFailure>
+            </ForceSuccess>
+            <CheckObstacle name="check2" />
         </Sequence>
-
     </BehaviorTree>
 </root>

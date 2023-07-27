@@ -223,7 +223,11 @@ factory = {
     "SequenceWithMemory": SequenceWithMemory,
     "Fallback": py_trees.composites.Selector,
     "ReactiveFallback": ReactiveFallback,
-    "Retry": py_trees.decorators.Retry
+    "Inverter": py_trees.decorators.Inverter,
+    "RetryUntilSuccessful": py_trees.decorators.Retry,
+    "ForceSuccess": py_trees.decorators.FailureIsSuccess,
+    "ForceFailure": py_trees.decorators.SuccessIsFailure,
+    "KeepRunningUntilFailure": py_trees.decorators.SuccessIsRunning
 }
 
 ##############################################################################
@@ -247,14 +251,20 @@ def get_branches(element):
             child_instance = get_branches(child_element)
             if child_instance is not None:
                 instance.add_child(child_instance)
-    elif 'Retry' in class_name:
-        nfailures = element.get('num_failures')
+    elif 'RetryUntilSuccessful' in class_name:
+        nfailures = element.get('num_attempts')
         for child_element in element:
             child_instance = get_branches(child_element)
             if child_instance is not None:
                 child = child_instance
-        instance = Class(name="retry", num_failures=int(nfailures), child=child)
-
+        retry_name = "Retry_" + str(nfailures)
+        instance = Class(name=retry_name, num_failures=int(nfailures), child=child)
+    elif 'Inverter' in class_name or 'Force' in class_name or 'KeepRunningUntilFailure' in class_name:
+        for child_element in element:
+            child_instance = get_branches(child_element)
+            if child_instance is not None:
+                child = child_instance
+        instance = Class(name=class_name, child=child)
     else:
         instance = Class(name_arg)
 
@@ -293,7 +303,6 @@ def add_actions_to_factory(doc):
         # Access the class from the namespace and create an instance
         class_ref = namespace[class_name]
         factory[class_name] = class_ref
-
 
 ##############################################################################
 # ROS2 node
