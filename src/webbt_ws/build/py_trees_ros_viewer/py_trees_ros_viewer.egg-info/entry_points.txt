@@ -1,0 +1,3 @@
+[console_scripts]
+py-trees-tree-viewer = py_trees_ros_viewer.viewer:main
+

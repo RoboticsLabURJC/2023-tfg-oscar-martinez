@@ -1,0 +1,36 @@
+[2.090s] Invoking command in '/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/py_trees_ros_tutorials': PYTHONPATH=/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/py_trees_ros_tutorials/prefix_override:/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/py_trees_ros_tutorials/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/py_trees_ros_tutorials/build --no-deps install_data
+[2.129s] /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/py_trees_ros_tutorials/setup.py:5: DeprecationWarning: The distutils package is deprecated and slated for removal in Python 3.12. Use setuptools or check PEP 632 for potential alternatives
+[2.129s]   from distutils import log
+[2.578s] running develop
+[2.945s] redirecting scripts
+[2.945s]   from: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/py_trees_ros_tutorials/bin
+[2.945s]     to: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/py_trees_ros_tutorials/lib/py_trees_ros_tutorials
+[2.946s] running egg_info
+[2.946s] writing py_trees_ros_tutorials.egg-info/PKG-INFO
+[2.946s] writing dependency_links to py_trees_ros_tutorials.egg-info/dependency_links.txt
+[2.946s] writing entry points to py_trees_ros_tutorials.egg-info/entry_points.txt
+[2.946s] writing top-level names to py_trees_ros_tutorials.egg-info/top_level.txt
+[2.952s] reading manifest file 'py_trees_ros_tutorials.egg-info/SOURCES.txt'
+[2.955s] writing manifest file 'py_trees_ros_tutorials.egg-info/SOURCES.txt'
+[3.004s] running build_ext
+[3.004s] Creating /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/py_trees_ros_tutorials/lib/python3.10/site-packages/py-trees-ros-tutorials.egg-link (link to .)
+[3.005s] Installing mock-battery script to /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/py_trees_ros_tutorials/lib/py_trees_ros_tutorials
+[3.006s] Installing mock-dashboard script to /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/py_trees_ros_tutorials/lib/py_trees_ros_tutorials
+[3.006s] Installing mock-dock-client script to /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/py_trees_ros_tutorials/lib/py_trees_ros_tutorials
+[3.006s] Installing mock-docking-controller script to /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/py_trees_ros_tutorials/lib/py_trees_ros_tutorials
+[3.006s] Installing mock-led-strip script to /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/py_trees_ros_tutorials/lib/py_trees_ros_tutorials
+[3.006s] Installing mock-move-base script to /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/py_trees_ros_tutorials/lib/py_trees_ros_tutorials
+[3.007s] Installing mock-move-base-client script to /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/py_trees_ros_tutorials/lib/py_trees_ros_tutorials
+[3.007s] Installing mock-rotate-client script to /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/py_trees_ros_tutorials/lib/py_trees_ros_tutorials
+[3.008s] Installing mock-rotation-controller script to /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/py_trees_ros_tutorials/lib/py_trees_ros_tutorials
+[3.008s] Installing mock-safety-sensors script to /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/py_trees_ros_tutorials/lib/py_trees_ros_tutorials
+[3.008s] Installing tree-action-clients script to /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/py_trees_ros_tutorials/lib/py_trees_ros_tutorials
+[3.009s] Installing tree-battery-check script to /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/py_trees_ros_tutorials/lib/py_trees_ros_tutorials
+[3.009s] Installing tree-context-switching script to /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/py_trees_ros_tutorials/lib/py_trees_ros_tutorials
+[3.009s] Installing tree-data-gathering script to /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/py_trees_ros_tutorials/lib/py_trees_ros_tutorials
+[3.009s] Installing tree-docking-cancelling-failing script to /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/py_trees_ros_tutorials/lib/py_trees_ros_tutorials
+[3.010s] Installing tree-dynamic-application-loading script to /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/py_trees_ros_tutorials/lib/py_trees_ros_tutorials
+[3.010s] 
+[3.010s] Installed /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/py_trees_ros_tutorials
+[3.010s] running install_data
+[3.120s] Invoked command in '/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/py_trees_ros_tutorials' returned '0': PYTHONPATH=/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/py_trees_ros_tutorials/prefix_override:/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/py_trees_ros_tutorials/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/py_trees_ros_tutorials/build --no-deps install_data

@@ -13,13 +13,20 @@ setup(
         ('share/' + package_name, ['package.xml']),
         ('share/' + package_name + '/launch', ['launch/demo.launch.py']),
         ('share/' + package_name + '/resource', [
-            'resource/tree.xml.urdf',
+            'resource/tree.xml',
+            'resource/final_tree.xml',
         ]),
-        ('share/' + package_name + '/nodes', [
-            'nodes/move.py',
+        ('share/' + package_name + '/btpy', [
+            'btpy/parser.py',
+            'btpy/translator.py',
+        ]),
+        ('share/' + package_name + '/actions', [
+            'actions/Move.py',
+            'actions/Turn.py',
+            'actions/CheckObstacle.py'
         ]),
     ],
-    install_requires=['setuptools', 'py_trees', 'py_trees_ros'],
+    install_requires=['setuptools', 'py_trees', 'py_trees_ros', 'std_msgs'],
     zip_safe=True,
     author='Óscar Martínez',
     author_email='oscar.robotics@tutanota.com',
@@ -37,7 +44,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'tree_batter_check = btpy.translator:tutorial_main',
+            'translator = btpy.translator:translator_main',
         ],
     },
 )
