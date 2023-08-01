@@ -1,0 +1,4 @@
+setuptools
+py_trees
+py_trees_ros
+std_msgs

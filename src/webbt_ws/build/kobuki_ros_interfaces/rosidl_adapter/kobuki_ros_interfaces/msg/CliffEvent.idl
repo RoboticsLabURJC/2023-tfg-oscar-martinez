@@ -1,0 +1,35 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from kobuki_ros_interfaces/msg/CliffEvent.msg
+// generated code does not contain a copyright notice
+
+
+module kobuki_ros_interfaces {
+  module msg {
+    module CliffEvent_Constants {
+      @verbatim (language="comment", text=
+        "cliff sensor")
+      const uint8 LEFT = 0;
+      const uint8 CENTER = 1;
+      const uint8 RIGHT = 2;
+      @verbatim (language="comment", text=
+        "cliff sensor state")
+      const uint8 FLOOR = 0;
+      const uint8 CLIFF = 1;
+    };
+    @verbatim (language="comment", text=
+      "Provides a cliff sensor event." "\n"
+      "This message is generated whenever a particular cliff sensor signals that the" "\n"
+      "robot approaches or moves away from a cliff." "\n"
+      "Note that, despite cliff field on SensorState messages, state field is not a" "\n"
+      "bitmask, but the new state of a single sensor.")
+    struct CliffEvent {
+      uint8 sensor;
+
+      uint8 state;
+
+      @verbatim (language="comment", text=
+        "distance to floor when cliff was detected")
+      uint16 bottom;
+    };
+  };
+};

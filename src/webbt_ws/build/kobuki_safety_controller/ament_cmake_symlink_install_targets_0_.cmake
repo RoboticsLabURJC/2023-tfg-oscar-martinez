@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/kobuki_safety_controller/kobuki_safety_controller_node" "TARGETS" "kobuki_safety_controller_node" "DESTINATION" "lib/kobuki_safety_controller")

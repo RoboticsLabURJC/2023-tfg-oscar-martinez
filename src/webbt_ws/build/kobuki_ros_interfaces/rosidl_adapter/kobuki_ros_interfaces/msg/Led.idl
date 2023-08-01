@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from kobuki_ros_interfaces/msg/Led.msg
+// generated code does not contain a copyright notice
+
+
+module kobuki_ros_interfaces {
+  module msg {
+    module Led_Constants {
+      const uint8 BLACK = 0;
+      const uint8 GREEN = 1;
+      const uint8 ORANGE = 2;
+      const uint8 RED = 3;
+    };
+    @verbatim (language="comment", text=
+      "Sends a command for controlling the a LED." "\n"
+      "" "\n"
+      "Typically the first LED is always reserved to denote" "\n"
+      "the state - the remainder will be controllable. ")
+    struct Led {
+      @verbatim (language="comment", text=
+        "For kobuki there are only two controllable LED's.")
+      uint8 value;
+    };
+  };
+};

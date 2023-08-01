@@ -1,0 +1,1 @@
+/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/aws_robomaker_bookstore_world/ament_cmake_environment_hooks/local_setup.sh

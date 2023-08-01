@@ -1,0 +1,15 @@
+/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/pal_gripper/share/ament_index/resource_index/package_run_dependencies/pal_gripper
+/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/pal_gripper/share/ament_index/resource_index/parent_prefix_path/pal_gripper
+/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/pal_gripper/share/pal_gripper/environment/ament_prefix_path.sh
+/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/pal_gripper/share/pal_gripper/environment/ament_prefix_path.dsv
+/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/pal_gripper/share/pal_gripper/environment/path.sh
+/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/pal_gripper/share/pal_gripper/environment/path.dsv
+/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/pal_gripper/share/pal_gripper/local_setup.bash
+/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/pal_gripper/share/pal_gripper/local_setup.sh
+/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/pal_gripper/share/pal_gripper/local_setup.zsh
+/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/pal_gripper/share/pal_gripper/local_setup.dsv
+/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/pal_gripper/share/pal_gripper/package.dsv
+/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/pal_gripper/share/ament_index/resource_index/packages/pal_gripper
+/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/pal_gripper/share/pal_gripper/cmake/pal_gripperConfig.cmake
+/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/pal_gripper/share/pal_gripper/cmake/pal_gripperConfig-version.cmake
+/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/pal_gripper/share/pal_gripper/package.xml

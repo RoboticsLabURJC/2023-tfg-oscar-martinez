@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from kobuki_ros_interfaces/msg/DockInfraRed.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module kobuki_ros_interfaces {
+  module msg {
+    module DockInfraRed_Constants {
+      const uint8 NEAR_LEFT = 1;
+      const uint8 NEAR_CENTER = 2;
+      const uint8 NEAR_RIGHT = 4;
+      const uint8 FAR_LEFT = 16;
+      const uint8 FAR_CENTER = 8;
+      const uint8 FAR_RIGHT = 32;
+    };
+    @verbatim (language="comment", text=
+      "Docking base ir sensors messages." "\n"
+      "Generated on the proximity of the docking base to assist the automatic docking.")
+    struct DockInfraRed {
+      std_msgs::msg::Header header;
+
+      sequence<uint8> data;
+    };
+  };
+};

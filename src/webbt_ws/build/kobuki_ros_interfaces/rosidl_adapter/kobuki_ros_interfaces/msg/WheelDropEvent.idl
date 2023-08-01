@@ -1,0 +1,30 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from kobuki_ros_interfaces/msg/WheelDropEvent.msg
+// generated code does not contain a copyright notice
+
+
+module kobuki_ros_interfaces {
+  module msg {
+    module WheelDropEvent_Constants {
+      @verbatim (language="comment", text=
+        "wheel")
+      const uint8 LEFT = 0;
+      const uint8 RIGHT = 1;
+      @verbatim (language="comment", text=
+        "state")
+      const uint8 RAISED = 0;
+      const uint8 DROPPED = 1;
+    };
+    @verbatim (language="comment", text=
+      "Provides a wheel drop event." "\n"
+      "This message is generated whenever one of the wheels is dropped (robot fell" "\n"
+      "or was raised) or raised (normal condition)." "\n"
+      "Note that, despite wheel_drop field on SensorState messages, state field is" "\n"
+      "not a bitmask, but the new state of a single sensor.")
+    struct WheelDropEvent {
+      uint8 wheel;
+
+      uint8 state;
+    };
+  };
+};

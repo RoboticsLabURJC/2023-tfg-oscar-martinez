@@ -1,0 +1,1 @@
+/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/kobuki_ros_interfaces/rosidl_typesupport_fastrtps_cpp/kobuki_ros_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h

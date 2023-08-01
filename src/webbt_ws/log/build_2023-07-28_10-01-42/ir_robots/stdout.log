@@ -1,0 +1,77 @@
+-- The C compiler identification is GNU 11.3.0
+-- The CXX compiler identification is GNU 11.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/ir_robots
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/ir_robots/share/ir_robots/launch/dependencies/keepzone.launch.py
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/ir_robots/share/ir_robots/launch/dependencies/navigation_launch.py
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/ir_robots/share/ir_robots/launch/dependencies/robot_spawn.launch.py
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/ir_robots/share/ir_robots/launch/kobuki.launch.py
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/ir_robots/share/ir_robots/launch/navigation.launch.py
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/ir_robots/share/ir_robots/launch/simulation.launch.py
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/ir_robots/share/ir_robots/config/params.yaml
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/ir_robots/share/ir_robots/params/footprint_filter.yaml
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/ir_robots/share/ir_robots/params/keepout_params.yaml
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/ir_robots/share/ir_robots/params/kobuki_nav_params_real.yaml
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/ir_robots/share/ir_robots/params/kobuki_nav_params_sim.yaml
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/ir_robots/share/ir_robots/params/kobuki_node_params.yaml
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/ir_robots/share/ir_robots/params/mapper_params_online_async.yaml
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/ir_robots/share/ir_robots/params/tiago_nav_params_real.yaml
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/ir_robots/share/ir_robots/params/tiago_nav_params_sim.yaml
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/ir_robots/share/ir_robots/maps/aws_bookstore.pgm
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/ir_robots/share/ir_robots/maps/aws_bookstore.yaml
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/ir_robots/share/ir_robots/maps/aws_hospital.pgm
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/ir_robots/share/ir_robots/maps/aws_hospital.yaml
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/ir_robots/share/ir_robots/maps/aws_house.pgm
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/ir_robots/share/ir_robots/maps/aws_house.yaml
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/ir_robots/share/ir_robots/maps/aws_house_keep.pgm
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/ir_robots/share/ir_robots/maps/aws_house_keep.yaml
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/ir_robots/share/ir_robots/maps/aws_warehouse.pgm
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/ir_robots/share/ir_robots/maps/aws_warehouse.yaml
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/ir_robots/share/ir_robots/worlds/GrannyAnnie.world
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/ir_robots/share/ir_robots/worlds/RoCKIn@Home.sdf
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/ir_robots/share/ir_robots/worlds/models/circuitoMontmelo/materials/scripts/asphalt.material
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/ir_robots/share/ir_robots/worlds/models/circuitoMontmelo/materials/textures/tarmac.png
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/ir_robots/share/ir_robots/worlds/models/circuitoMontmelo/model.config
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/ir_robots/share/ir_robots/worlds/models/circuitoMontmelo/model.sdf
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/ir_robots/share/ir_robots/worlds/models/paredesMontmelo/model.config
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/ir_robots/share/ir_robots/worlds/models/paredesMontmelo/model.sdf
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/ir_robots/share/ir_robots/worlds/montmelo.world
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/ir_robots/share/ir_robots/worlds/robocuplab.world
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/ir_robots/share/ir_robots/worlds/robocupspl.world
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/ir_robots/share/ament_index/resource_index/package_run_dependencies/ir_robots
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/ir_robots/share/ament_index/resource_index/parent_prefix_path/ir_robots
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/ir_robots/share/ir_robots/environment/ament_prefix_path.sh
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/ir_robots/share/ir_robots/environment/ament_prefix_path.dsv
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/ir_robots/share/ir_robots/environment/path.sh
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/ir_robots/share/ir_robots/environment/path.dsv
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/ir_robots/share/ir_robots/local_setup.bash
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/ir_robots/share/ir_robots/local_setup.sh
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/ir_robots/share/ir_robots/local_setup.zsh
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/ir_robots/share/ir_robots/local_setup.dsv
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/ir_robots/share/ir_robots/package.dsv
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/ir_robots/share/ament_index/resource_index/packages/ir_robots
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/ir_robots/share/ir_robots/cmake/ir_robotsConfig.cmake
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/ir_robots/share/ir_robots/cmake/ir_robotsConfig-version.cmake
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/ir_robots/share/ir_robots/package.xml

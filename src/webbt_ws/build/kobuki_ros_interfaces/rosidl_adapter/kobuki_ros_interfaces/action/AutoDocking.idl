@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from kobuki_ros_interfaces/action/AutoDocking.action
+// generated code does not contain a copyright notice
+
+
+module kobuki_ros_interfaces {
+  module action {
+    @verbatim (language="comment", text=
+      "goal")
+    struct AutoDocking_Goal {
+      uint8 structure_needs_at_least_one_member;
+    };
+    @verbatim (language="comment", text=
+      "result")
+    struct AutoDocking_Result {
+      string text;
+    };
+    @verbatim (language="comment", text=
+      "feedback")
+    struct AutoDocking_Feedback {
+      string state;
+
+      string text;
+    };
+  };
+};

@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from kobuki_ros_interfaces/msg/DigitalOutput.msg
+// generated code does not contain a copyright notice
+
+
+module kobuki_ros_interfaces {
+  module msg {
+    typedef boolean boolean__4[4];
+    @verbatim (language="comment", text=
+      "Digital output - only four pins. ")
+    struct DigitalOutput {
+      @verbatim (language="comment", text=
+        "Array of values indices represent pins 0-3 respectively.")
+      boolean__4 values;
+
+      @verbatim (language="comment", text=
+        "Set indices to true to set a pin, false to ignore.")
+      boolean__4 mask;
+    };
+  };
+};

@@ -1,0 +1,31 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from kobuki_ros_interfaces/msg/Sound.msg
+// generated code does not contain a copyright notice
+
+
+module kobuki_ros_interfaces {
+  module msg {
+    module Sound_Constants {
+      const uint8 ON = 0;
+      const uint8 OFF = 1;
+      const uint8 RECHARGE = 2;
+      const uint8 BUTTON = 3;
+      const uint8 ERROR = 4;
+      const uint8 CLEANINGSTART = 5;
+      const uint8 CLEANINGEND = 6;
+    };
+    @verbatim (language="comment", text=
+      "Sends a command for playing sounds." "\n"
+      "The available sound sequences:" "\n"
+      "0 - turn on" "\n"
+      "1 - turn off" "\n"
+      "2 - recharge start" "\n"
+      "3 - press button," "\n"
+      "4 - error sound" "\n"
+      "5 - start cleaning" "\n"
+      "6 - cleaning end")
+    struct Sound {
+      uint8 value;
+    };
+  };
+};
