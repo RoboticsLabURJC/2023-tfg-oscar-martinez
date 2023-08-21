@@ -217,6 +217,16 @@ class ReactiveFallback(py_trees.composites.Composite):
 # Auxiliary variables
 ##############################################################################
 
+class GlobalBlackboard:
+    
+    _instance = None
+
+    @staticmethod
+    def get_instance():
+        if GlobalBlackboard._instance is None:
+            GlobalBlackboard._instance = py_trees.blackboard.Client(name="Global")
+        return GlobalBlackboard._instance
+
 factory = {
     "Sequence": py_trees.composites.Sequence,
     "ReactiveSequence": ReactiveSequence,
@@ -266,7 +276,17 @@ def get_branches(element):
                 child = child_instance
         instance = Class(name=class_name, child=child)
     else:
-        instance = Class(name_arg)
+        # Check if there is a port argument
+        port = {}
+        for arg in element.attrib:
+            if arg != 'name':
+                port_name = arg
+                port_content = element.get(arg)
+                
+                port[port_name] = port_content
+                break
+
+        instance = Class(name_arg, port)
 
     return instance
 
@@ -376,8 +396,5 @@ def translator_main():
     except (KeyboardInterrupt, rclpy.executors.ExternalShutdownException):
         pass
     finally:
-        gardener.tree.shutdown()
+        gardener.cut_tree()
         rclpy.try_shutdown()
-
-    gardener.cut_tree()
-    rclpy.shutdown()

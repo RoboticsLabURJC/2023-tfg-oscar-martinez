@@ -1,13 +1,16 @@
 import py_trees
 import sensor_msgs
+import std_msgs
+from py_gardener import garden_tools
 
 class CheckObstacle(py_trees.behaviour.Behaviour):
 
-    def __init__(self, name: str = "CheckObstacle"):
+    def __init__(self, name: str = "CheckObstacle", port = None):
 
         """Configure the name of the behaviour."""
         super().__init__(name)
         self.logger.debug("%s.__init__()" % (self.__class__.__name__))
+        self.port = port
 
     def setup(self, **kwargs: int) -> None:
 
@@ -23,12 +26,14 @@ class CheckObstacle(py_trees.behaviour.Behaviour):
             '/scan',
             self.listener_callback,
             10)
+
+        self.publisher = self.node.create_publisher(
+            msg_type=std_msgs.msg.String,
+            topic="/kk",
+            qos_profile=10
+        )
     
         self.scan = sensor_msgs.msg.LaserScan()
-
-        # Register blackboard topics
-        self.blackboard = py_trees.blackboard.Client(name="Global")
-        self.blackboard.register_key(key="foo", access=py_trees.common.Access.WRITE)
 
     def initialise(self) -> None:
 
@@ -40,11 +45,13 @@ class CheckObstacle(py_trees.behaviour.Behaviour):
 
     def update(self) -> py_trees.common.Status:
 
+        str_pub = std_msgs.msg.String()
+        str_pub.data = str(garden_tools.get_port_content(self.port["message"]))
+        self.publisher.publish(str_pub)
+
         if len(self.scan.ranges) == 0: new_status = py_trees.common.Status.INVALID
         elif self.scan.ranges[0] > 1: new_status = py_trees.common.Status.SUCCESS
         else: new_status = py_trees.common.Status.FAILURE
-
-        self.blackboard.foo = "bar"
 
         return new_status
 

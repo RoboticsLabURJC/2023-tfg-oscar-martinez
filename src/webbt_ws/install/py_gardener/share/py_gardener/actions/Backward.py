@@ -3,7 +3,7 @@ import geometry_msgs
 
 class Backward(py_trees.behaviour.Behaviour):
 
-    def __init__(self, name: str = "Move"):
+    def __init__(self, name: str = "Move", port = None):
 
         """Configure the name of the behaviour."""
         super().__init__(name)

@@ -1,14 +1,16 @@
 import py_trees
 import geometry_msgs
 import py_trees_ros
+from py_gardener import garden_tools
 
 class Turn(py_trees.behaviour.Behaviour):
 
-    def __init__(self, name: str = "Turn"):
+    def __init__(self, name: str = "Turn", port = None):
 
         """Configure the name of the behaviour."""
         super().__init__(name)
         self.logger.debug("%s.__init__()" % (self.__class__.__name__))
+        self.port = port
 
     def setup(self, **kwargs: int) -> None:
 
@@ -27,18 +29,26 @@ class Turn(py_trees.behaviour.Behaviour):
             qos_profile=10
         )
 
+        self.counter = 0
+
     def initialise(self) -> None:
 
         """Reset a counter variable."""
 
         self.logger.debug("%s.initialise()" % (self.__class__.__name__))
-        self.counter = 0
 
     def update(self) -> py_trees.common.Status:
 
         msg = geometry_msgs.msg.Twist()
         msg.angular.z = 0.4
         self.publisher.publish(msg)
+        
+        self.counter += 1
+
+        try:
+            garden_tools.set_port_content(self.port["message"], self.counter)
+        except ValueError:
+            print("Menos mal")
 
         return py_trees.common.Status.RUNNING 
 

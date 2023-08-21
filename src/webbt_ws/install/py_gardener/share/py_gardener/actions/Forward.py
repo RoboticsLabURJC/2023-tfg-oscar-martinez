@@ -1,14 +1,15 @@
 import py_trees
 import geometry_msgs
-import py_trees_ros
+from py_gardener import garden_tools
 
 class Forward(py_trees.behaviour.Behaviour):
 
-    def __init__(self, name: str = "Move"):
+    def __init__(self, name: str = "Move", port = None):
 
         """Configure the name of the behaviour."""
         super().__init__(name)
         self.logger.debug("%s.__init__()" % (self.__class__.__name__))
+        self.port = port
 
     def setup(self, **kwargs) -> None:
 
@@ -25,23 +26,15 @@ class Forward(py_trees.behaviour.Behaviour):
             qos_profile=10
         )
 
-        # Register blackboard topics
-        self.blackboard = py_trees.blackboard.Client(name="Global")
-        self.blackboard.register_key(key="foo", access=py_trees.common.Access.WRITE)
-
-
     def initialise(self) -> None:
 
         """Reset a counter variable."""
         self.logger.debug("%s.initialise()" % (self.__class__.__name__))
-        self.counter = 0
 
     def update(self) -> py_trees.common.Status:
 
-        self.blackboard.foo = "foo"
-
         msg = geometry_msgs.msg.Twist()
-        msg.linear.x = 0.4
+        msg.linear.x = float(garden_tools.get_port_content(self.port["speed"]))
         self.publisher.publish(msg)
 
         return py_trees.common.Status.RUNNING 
@@ -49,6 +42,9 @@ class Forward(py_trees.behaviour.Behaviour):
     def terminate(self, new_status: py_trees.common.Status) -> None:
 
         """Nothing to clean up in this example."""
+        msg = geometry_msgs.msg.Twist()
+        msg.linear.x = 0.0
+        self.publisher.publish(msg)
 
         self.logger.debug(
 

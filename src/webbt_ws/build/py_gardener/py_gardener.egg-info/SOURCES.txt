@@ -7,6 +7,7 @@ actions/Forward.py
 actions/Turn.py
 launch/demo.launch.py
 py_gardener/__init__.py
+py_gardener/garden_tools.py
 py_gardener/parser.py
 py_gardener/translator.py
 py_gardener.egg-info/PKG-INFO

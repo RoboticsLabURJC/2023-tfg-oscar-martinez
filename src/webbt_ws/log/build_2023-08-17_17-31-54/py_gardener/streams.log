@@ -1,0 +1,17 @@
+[1.115s] Invoking command in '/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/py_gardener': PYTHONPATH=/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/py_gardener/prefix_override:/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/py_gardener/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/py_gardener/build --no-deps install_data
+[1.564s] running develop
+[1.930s] running egg_info
+[1.930s] writing py_gardener.egg-info/PKG-INFO
+[1.930s] writing dependency_links to py_gardener.egg-info/dependency_links.txt
+[1.931s] writing entry points to py_gardener.egg-info/entry_points.txt
+[1.931s] writing requirements to py_gardener.egg-info/requires.txt
+[1.931s] writing top-level names to py_gardener.egg-info/top_level.txt
+[1.934s] reading manifest file 'py_gardener.egg-info/SOURCES.txt'
+[1.935s] writing manifest file 'py_gardener.egg-info/SOURCES.txt'
+[1.980s] running build_ext
+[1.981s] Creating /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/py_gardener/lib/python3.10/site-packages/py-gardener.egg-link (link to .)
+[1.982s] Installing translator script to /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/py_gardener/lib/py_gardener
+[1.982s] 
+[1.982s] Installed /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/py_gardener
+[1.982s] running install_data
+[2.024s] Invoked command in '/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/py_gardener' returned '0': PYTHONPATH=/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/py_gardener/prefix_override:/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/py_gardener/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/py_gardener/build --no-deps install_data

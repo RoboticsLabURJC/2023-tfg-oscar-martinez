@@ -2,26 +2,28 @@
     <BehaviorTree ID="MainTree">
         <ReactiveSequence name="rseq">
             <ReactiveFallback name="rfall">
-                <CheckObstacle name="check_obstacle" />
-                <Turn name="avoid_obstacle" />
+                <CheckObstacle name="check_obstacle" message="{theport}" />
+                <Turn name="avoid_obstacle" message="{theport}" />
             </ReactiveFallback>
-            <Forward name="move_forward" />
+            <Forward name="move_forward" speed="1.2" />
         </ReactiveSequence>
     </BehaviorTree>
     <Code>
-        <CheckObstacle>
+        <Forward>
             import py_trees
-            import sensor_msgs
+            import geometry_msgs
+            from py_gardener import garden_tools
             
-            class CheckObstacle(py_trees.behaviour.Behaviour):
+            class Forward(py_trees.behaviour.Behaviour):
             
-                def __init__(self, name: str = "CheckObstacle"):
+                def __init__(self, name: str = "Move", port = None):
             
                     """Configure the name of the behaviour."""
                     super().__init__(name)
                     self.logger.debug("%s.__init__()" % (self.__class__.__name__))
+                    self.port = port
             
-                def setup(self, **kwargs: int) -&gt; None:
+                def setup(self, **kwargs) -&gt; None:
             
                     # Get the node passed from the tree
                     try:
@@ -30,39 +32,31 @@
                         error_message = "didn't find 'node' in setup's kwargs [{}][{}]".format(self.qualified_name)
                         raise KeyError(error_message) from e  # 'direct cause' traceability
             
-                    self.subscription = self.node.create_subscription(
-                        sensor_msgs.msg.LaserScan,
-                        '/scan',
-                        self.listener_callback,
-                        10)
-                
-                    self.scan = sensor_msgs.msg.LaserScan()
-            
-                    # Register blackboard topics
-                    self.blackboard = py_trees.blackboard.Client(name="Global")
-                    self.blackboard.register_key(key="foo", access=py_trees.common.Access.WRITE)
+                    self.publisher = self.node.create_publisher(
+                        msg_type=geometry_msgs.msg.Twist,
+                        topic="/cmd_vel",
+                        qos_profile=10
+                    )
             
                 def initialise(self) -&gt; None:
             
                     """Reset a counter variable."""
                     self.logger.debug("%s.initialise()" % (self.__class__.__name__))
             
-                def listener_callback(self, msg):
-                    self.scan = msg
-            
                 def update(self) -&gt; py_trees.common.Status:
             
-                    if len(self.scan.ranges) == 0: new_status = py_trees.common.Status.INVALID
-                    elif self.scan.ranges[0] &gt; 1: new_status = py_trees.common.Status.SUCCESS
-                    else: new_status = py_trees.common.Status.FAILURE
+                    msg = geometry_msgs.msg.Twist()
+                    msg.linear.x = float(garden_tools.get_port_content(self.port["speed"]))
+                    self.publisher.publish(msg)
             
-                    self.blackboard.foo = "bar"
-            
-                    return new_status
+                    return py_trees.common.Status.RUNNING 
             
                 def terminate(self, new_status: py_trees.common.Status) -&gt; None:
             
                     """Nothing to clean up in this example."""
+                    msg = geometry_msgs.msg.Twist()
+                    msg.linear.x = 0.0
+                    self.publisher.publish(msg)
             
                     self.logger.debug(
             
@@ -71,20 +65,21 @@
                         % (self.__class__.__name__, self.status, new_status)
             
                     )
-            
-        </CheckObstacle>
+        </Forward>
         <Turn>
             import py_trees
             import geometry_msgs
             import py_trees_ros
+            from py_gardener import garden_tools
             
             class Turn(py_trees.behaviour.Behaviour):
             
-                def __init__(self, name: str = "Turn"):
+                def __init__(self, name: str = "Turn", port = None):
             
                     """Configure the name of the behaviour."""
                     super().__init__(name)
                     self.logger.debug("%s.__init__()" % (self.__class__.__name__))
+                    self.port = port
             
                 def setup(self, **kwargs: int) -&gt; None:
             
@@ -103,18 +98,26 @@
                         qos_profile=10
                     )
             
+                    self.counter = 0
+            
                 def initialise(self) -&gt; None:
             
                     """Reset a counter variable."""
             
                     self.logger.debug("%s.initialise()" % (self.__class__.__name__))
-                    self.counter = 0
             
                 def update(self) -&gt; py_trees.common.Status:
             
                     msg = geometry_msgs.msg.Twist()
                     msg.angular.z = 0.4
                     self.publisher.publish(msg)
+                    
+                    self.counter += 1
+            
+                    try:
+                        garden_tools.set_port_content(self.port["message"], self.counter)
+                    except ValueError:
+                        print("Menos mal")
             
                     return py_trees.common.Status.RUNNING 
             
@@ -131,20 +134,22 @@
                     )
             
         </Turn>
-        <Forward>
+        <CheckObstacle>
             import py_trees
-            import geometry_msgs
-            import py_trees_ros
+            import sensor_msgs
+            import std_msgs
+            from py_gardener import garden_tools
             
-            class Forward(py_trees.behaviour.Behaviour):
+            class CheckObstacle(py_trees.behaviour.Behaviour):
             
-                def __init__(self, name: str = "Move"):
+                def __init__(self, name: str = "CheckObstacle", port = None):
             
                     """Configure the name of the behaviour."""
                     super().__init__(name)
                     self.logger.debug("%s.__init__()" % (self.__class__.__name__))
+                    self.port = port
             
-                def setup(self, **kwargs) -&gt; None:
+                def setup(self, **kwargs: int) -&gt; None:
             
                     # Get the node passed from the tree
                     try:
@@ -153,32 +158,39 @@
                         error_message = "didn't find 'node' in setup's kwargs [{}][{}]".format(self.qualified_name)
                         raise KeyError(error_message) from e  # 'direct cause' traceability
             
+                    self.subscription = self.node.create_subscription(
+                        sensor_msgs.msg.LaserScan,
+                        '/scan',
+                        self.listener_callback,
+                        10)
+            
                     self.publisher = self.node.create_publisher(
-                        msg_type=geometry_msgs.msg.Twist,
-                        topic="/cmd_vel",
+                        msg_type=std_msgs.msg.String,
+                        topic="/kk",
                         qos_profile=10
                     )
-            
-                    # Register blackboard topics
-                    self.blackboard = py_trees.blackboard.Client(name="Global")
-                    self.blackboard.register_key(key="foo", access=py_trees.common.Access.WRITE)
-            
+                
+                    self.scan = sensor_msgs.msg.LaserScan()
             
                 def initialise(self) -&gt; None:
             
                     """Reset a counter variable."""
                     self.logger.debug("%s.initialise()" % (self.__class__.__name__))
-                    self.counter = 0
+            
+                def listener_callback(self, msg):
+                    self.scan = msg
             
                 def update(self) -&gt; py_trees.common.Status:
             
-                    self.blackboard.foo = "foo"
+                    str_pub = std_msgs.msg.String()
+                    str_pub.data = str(garden_tools.get_port_content(self.port["message"]))
+                    self.publisher.publish(str_pub)
             
-                    msg = geometry_msgs.msg.Twist()
-                    msg.linear.x = 0.4
-                    self.publisher.publish(msg)
+                    if len(self.scan.ranges) == 0: new_status = py_trees.common.Status.INVALID
+                    elif self.scan.ranges[0] &gt; 1: new_status = py_trees.common.Status.SUCCESS
+                    else: new_status = py_trees.common.Status.FAILURE
             
-                    return py_trees.common.Status.RUNNING 
+                    return new_status
             
                 def terminate(self, new_status: py_trees.common.Status) -&gt; None:
             
@@ -191,6 +203,7 @@
                         % (self.__class__.__name__, self.status, new_status)
             
                     )
-        </Forward>
+            
+        </CheckObstacle>
     </Code>
 </root>
