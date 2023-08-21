@@ -1,0 +1,61 @@
+[0.106s] Invoking command in '/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/pal_gripper_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/omartinez/ws/smartloc_ws/install/webots_sim:/opt/ros/humble /usr/bin/cmake /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/src/ThirdParty/pal_gripper/pal_gripper_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/pal_gripper_description
+[0.326s] -- The C compiler identification is GNU 11.3.0
+[0.571s] -- The CXX compiler identification is GNU 11.3.0
+[0.611s] -- Detecting C compiler ABI info
+[0.966s] -- Detecting C compiler ABI info - done
+[1.014s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.015s] -- Detecting C compile features
+[1.016s] -- Detecting C compile features - done
+[1.027s] -- Detecting CXX compiler ABI info
+[1.311s] -- Detecting CXX compiler ABI info - done
+[1.337s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.338s] -- Detecting CXX compile features
+[1.340s] -- Detecting CXX compile features - done
+[1.417s] -- Found ament_cmake_auto: 1.3.5 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[2.156s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[2.350s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.515s] -- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)
+[2.771s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.937s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.948s] -- Added test 'lint_cmake' to check CMake code style
+[2.954s] -- Added test 'xmllint' to check XML markup files
+[2.962s] -- Configuring done
+[2.975s] -- Generating done
+[2.979s] -- Build files have been written to: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/pal_gripper_description
+[2.991s] Invoked command in '/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/pal_gripper_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/omartinez/ws/smartloc_ws/install/webots_sim:/opt/ros/humble /usr/bin/cmake /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/src/ThirdParty/pal_gripper/pal_gripper_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/pal_gripper_description
+[2.992s] Invoking command in '/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/pal_gripper_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/omartinez/ws/smartloc_ws/install/webots_sim:/opt/ros/humble /usr/bin/cmake --build /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/pal_gripper_description -- -j8 -l8
+[3.196s] Invoked command in '/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/pal_gripper_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/omartinez/ws/smartloc_ws/install/webots_sim:/opt/ros/humble /usr/bin/cmake --build /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/pal_gripper_description -- -j8 -l8
+[3.288s] Invoking command in '/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/pal_gripper_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/omartinez/ws/smartloc_ws/install/webots_sim:/opt/ros/humble /usr/bin/cmake --install /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/pal_gripper_description
+[5.321s] -- Install configuration: ""
+[5.322s] -- Execute custom install script
+[5.322s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/pal_gripper_description/share/pal_gripper_description/gazebo/gazebo.urdf.xacro
+[5.322s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/pal_gripper_description/share/pal_gripper_description/meshes/gripper_finger_link.stl
+[5.322s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/pal_gripper_description/share/pal_gripper_description/meshes/gripper_finger_link_collision.stl
+[5.322s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/pal_gripper_description/share/pal_gripper_description/meshes/gripper_link.stl
+[5.323s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/pal_gripper_description/share/pal_gripper_description/meshes/gripper_link_collision.stl
+[5.323s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/pal_gripper_description/share/pal_gripper_description/robots/gripper_test.urdf.xacro
+[5.323s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/pal_gripper_description/share/pal_gripper_description/robots/upload.launch
+[5.323s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/pal_gripper_description/share/pal_gripper_description/robots/upload_gripper.launch
+[5.323s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/pal_gripper_description/share/pal_gripper_description/urdf/deg_to_rad.urdf.xacro
+[5.324s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/pal_gripper_description/share/pal_gripper_description/urdf/gripper.gazebo.xacro
+[5.324s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/pal_gripper_description/share/pal_gripper_description/urdf/gripper.ros2_control.xacro
+[5.324s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/pal_gripper_description/share/pal_gripper_description/urdf/gripper.transmission.xacro
+[5.324s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/pal_gripper_description/share/pal_gripper_description/urdf/gripper.urdf.xacro
+[5.324s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/pal_gripper_description/share/pal_gripper_description/urdf/materials.urdf.xacro
+[5.324s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/pal_gripper_description/share/ament_index/resource_index/package_run_dependencies/pal_gripper_description
+[5.325s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/pal_gripper_description/share/ament_index/resource_index/parent_prefix_path/pal_gripper_description
+[5.325s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/pal_gripper_description/share/pal_gripper_description/environment/ament_prefix_path.sh
+[5.325s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/pal_gripper_description/share/pal_gripper_description/environment/ament_prefix_path.dsv
+[5.325s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/pal_gripper_description/share/pal_gripper_description/environment/path.sh
+[5.325s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/pal_gripper_description/share/pal_gripper_description/environment/path.dsv
+[5.326s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/pal_gripper_description/share/pal_gripper_description/local_setup.bash
+[5.326s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/pal_gripper_description/share/pal_gripper_description/local_setup.sh
+[5.333s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/pal_gripper_description/share/pal_gripper_description/local_setup.zsh
+[5.334s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/pal_gripper_description/share/pal_gripper_description/local_setup.dsv
+[5.334s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/pal_gripper_description/share/pal_gripper_description/package.dsv
+[5.335s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/pal_gripper_description/share/ament_index/resource_index/packages/pal_gripper_description
+[5.336s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/pal_gripper_description/share/pal_gripper_description/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.336s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/pal_gripper_description/share/pal_gripper_description/cmake/pal_gripper_descriptionConfig.cmake
+[5.337s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/pal_gripper_description/share/pal_gripper_description/cmake/pal_gripper_descriptionConfig-version.cmake
+[5.337s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/pal_gripper_description/share/pal_gripper_description/package.xml
+[5.420s] Invoked command in '/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/pal_gripper_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/omartinez/ws/smartloc_ws/install/webots_sim:/opt/ros/humble /usr/bin/cmake --install /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/pal_gripper_description

@@ -1,0 +1,4 @@
+source;share/kobuki_ros_interfaces/local_setup.bash
+source;share/kobuki_ros_interfaces/local_setup.dsv
+source;share/kobuki_ros_interfaces/local_setup.sh
+source;share/kobuki_ros_interfaces/local_setup.zsh

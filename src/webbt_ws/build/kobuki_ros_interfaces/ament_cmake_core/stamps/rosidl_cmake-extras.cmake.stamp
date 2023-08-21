@@ -1,0 +1,4 @@
+# generated from rosidl_cmake/cmake/rosidl_cmake-extras.cmake.in
+
+set(kobuki_ros_interfaces_IDL_FILES "msg/BumperEvent.idl;msg/CliffEvent.idl;msg/DigitalOutput.idl;msg/ExternalPower.idl;msg/Led.idl;msg/PowerSystemEvent.idl;msg/SensorState.idl;msg/VersionInfo.idl;msg/ControllerInfo.idl;msg/ButtonEvent.idl;msg/DigitalInputEvent.idl;msg/DockInfraRed.idl;msg/KeyboardInput.idl;msg/MotorPower.idl;msg/RobotStateEvent.idl;msg/Sound.idl;msg/ScanAngle.idl;msg/WheelDropEvent.idl;action/AutoDocking.idl")
+set(kobuki_ros_interfaces_INTERFACE_FILES "msg/BumperEvent.msg;msg/CliffEvent.msg;msg/DigitalOutput.msg;msg/ExternalPower.msg;msg/Led.msg;msg/PowerSystemEvent.msg;msg/SensorState.msg;msg/VersionInfo.msg;msg/ControllerInfo.msg;msg/ButtonEvent.msg;msg/DigitalInputEvent.msg;msg/DockInfraRed.msg;msg/KeyboardInput.msg;msg/MotorPower.msg;msg/RobotStateEvent.msg;msg/Sound.msg;msg/ScanAngle.msg;msg/WheelDropEvent.msg;action/AutoDocking.action")

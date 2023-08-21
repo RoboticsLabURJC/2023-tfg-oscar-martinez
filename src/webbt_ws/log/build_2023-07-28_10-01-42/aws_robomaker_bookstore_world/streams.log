@@ -1,0 +1,312 @@
+[0.096s] Invoking command in '/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/aws_robomaker_bookstore_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/omartinez/ws/smartloc_ws/install/webots_sim:/opt/ros/humble /usr/bin/cmake /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/src/ThirdParty/aws-robomaker-bookstore-world -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world
+[0.326s] -- The C compiler identification is GNU 11.3.0
+[0.608s] -- The CXX compiler identification is GNU 11.3.0
+[0.627s] -- Detecting C compiler ABI info
+[0.865s] -- Detecting C compiler ABI info - done
+[0.898s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.899s] -- Detecting C compile features
+[0.901s] -- Detecting C compile features - done
+[0.911s] -- Detecting CXX compiler ABI info
+[1.180s] -- Detecting CXX compiler ABI info - done
+[1.206s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.206s] -- Detecting CXX compile features
+[1.211s] -- Detecting CXX compile features - done
+[1.232s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.877s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[2.108s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.356s] -- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[2.617s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.653s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.707s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.785s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.898s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.235s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.256s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[3.449s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[3.509s] -- Looking for pthread.h
+[3.744s] -- Looking for pthread.h - found
+[3.744s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.111s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.115s] -- Found Threads: TRUE  
+[4.727s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[4.730s] -- Checking for module 'bullet>=2.82'
+[4.770s] --   Found bullet, version 3.05
+[5.226s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[5.435s] -- Found assimp: /usr/include (found version "5.2.0") 
+[5.506s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[5.643s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[5.718s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[5.751s] -- Looking for ignition-math6 -- found version 6.14.0
+[5.789s] -- Searching for dependencies of ignition-math6
+[5.793s] -- Looking for OGRE...
+[5.794s] -- OGRE_PREFIX_WATCH changed.
+[5.813s] -- Checking for module 'OGRE'
+[5.896s] --   Found OGRE, version 1.9.0
+[5.999s] -- Found Ogre Ghadamon (1.9.0)
+[6.051s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[6.080s] -- Looking for OGRE_Paging...
+[6.118s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[6.119s] -- Looking for OGRE_Terrain...
+[6.161s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[6.161s] -- Looking for OGRE_Property...
+[6.191s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[6.192s] -- Looking for OGRE_RTShaderSystem...
+[6.225s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[6.226s] -- Looking for OGRE_Volume...
+[6.269s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[6.269s] -- Looking for OGRE_Overlay...
+[6.302s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[7.114s] -- Looking for ignition-math6 -- found version 6.14.0
+[7.127s] -- Looking for ignition-transport8 -- found version 8.2.1
+[7.129s] -- Searching for dependencies of ignition-transport8
+[7.222s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[7.288s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[7.313s] -- Checking for module 'libzmq >= 4'
+[7.408s] --   Found libzmq , version 4.3.4
+[7.561s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[7.594s] -- Checking for module 'uuid'
+[7.656s] --   Found uuid, version 2.37.2
+[7.768s] -- Found UUID: TRUE  
+[7.786s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[7.787s] -- Searching for dependencies of ignition-msgs5
+[7.881s] -- Looking for ignition-math6 -- found version 6.14.0
+[7.910s] -- Checking for module 'tinyxml2'
+[8.014s] --   Found tinyxml2, version 9.0.0
+[8.201s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[8.236s] -- Looking for ignition-common3 -- found version 3.14.0
+[8.240s] -- Searching for dependencies of ignition-common3
+[8.242s] -- Looking for dlfcn.h - found
+[8.251s] -- Looking for libdl - found
+[8.258s] -- Found DL: TRUE  
+[8.318s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[8.321s] -- Searching for <ignition-common3> component [graphics]
+[8.346s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[8.349s] -- Searching for dependencies of ignition-common3-graphics
+[8.350s] -- Looking for ignition-math6 -- found version 6.14.0
+[8.382s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[8.384s] -- Searching for dependencies of ignition-fuel_tools4
+[9.113s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[9.184s] -- Checking for module 'jsoncpp'
+[9.287s] --   Found jsoncpp, version 1.9.5
+[9.495s] -- Found JSONCPP: TRUE  
+[9.537s] -- Checking for module 'libzip'
+[9.642s] --   Found libzip, version 1.7.3
+[9.880s] -- Found ZIP: TRUE  
+[9.882s] -- Looking for ignition-common3 -- found version 3.14.0
+[9.886s] -- Looking for ignition-math6 -- found version 6.14.0
+[9.890s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[9.919s] -- Gazebo version: 11.10
+[9.920s] -- Checking for module 'tbb'
+[9.996s] --   Found tbb, version 2021.5.0
+[10.546s] -- Configuring done
+[10.571s] -- Generating done
+[10.579s] -- Build files have been written to: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/aws_robomaker_bookstore_world
+[10.650s] Invoked command in '/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/aws_robomaker_bookstore_world' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/omartinez/ws/smartloc_ws/install/webots_sim:/opt/ros/humble /usr/bin/cmake /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/src/ThirdParty/aws-robomaker-bookstore-world -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world
+[10.653s] Invoking command in '/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/aws_robomaker_bookstore_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/omartinez/ws/smartloc_ws/install/webots_sim:/opt/ros/humble /usr/bin/cmake --build /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/aws_robomaker_bookstore_world -- -j8 -l8
+[10.975s] Invoked command in '/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/aws_robomaker_bookstore_world' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/omartinez/ws/smartloc_ws/install/webots_sim:/opt/ros/humble /usr/bin/cmake --build /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/aws_robomaker_bookstore_world -- -j8 -l8
+[11.284s] Invoking command in '/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/aws_robomaker_bookstore_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/omartinez/ws/smartloc_ws/install/webots_sim:/opt/ros/humble /usr/bin/cmake --install /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/aws_robomaker_bookstore_world
+[11.334s] -- Install configuration: ""
+[11.334s] -- Execute custom install script
+[11.343s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/launch/bookstore.launch.py
+[11.399s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/launch/view_bookstore.launch.py
+[11.438s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/maps/turtlebot3_waffle_pi/map.pgm
+[11.472s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/maps/turtlebot3_waffle_pi/map.yaml
+[11.510s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_AirConditionerC_01/materials/textures/aws_AirConditionerC_01.png
+[11.564s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_AirConditionerC_01/meshes/aws_AirConditionerC_01_collision.DAE
+[11.703s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_AirConditionerC_01/meshes/aws_AirConditionerC_01_visual.DAE
+[11.749s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_AirConditionerC_01/model.config
+[11.800s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_AirConditionerC_01/model.sdf
+[11.848s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_Bicycle_01/materials/textures/aws_Bicycle_01.png
+[11.886s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_Bicycle_01/meshes/aws_Bicycle_01_collision.DAE
+[11.949s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_Bicycle_01/meshes/aws_Bicycle_01_visual.DAE
+[11.983s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_Bicycle_01/model.config
+[12.080s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_Bicycle_01/model.sdf
+[12.141s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookA_01/materials/textures/aws_BookA_01.png
+[12.183s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookA_01/meshes/aws_BookA_01_collision.DAE
+[12.237s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookA_01/meshes/aws_BookA_01_visual.DAE
+[12.273s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookA_01/model.config
+[12.312s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookA_01/model.sdf
+[12.384s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookB_01/materials/textures/aws_BookB_01.png
+[12.418s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookB_01/materials/textures/aws_BookB_02.png
+[12.470s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookB_01/meshes/aws_BookB_01_collision.DAE
+[12.494s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookB_01/meshes/aws_BookB_01_visual.DAE
+[12.551s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookB_01/model.config
+[12.572s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookB_01/model.sdf
+[12.602s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookC_01/materials/textures/aws_BookC_01.png
+[12.633s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookC_01/meshes/aws_BookC_01_collision.DAE
+[12.672s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookC_01/meshes/aws_BookC_01_visual.DAE
+[12.703s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookC_01/model.config
+[12.751s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookC_01/model.sdf
+[12.788s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookD_01/materials/textures/aws_BookD_01.png
+[12.830s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookD_01/meshes/aws_BookD_01_collision.DAE
+[12.887s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookD_01/meshes/aws_BookD_01_visual.DAE
+[12.913s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookD_01/model.config
+[12.949s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookD_01/model.sdf
+[13.017s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookE_01/materials/textures/aws_BookE_01.png
+[13.050s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookE_01/materials/textures/aws_BookE_02.png
+[13.092s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookE_01/meshes/aws_BookE_01_collision.DAE
+[13.133s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookE_01/meshes/aws_BookE_01_visual.DAE
+[13.181s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookE_01/model.config
+[13.206s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookE_01/model.sdf
+[13.239s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookF_01/materials/textures/aws_BookF_01.png
+[13.284s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookF_01/meshes/aws_BookF_01_collision.DAE
+[13.332s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookF_01/meshes/aws_BookF_01_visual.DAE
+[13.396s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookF_01/model.config
+[13.459s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookF_01/model.sdf
+[13.486s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookshelfA_01/materials/textures/aws_BookshelfA_01.png
+[13.508s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookshelfA_01/materials/textures/aws_BookshelfA_02.png
+[13.562s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookshelfA_01/materials/textures/aws_BookshelfA_03.png
+[13.605s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookshelfA_01/meshes/aws_BookshelfA_01_collision.DAE
+[13.672s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookshelfA_01/meshes/aws_BookshelfA_01_visual.DAE
+[13.715s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookshelfA_01/model.config
+[13.764s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookshelfA_01/model.sdf
+[13.809s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookshelfB_01/materials/textures/aws_BookshelfB_01.png
+[13.837s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookshelfB_01/materials/textures/aws_BookshelfB_02.png
+[13.880s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookshelfB_01/meshes/aws_BookshelfB_01_collision.DAE
+[13.917s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookshelfB_01/meshes/aws_BookshelfB_01_visual.DAE
+[13.957s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookshelfB_01/model.config
+[13.994s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookshelfB_01/model.sdf
+[14.038s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookshelfC_01/materials/textures/aws_BookshelfC_01.png
+[14.079s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookshelfC_01/meshes/aws_BookshelfC_01_collision.DAE
+[14.137s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookshelfC_01/meshes/aws_BookshelfC_01_visual.DAE
+[14.161s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookshelfC_01/model.config
+[14.184s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookshelfC_01/model.sdf
+[14.234s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookstoreLogo_01/materials/textures/aws_BookstoreLogo_01.png
+[14.285s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookstoreLogo_01/meshes/aws_BookstoreLogo_01_collision.DAE
+[14.334s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookstoreLogo_01/meshes/aws_BookstoreLogo_01_visual.DAE
+[14.394s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookstoreLogo_01/model.config
+[14.458s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookstoreLogo_01/model.sdf
+[14.480s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_ChairB_01/materials/textures/aws_ChairB_01.png
+[14.506s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_ChairB_01/meshes/aws_ChairB_01_collision.DAE
+[14.530s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_ChairB_01/meshes/aws_ChairB_01_visual.DAE
+[14.616s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_ChairB_01/model.config
+[14.629s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_ChairB_01/model.sdf
+[14.691s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_ColumnA_01/materials/textures/aws_ColumnA_01.png
+[14.732s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_ColumnA_01/meshes/aws_ColumnA_01_collision.DAE
+[14.751s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_ColumnA_01/meshes/aws_ColumnA_01_visual.DAE
+[14.773s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_ColumnA_01/model.config
+[14.795s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_ColumnA_01/model.sdf
+[14.843s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_ColumnB_01/materials/textures/aws_ColumnB_01.png
+[14.871s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_ColumnB_01/meshes/aws_ColumnB_01_collision.DAE
+[14.926s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_ColumnB_01/meshes/aws_ColumnB_01_visual.DAE
+[14.969s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_ColumnB_01/model.config
+[15.073s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_ColumnB_01/model.sdf
+[15.074s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_Computer_01/materials/textures/aws_Computer_01.png
+[15.136s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_Computer_01/meshes/aws_Computer_01_collision.DAE
+[15.161s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_Computer_01/meshes/aws_Computer_01_visual.DAE
+[15.184s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_Computer_01/model.config
+[15.213s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_Computer_01/model.sdf
+[15.252s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_DeskA_01/materials/textures/aws_DeskA_01.png
+[15.290s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_DeskA_01/materials/textures/aws_DeskA_02.png
+[15.332s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_DeskA_01/materials/textures/aws_DeskA_03.png
+[15.374s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_DeskA_01/meshes/aws_DeskA_01_collision.DAE
+[15.416s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_DeskA_01/meshes/aws_DeskA_01_visual.DAE
+[15.468s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_DeskA_01/model.config
+[15.501s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_DeskA_01/model.sdf
+[15.524s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_DeskB_01/materials/textures/aws_DeskB_01.png
+[15.574s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_DeskB_01/meshes/aws_DeskB_01_collision.DAE
+[15.618s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_DeskB_01/meshes/aws_DeskB_01_visual.DAE
+[15.670s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_DeskB_01/model.config
+[15.745s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_DeskB_01/model.sdf
+[15.784s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_DoorB_01/materials/textures/aws_DoorB_01.png
+[15.828s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_DoorB_01/meshes/aws_DoorB_01_collision.DAE
+[15.871s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_DoorB_01/meshes/aws_DoorB_01_visual.DAE
+[15.914s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_DoorB_01/model.config
+[15.936s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_DoorB_01/model.sdf
+[15.960s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_Holder_01/materials/textures/aws_Holder_01.png
+[16.001s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_Holder_01/meshes/aws_Holder_01_collision.DAE
+[16.054s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_Holder_01/meshes/aws_Holder_01_visual.DAE
+[16.106s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_Holder_01/model.config
+[16.164s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_Holder_01/model.sdf
+[16.202s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_Horologe_01/materials/textures/aws_Horologe_01.png
+[16.239s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_Horologe_01/meshes/aws_Horologe_01_collision.DAE
+[16.261s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_Horologe_01/meshes/aws_Horologe_01_visual.DAE
+[16.283s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_Horologe_01/model.config
+[16.315s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_Horologe_01/model.sdf
+[16.370s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_InfoDesk_01/materials/textures/aws_InfoDesk_01.png
+[16.413s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_InfoDesk_01/meshes/aws_InfoDesk_01_collision.DAE
+[16.454s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_InfoDesk_01/meshes/aws_InfoDesk_01_visual.DAE
+[16.477s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_InfoDesk_01/model.config
+[16.512s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_InfoDesk_01/model.sdf
+[16.554s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_LightA_01/materials/textures/aws_LightA_01.png
+[16.618s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_LightA_01/meshes/aws_LightA_01_collision.DAE
+[16.676s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_LightA_01/meshes/aws_LightA_01_visual.DAE
+[16.716s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_LightA_01/model.config
+[16.754s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_LightA_01/model.sdf
+[16.789s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_MagicCube_01/materials/textures/aws_MagicCube_01.png
+[16.826s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_MagicCube_01/meshes/aws_MagicCube_01_collision.DAE
+[16.872s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_MagicCube_01/meshes/aws_MagicCube_01_visual.DAE
+[16.896s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_MagicCube_01/model.config
+[16.978s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_MagicCube_01/model.sdf
+[17.037s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_RetailShopCeiling_01/materials/textures/aws_RetailShopCeiling_01.png
+[17.073s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_RetailShopCeiling_01/meshes/aws_RetailShopCeiling_01_collision.DAE
+[17.119s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_RetailShopCeiling_01/meshes/aws_RetailShopCeiling_01_visual.DAE
+[17.197s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_RetailShopCeiling_01/model.config
+[17.303s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_RetailShopCeiling_01/model.sdf
+[17.353s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_RetailShopFloor_01/materials/textures/aws_RetailShopFloor_01.png
+[17.405s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_RetailShopFloor_01/meshes/aws_RetailShopFloor_01_collision.DAE
+[17.459s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_RetailShopFloor_01/meshes/aws_RetailShopFloor_01_visual.DAE
+[17.489s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_RetailShopFloor_01/model.config
+[17.540s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_RetailShopFloor_01/model.sdf
+[17.619s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_RetailShopWall_01/materials/textures/aws_RetailShopWall_01.png
+[17.669s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_RetailShopWall_01/meshes/aws_RetailShopWall_01_collision.DAE
+[17.704s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_RetailShopWall_01/meshes/aws_RetailShopWall_01_visual.DAE
+[17.727s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_RetailShopWall_01/model.config
+[17.751s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_RetailShopWall_01/model.sdf
+[17.776s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_SecurityCamera_01/materials/textures/aws_SecurityCamera_01.png
+[17.800s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_SecurityCamera_01/meshes/aws_SecurityCamera_01_collision.DAE
+[17.839s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_SecurityCamera_01/meshes/aws_SecurityCamera_01_visual.DAE
+[17.908s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_SecurityCamera_01/model.config
+[17.988s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_SecurityCamera_01/model.sdf
+[18.046s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_ShopWindow_01/materials/textures/aws_ShopWindow_01.png
+[18.103s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_ShopWindow_01/meshes/aws_ShopWindow_01_collision.DAE
+[18.151s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_ShopWindow_01/meshes/aws_ShopWindow_01_visual.DAE
+[18.201s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_ShopWindow_01/model.config
+[18.250s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_ShopWindow_01/model.sdf
+[18.295s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_SmartSpeakerSmall_01/materials/textures/aws_SmartSpeakerSmall_01.png
+[18.336s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_SmartSpeakerSmall_01/meshes/aws_SmartSpeakerSmall_01_collision.DAE
+[18.386s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_SmartSpeakerSmall_01/meshes/aws_SmartSpeakerSmall_01_visual.DAE
+[18.437s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_SmartSpeakerSmall_01/model.config
+[18.524s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_SmartSpeakerSmall_01/model.sdf
+[18.556s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_SmartSpeakerTall_01/materials/textures/aws_SmartSpeakerTall_01.png
+[18.632s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_SmartSpeakerTall_01/meshes/aws_SmartSpeakerTall_01_collision.DAE
+[18.687s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_SmartSpeakerTall_01/meshes/aws_SmartSpeakerTall_01_visual.DAE
+[18.715s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_SmartSpeakerTall_01/model.config
+[18.764s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_SmartSpeakerTall_01/model.sdf
+[18.814s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_Spotlight_01/materials/textures/aws_SpotlightDiffuse_01.png
+[18.877s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_Spotlight_01/meshes/aws_spotlight_01_collision.DAE
+[18.939s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_Spotlight_01/meshes/aws_spotlight_01_visual.DAE
+[19.020s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_Spotlight_01/model.config
+[19.097s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_Spotlight_01/model.sdf
+[19.160s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_TabletB_01/materials/textures/aws_TabletB_01.png
+[19.213s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_TabletB_01/meshes/aws_TabletB_01_collision.DAE
+[19.280s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_TabletB_01/meshes/aws_TabletB_01_visual.DAE
+[19.312s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_TabletB_01/model.config
+[19.344s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_TabletB_01/model.sdf
+[19.393s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_Tablet_01/materials/textures/aws_Tablet_01_nologo.png
+[19.446s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_Tablet_01/meshes/aws_Tablet_01_collision.DAE
+[19.544s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_Tablet_01/meshes/aws_Tablet_01_visual.DAE
+[19.566s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_Tablet_01/model.config
+[19.624s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_Tablet_01/model.sdf
+[19.658s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/routes/route.yaml
+[19.713s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/param/burger.yaml
+[19.797s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/param/waffle.yaml
+[19.862s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/param/waffle_pi.yaml
+[19.925s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/worlds/bookstore.world
+[19.993s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/ament_index/resource_index/package_run_dependencies/aws_robomaker_bookstore_world
+[20.070s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/ament_index/resource_index/parent_prefix_path/aws_robomaker_bookstore_world
+[20.109s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/environment/ament_prefix_path.sh
+[20.174s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/environment/ament_prefix_path.dsv
+[20.286s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/environment/path.sh
+[20.331s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/environment/path.dsv
+[20.420s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/local_setup.bash
+[20.528s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/local_setup.sh
+[20.616s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/local_setup.zsh
+[20.672s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/local_setup.dsv
+[20.749s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/package.dsv
+[20.816s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/ament_index/resource_index/packages/aws_robomaker_bookstore_world
+[20.908s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/cmake/ament_cmake_export_dependencies-extras.cmake
+[20.969s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/cmake/aws_robomaker_bookstore_worldConfig.cmake
+[21.032s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/cmake/aws_robomaker_bookstore_worldConfig-version.cmake
+[21.069s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/package.xml
+[21.152s] Invoked command in '/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/aws_robomaker_bookstore_world' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/omartinez/ws/smartloc_ws/install/webots_sim:/opt/ros/humble /usr/bin/cmake --install /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/aws_robomaker_bookstore_world

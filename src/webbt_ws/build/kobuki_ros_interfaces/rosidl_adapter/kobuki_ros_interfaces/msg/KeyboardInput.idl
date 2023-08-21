@@ -1,0 +1,39 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from kobuki_ros_interfaces/msg/KeyboardInput.msg
+// generated code does not contain a copyright notice
+
+
+module kobuki_ros_interfaces {
+  module msg {
+    module KeyboardInput_Constants {
+      @verbatim (language="comment", text=
+        "0x43")
+      const uint8 KEYCODE_RIGHT = 67;
+      @verbatim (language="comment", text=
+        "0x44")
+      const uint8 KEYCODE_LEFT = 68;
+      @verbatim (language="comment", text=
+        "0x41")
+      const uint8 KEYCODE_UP = 65;
+      @verbatim (language="comment", text=
+        "0x42")
+      const uint8 KEYCODE_DOWN = 66;
+      @verbatim (language="comment", text=
+        "0x20")
+      const uint8 KEYCODE_SPACE = 32;
+      @verbatim (language="comment", text=
+        "0x65, 'e'")
+      const uint8 KEYCODE_ENABLE = 101;
+      @verbatim (language="comment", text=
+        "0x64, 'd'")
+      const uint8 KEYCODE_DISABLE = 100;
+    };
+    @verbatim (language="comment", text=
+      "KEYBOARD INPUT" "\n"
+      "" "\n"
+      "Keycodes to be transferred for remote teleops.")
+    struct KeyboardInput {
+      uint8 pressed_key;
+    };
+  };
+};

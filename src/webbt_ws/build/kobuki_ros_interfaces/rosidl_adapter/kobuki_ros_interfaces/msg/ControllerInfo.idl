@@ -1,0 +1,30 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from kobuki_ros_interfaces/msg/ControllerInfo.msg
+// generated code does not contain a copyright notice
+
+
+module kobuki_ros_interfaces {
+  module msg {
+    module ControllerInfo_Constants {
+      const uint8 DEFAULT = 0;
+      const uint8 USER_CONFIGURED = 1;
+    };
+    @verbatim (language="comment", text=
+      "Controller info message, contains PID parameters")
+    struct ControllerInfo {
+      uint8 type;
+
+      @verbatim (language="comment", text=
+        "should be positive")
+      double p_gain;
+
+      @verbatim (language="comment", text=
+        "should be positive")
+      double i_gain;
+
+      @verbatim (language="comment", text=
+        "should be positive")
+      double d_gain;
+    };
+  };
+};

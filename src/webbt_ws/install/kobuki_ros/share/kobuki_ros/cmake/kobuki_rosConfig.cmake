@@ -1,0 +1,1 @@
+/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/kobuki_ros/ament_cmake_core/kobuki_rosConfig.cmake

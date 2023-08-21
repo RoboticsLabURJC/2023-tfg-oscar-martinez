@@ -1,0 +1,133 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from kobuki_ros_interfaces/msg/SensorState.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module kobuki_ros_interfaces {
+  module msg {
+    module SensorState_Constants {
+      @verbatim (language="comment", text=
+        "CONSTANTS ######" "\n"        "Bumper states (states are combined, when multiple bumpers are pressed)")
+      const uint8 BUMPER_RIGHT = 1;
+      const uint8 BUMPER_CENTRE = 2;
+      const uint8 BUMPER_LEFT = 4;
+      @verbatim (language="comment", text=
+        "Wheel drop sensor states (states are combined, when both wheel drop sensors are triggered)")
+      const uint8 WHEEL_DROP_RIGHT = 1;
+      const uint8 WHEEL_DROP_LEFT = 2;
+      @verbatim (language="comment", text=
+        "Cliff sensor states (states are combined, when multiple cliff sensors are triggered)")
+      const uint8 CLIFF_RIGHT = 1;
+      const uint8 CLIFF_CENTRE = 2;
+      const uint8 CLIFF_LEFT = 4;
+      @verbatim (language="comment", text=
+        "Button states (only one button can be triggered at a time)")
+      const uint8 BUTTON0 = 1;
+      const uint8 BUTTON1 = 2;
+      const uint8 BUTTON2 = 4;
+      @verbatim (language="comment", text=
+        "Charger state is a combination of charging device (adapter, docking station)" "\n"        "and state (charging, charged, discharging):")
+      const uint8 DISCHARGING = 0;
+      const uint8 DOCKING_CHARGED = 2;
+      const uint8 DOCKING_CHARGING = 6;
+      const uint8 ADAPTER_CHARGED = 18;
+      const uint8 ADAPTER_CHARGING = 22;
+      @verbatim (language="comment", text=
+        "Over current states")
+      const uint8 OVER_CURRENT_LEFT_WHEEL = 1;
+      const uint8 OVER_CURRENT_RIGHT_WHEEL = 2;
+      const uint8 OVER_CURRENT_BOTH_WHEELS = 3;
+      @verbatim (language="comment", text=
+        "Digital input states (states are combined, when multiple inputs are set at the same time)" "\n"        "When connecting Yujin's test board, it acts as pull-up what inverts the behaviour:" "\n"        "No input: 79, all inputs set (e.g. buttons pressed): 64")
+      const uint8 DIGITAL_INPUT0 = 1;
+      const uint8 DIGITAL_INPUT1 = 2;
+      const uint8 DIGITAL_INPUT2 = 4;
+      const uint8 DIGITAL_INPUT3 = 8;
+      const uint8 DB25_TEST_BOARD_CONNECTED = 64;
+    };
+    @verbatim (language="comment", text=
+      "Kobuki Sensor Data Messages" "\n"
+      "" "\n"
+      "For more direct simple interactions (buttons, leds, gyro, motor velocity" "\n"
+      "etc) use the other topics. This provides detailed information about the" "\n"
+      "entire state package that is transmitted at 50Hz from the robot.")
+    struct SensorState {
+      @verbatim (language="comment", text=
+        "MESSAGE ######")
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "Core Packet" "\n"
+        "" "\n"
+        "milliseconds starting when turning on Kobuki (max. 65536, then starts from 0 again)")
+      uint16 time_stamp;
+
+      @verbatim (language="comment", text=
+        "see bumper states")
+      uint8 bumper;
+
+      @verbatim (language="comment", text=
+        "see wheel drop sensor states")
+      uint8 wheel_drop;
+
+      @verbatim (language="comment", text=
+        "see cliff sensor states")
+      uint8 cliff;
+
+      @verbatim (language="comment", text=
+        "accumulated ticks left wheel starting with turning on Kobuki (max. 65535)")
+      uint16 left_encoder;
+
+      @verbatim (language="comment", text=
+        "accumulated ticks right wheel starting with turning on Kobuki (max. 65535)")
+      uint16 right_encoder;
+
+      @verbatim (language="comment", text=
+        "% of applied maximum voltage left wheel: -100 (max. voltage backward) to +100 (max. voltage forward)")
+      int8 left_pwm;
+
+      @verbatim (language="comment", text=
+        "% of applied maximum voltage right wheel: -100 (max. voltage backward) to +100 (max. voltage forward)")
+      int8 right_pwm;
+
+      @verbatim (language="comment", text=
+        "see button states")
+      uint8 buttons;
+
+      @verbatim (language="comment", text=
+        "see charger states")
+      uint8 charger;
+
+      @verbatim (language="comment", text=
+        "battery voltage in 0.1V (ex. 16.1V -> 161)")
+      uint8 battery;
+
+      @verbatim (language="comment", text=
+        "Cliff Packet" "\n"
+        "" "\n"
+        "ADC output of the right, centre, left cliff PSD sensor (0 - 4095, distance measure is non-linear)")
+      sequence<uint16> bottom;
+
+      @verbatim (language="comment", text=
+        "Current Packet" "\n"
+        "" "\n"
+        "motor current for the left and right motor in 10mA (ex. 12 -> 120mA)")
+      sequence<uint8> current;
+
+      @verbatim (language="comment", text=
+        "see over current states")
+      uint8 over_current;
+
+      @verbatim (language="comment", text=
+        "Input Packet" "\n"
+        "" "\n"
+        "see digital input states; will show garbage when nothing is connected")
+      uint16 digital_input;
+
+      @verbatim (language="comment", text=
+        "ADC values for the 4 analog inputs; 0 - 4095: 0.0 - 3.3V; will show garbage when nothing is connected")
+      sequence<uint16> analog_input;
+    };
+  };
+};

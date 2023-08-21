@@ -1,0 +1,15 @@
+/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros/share/ament_index/resource_index/package_run_dependencies/kobuki_ros
+/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros/share/ament_index/resource_index/parent_prefix_path/kobuki_ros
+/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros/share/kobuki_ros/environment/ament_prefix_path.sh
+/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros/share/kobuki_ros/environment/ament_prefix_path.dsv
+/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros/share/kobuki_ros/environment/path.sh
+/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros/share/kobuki_ros/environment/path.dsv
+/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros/share/kobuki_ros/local_setup.bash
+/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros/share/kobuki_ros/local_setup.sh
+/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros/share/kobuki_ros/local_setup.zsh
+/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros/share/kobuki_ros/local_setup.dsv
+/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros/share/kobuki_ros/package.dsv
+/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros/share/ament_index/resource_index/packages/kobuki_ros
+/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros/share/kobuki_ros/cmake/kobuki_rosConfig.cmake
+/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros/share/kobuki_ros/cmake/kobuki_rosConfig-version.cmake
+/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros/share/kobuki_ros/package.xml

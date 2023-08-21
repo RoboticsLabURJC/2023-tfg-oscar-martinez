@@ -1,0 +1,57 @@
+[0.221s] Invoking command in '/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/ir_robots': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/py_trees_ros_viewer:/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/py_trees_ros_tutorials:/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/btpy:/home/omartinez/ws/smartloc_ws/install/webots_sim:/opt/ros/humble /usr/bin/cmake --build /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/ir_robots -- -j8 -l8
+[1.754s] Invoked command in '/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/ir_robots' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/py_trees_ros_viewer:/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/py_trees_ros_tutorials:/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/btpy:/home/omartinez/ws/smartloc_ws/install/webots_sim:/opt/ros/humble /usr/bin/cmake --build /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/ir_robots -- -j8 -l8
+[1.943s] Invoking command in '/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/ir_robots': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/py_trees_ros_viewer:/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/py_trees_ros_tutorials:/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/btpy:/home/omartinez/ws/smartloc_ws/install/webots_sim:/opt/ros/humble /usr/bin/cmake --install /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/ir_robots
+[2.053s] -- Install configuration: ""
+[2.053s] -- Execute custom install script
+[2.056s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/ir_robots/share/ir_robots/launch/dependencies/keepzone.launch.py
+[2.056s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/ir_robots/share/ir_robots/launch/dependencies/navigation_launch.py
+[2.065s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/ir_robots/share/ir_robots/launch/dependencies/robot_spawn.launch.py
+[2.065s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/ir_robots/share/ir_robots/launch/kobuki.launch.py
+[2.075s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/ir_robots/share/ir_robots/launch/navigation.launch.py
+[2.076s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/ir_robots/share/ir_robots/launch/simulation.launch.py
+[2.079s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/ir_robots/share/ir_robots/config/params.yaml
+[2.080s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/ir_robots/share/ir_robots/params/footprint_filter.yaml
+[2.081s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/ir_robots/share/ir_robots/params/keepout_params.yaml
+[2.086s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/ir_robots/share/ir_robots/params/kobuki_nav_params_real.yaml
+[2.087s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/ir_robots/share/ir_robots/params/kobuki_nav_params_sim.yaml
+[2.087s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/ir_robots/share/ir_robots/params/kobuki_node_params.yaml
+[2.087s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/ir_robots/share/ir_robots/params/mapper_params_online_async.yaml
+[2.087s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/ir_robots/share/ir_robots/params/tiago_nav_params_real.yaml
+[2.087s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/ir_robots/share/ir_robots/params/tiago_nav_params_sim.yaml
+[2.088s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/ir_robots/share/ir_robots/maps/aws_bookstore.pgm
+[2.088s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/ir_robots/share/ir_robots/maps/aws_bookstore.yaml
+[2.088s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/ir_robots/share/ir_robots/maps/aws_hospital.pgm
+[2.089s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/ir_robots/share/ir_robots/maps/aws_hospital.yaml
+[2.089s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/ir_robots/share/ir_robots/maps/aws_house.pgm
+[2.089s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/ir_robots/share/ir_robots/maps/aws_house.yaml
+[2.105s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/ir_robots/share/ir_robots/maps/aws_house_keep.pgm
+[2.107s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/ir_robots/share/ir_robots/maps/aws_house_keep.yaml
+[2.107s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/ir_robots/share/ir_robots/maps/aws_warehouse.pgm
+[2.108s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/ir_robots/share/ir_robots/maps/aws_warehouse.yaml
+[2.108s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/ir_robots/share/ir_robots/worlds/GrannyAnnie.world
+[2.108s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/ir_robots/share/ir_robots/worlds/RoCKIn@Home.sdf
+[2.109s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/ir_robots/share/ir_robots/worlds/models/circuitoMontmelo/materials/scripts/asphalt.material
+[2.110s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/ir_robots/share/ir_robots/worlds/models/circuitoMontmelo/materials/textures/tarmac.png
+[2.110s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/ir_robots/share/ir_robots/worlds/models/circuitoMontmelo/model.config
+[2.110s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/ir_robots/share/ir_robots/worlds/models/circuitoMontmelo/model.sdf
+[2.110s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/ir_robots/share/ir_robots/worlds/models/paredesMontmelo/model.config
+[2.111s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/ir_robots/share/ir_robots/worlds/models/paredesMontmelo/model.sdf
+[2.112s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/ir_robots/share/ir_robots/worlds/montmelo.world
+[2.112s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/ir_robots/share/ir_robots/worlds/robocuplab.world
+[2.112s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/ir_robots/share/ir_robots/worlds/robocupspl.world
+[2.112s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/ir_robots/share/ament_index/resource_index/package_run_dependencies/ir_robots
+[2.113s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/ir_robots/share/ament_index/resource_index/parent_prefix_path/ir_robots
+[2.113s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/ir_robots/share/ir_robots/environment/ament_prefix_path.sh
+[2.114s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/ir_robots/share/ir_robots/environment/ament_prefix_path.dsv
+[2.114s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/ir_robots/share/ir_robots/environment/path.sh
+[2.115s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/ir_robots/share/ir_robots/environment/path.dsv
+[2.115s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/ir_robots/share/ir_robots/local_setup.bash
+[2.116s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/ir_robots/share/ir_robots/local_setup.sh
+[2.116s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/ir_robots/share/ir_robots/local_setup.zsh
+[2.116s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/ir_robots/share/ir_robots/local_setup.dsv
+[2.116s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/ir_robots/share/ir_robots/package.dsv
+[2.165s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/ir_robots/share/ament_index/resource_index/packages/ir_robots
+[2.165s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/ir_robots/share/ir_robots/cmake/ir_robotsConfig.cmake
+[2.165s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/ir_robots/share/ir_robots/cmake/ir_robotsConfig-version.cmake
+[2.166s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/ir_robots/share/ir_robots/package.xml
+[2.202s] Invoked command in '/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/ir_robots' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/py_trees_ros_viewer:/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/py_trees_ros_tutorials:/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/btpy:/home/omartinez/ws/smartloc_ws/install/webots_sim:/opt/ros/humble /usr/bin/cmake --install /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/ir_robots

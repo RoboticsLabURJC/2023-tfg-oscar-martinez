@@ -1,0 +1,18 @@
+[1.073s] Invoking command in '/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/py_gardener': PYTHONPATH=/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/py_gardener/prefix_override:/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/py_gardener/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/py_gardener/build --no-deps install_data
+[1.517s] running develop
+[1.865s] running egg_info
+[1.865s] writing py_gardener.egg-info/PKG-INFO
+[1.865s] writing dependency_links to py_gardener.egg-info/dependency_links.txt
+[1.865s] writing entry points to py_gardener.egg-info/entry_points.txt
+[1.865s] writing requirements to py_gardener.egg-info/requires.txt
+[1.865s] writing top-level names to py_gardener.egg-info/top_level.txt
+[1.867s] reading manifest file 'py_gardener.egg-info/SOURCES.txt'
+[1.868s] writing manifest file 'py_gardener.egg-info/SOURCES.txt'
+[1.912s] running build_ext
+[1.912s] Creating /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/py_gardener/lib/python3.10/site-packages/py-gardener.egg-link (link to .)
+[1.913s] Installing translator script to /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/py_gardener/lib/py_gardener
+[1.913s] 
+[1.913s] Installed /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/py_gardener
+[1.913s] running install_data
+[1.914s] copying py_gardener/translator.py -> /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/py_gardener/share/py_gardener/py_gardener
+[1.955s] Invoked command in '/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/py_gardener' returned '0': PYTHONPATH=/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/py_gardener/prefix_override:/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/py_gardener/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/py_gardener/build --no-deps install_data

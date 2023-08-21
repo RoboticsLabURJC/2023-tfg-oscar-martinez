@@ -1,7 +1,11 @@
 package.xml
 setup.cfg
 setup.py
+actions/CheckObstacle.py
+actions/Move.py
+actions/Turn.py
 btpy/__init__.py
+btpy/parser.py
 btpy/translator.py
 btpy.egg-info/PKG-INFO
 btpy.egg-info/SOURCES.txt
@@ -12,3 +16,5 @@ btpy.egg-info/top_level.txt
 btpy.egg-info/zip-safe
 launch/demo.launch.py
 resource/btpy
+resource/final_tree.xml
+resource/tree.xml

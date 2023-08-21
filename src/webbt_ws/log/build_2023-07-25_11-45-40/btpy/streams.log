@@ -1,0 +1,20 @@
+[1.009s] Invoking command in '/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/btpy': PYTHONPATH=/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/btpy/prefix_override:/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/btpy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/btpy/build --no-deps install_data
+[1.409s] running develop
+[1.714s] running egg_info
+[1.714s] writing btpy.egg-info/PKG-INFO
+[1.714s] writing dependency_links to btpy.egg-info/dependency_links.txt
+[1.715s] writing entry points to btpy.egg-info/entry_points.txt
+[1.715s] writing requirements to btpy.egg-info/requires.txt
+[1.715s] writing top-level names to btpy.egg-info/top_level.txt
+[1.717s] reading manifest file 'btpy.egg-info/SOURCES.txt'
+[1.718s] writing manifest file 'btpy.egg-info/SOURCES.txt'
+[1.756s] running build_ext
+[1.757s] Creating /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/btpy/lib/python3.10/site-packages/btpy.egg-link (link to .)
+[1.758s] Installing translator script to /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/btpy/lib/btpy
+[1.759s] 
+[1.759s] Installed /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/btpy
+[1.759s] running install_data
+[1.760s] copying resource/tree.xml -> /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/btpy/share/btpy/resource
+[1.760s] creating /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/btpy/share/btpy/nodes
+[1.760s] error: can't copy 'nodes/move.py': doesn't exist or not a regular file
+[1.797s] Invoked command in '/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/btpy' returned '1': PYTHONPATH=/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/btpy/prefix_override:/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/btpy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/btpy/build --no-deps install_data

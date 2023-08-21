@@ -1,0 +1,90 @@
+-- The C compiler identification is GNU 11.3.0
+-- The CXX compiler identification is GNU 11.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake_auto: 1.3.5 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/tiago_bringup
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/tiago_bringup/lib/tiago_bringup/regen_em_file.py
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/tiago_bringup/share/tiago_bringup/config/approach_planner/approach_planner.yaml.em
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/tiago_bringup/share/tiago_bringup/config/approach_planner/approach_planner_no-arm.yaml
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/tiago_bringup/share/tiago_bringup/config/approach_planner/approach_planner_no-end-effector.yaml
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/tiago_bringup/share/tiago_bringup/config/approach_planner/approach_planner_no-end-effector_schunk-ft.yaml
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/tiago_bringup/share/tiago_bringup/config/approach_planner/approach_planner_pal-gripper.yaml
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/tiago_bringup/share/tiago_bringup/config/approach_planner/approach_planner_pal-gripper_schunk-ft.yaml
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/tiago_bringup/share/tiago_bringup/config/approach_planner/approach_planner_pal-hey5.yaml
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/tiago_bringup/share/tiago_bringup/config/approach_planner/approach_planner_pal-hey5_schunk-ft.yaml
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/tiago_bringup/share/tiago_bringup/config/dynamic_footprint_arm.yaml
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/tiago_bringup/share/tiago_bringup/config/dynamic_footprint_arm_pal-gripper.yaml
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/tiago_bringup/share/tiago_bringup/config/dynamic_footprint_arm_pal-hey5.yaml
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/tiago_bringup/share/tiago_bringup/config/dynamic_footprint_no-arm.yaml
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/tiago_bringup/share/tiago_bringup/config/dynamixel_head.yaml
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/tiago_bringup/share/tiago_bringup/config/joy_teleop/joy_config.yaml
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/tiago_bringup/share/tiago_bringup/config/joy_teleop/joy_teleop.yaml.em
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/tiago_bringup/share/tiago_bringup/config/joy_teleop/joy_teleop_no-arm.yaml
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/tiago_bringup/share/tiago_bringup/config/joy_teleop/joy_teleop_no-end-effector.yaml
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/tiago_bringup/share/tiago_bringup/config/joy_teleop/joy_teleop_no-end-effector_schunk-ft.yaml
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/tiago_bringup/share/tiago_bringup/config/joy_teleop/joy_teleop_pal-gripper.yaml
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/tiago_bringup/share/tiago_bringup/config/joy_teleop/joy_teleop_pal-gripper_schunk-ft.yaml
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/tiago_bringup/share/tiago_bringup/config/joy_teleop/joy_teleop_pal-hey5.yaml
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/tiago_bringup/share/tiago_bringup/config/joy_teleop/joy_teleop_pal-hey5_schunk-ft.yaml
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/tiago_bringup/share/tiago_bringup/config/motions/tiago_motions.yaml.em
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/tiago_bringup/share/tiago_bringup/config/motions/tiago_motions_no-arm.yaml
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/tiago_bringup/share/tiago_bringup/config/motions/tiago_motions_no-end-effector.yaml
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/tiago_bringup/share/tiago_bringup/config/motions/tiago_motions_no-end-effector_schunk-ft.yaml
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/tiago_bringup/share/tiago_bringup/config/motions/tiago_motions_pal-gripper.yaml
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/tiago_bringup/share/tiago_bringup/config/motions/tiago_motions_pal-gripper_schunk-ft.yaml
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/tiago_bringup/share/tiago_bringup/config/motions/tiago_motions_pal-hey5.yaml
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/tiago_bringup/share/tiago_bringup/config/motions/tiago_motions_pal-hey5_schunk-ft.yaml
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/tiago_bringup/share/tiago_bringup/config/sensor_to_cloud/sonar_to_cloud.yaml
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/tiago_bringup/share/tiago_bringup/config/tiago.rviz
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/tiago_bringup/share/tiago_bringup/config/tiago_hardware/tiago_hardware.yaml.em
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/tiago_bringup/share/tiago_bringup/config/tiago_hardware/tiago_hardware_no-arm.yaml
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/tiago_bringup/share/tiago_bringup/config/tiago_hardware/tiago_hardware_no-end-effector.yaml
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/tiago_bringup/share/tiago_bringup/config/tiago_hardware/tiago_hardware_no-end-effector_schunk-ft.yaml
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/tiago_bringup/share/tiago_bringup/config/tiago_hardware/tiago_hardware_pal-gripper.yaml
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/tiago_bringup/share/tiago_bringup/config/tiago_hardware/tiago_hardware_pal-gripper_schunk-ft.yaml
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/tiago_bringup/share/tiago_bringup/config/tiago_hardware/tiago_hardware_pal-hey5.yaml
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/tiago_bringup/share/tiago_bringup/config/tiago_hardware/tiago_hardware_pal-hey5_schunk-ft.yaml
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/tiago_bringup/share/tiago_bringup/config/tiago_soften_values.yaml
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/tiago_bringup/share/tiago_bringup/config/twist_mux/joystick.yaml
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/tiago_bringup/share/tiago_bringup/config/twist_mux/twist_mux_locks.yaml
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/tiago_bringup/share/tiago_bringup/config/twist_mux/twist_mux_topics.yaml
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/tiago_bringup/share/tiago_bringup/launch/joystick_teleop.launch.py
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/tiago_bringup/share/tiago_bringup/launch/tiago_bringup.launch.py
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/tiago_bringup/share/tiago_bringup/launch/tiago_play_motion2.launch.py
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/tiago_bringup/share/tiago_bringup/launch/twist_mux.launch.py
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/tiago_bringup/share/ament_index/resource_index/package_run_dependencies/tiago_bringup
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/tiago_bringup/share/ament_index/resource_index/parent_prefix_path/tiago_bringup
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/tiago_bringup/share/tiago_bringup/environment/ament_prefix_path.sh
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/tiago_bringup/share/tiago_bringup/environment/ament_prefix_path.dsv
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/tiago_bringup/share/tiago_bringup/environment/path.sh
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/tiago_bringup/share/tiago_bringup/environment/path.dsv
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/tiago_bringup/share/tiago_bringup/local_setup.bash
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/tiago_bringup/share/tiago_bringup/local_setup.sh
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/tiago_bringup/share/tiago_bringup/local_setup.zsh
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/tiago_bringup/share/tiago_bringup/local_setup.dsv
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/tiago_bringup/share/tiago_bringup/package.dsv
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/tiago_bringup/share/ament_index/resource_index/packages/tiago_bringup
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/tiago_bringup/share/tiago_bringup/cmake/tiago_bringupConfig.cmake
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/tiago_bringup/share/tiago_bringup/cmake/tiago_bringupConfig-version.cmake
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/tiago_bringup/share/tiago_bringup/package.xml

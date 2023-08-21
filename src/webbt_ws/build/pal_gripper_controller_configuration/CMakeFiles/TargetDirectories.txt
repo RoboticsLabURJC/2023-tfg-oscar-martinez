@@ -1,0 +1,9 @@
+/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/pal_gripper_controller_configuration/CMakeFiles/uninstall.dir
+/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/pal_gripper_controller_configuration/CMakeFiles/pal_gripper_controller_configuration_uninstall.dir
+/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/pal_gripper_controller_configuration/CMakeFiles/test.dir
+/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/pal_gripper_controller_configuration/CMakeFiles/edit_cache.dir
+/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/pal_gripper_controller_configuration/CMakeFiles/rebuild_cache.dir
+/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/pal_gripper_controller_configuration/CMakeFiles/list_install_components.dir
+/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/pal_gripper_controller_configuration/CMakeFiles/install.dir
+/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/pal_gripper_controller_configuration/CMakeFiles/install/local.dir
+/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/pal_gripper_controller_configuration/CMakeFiles/install/strip.dir

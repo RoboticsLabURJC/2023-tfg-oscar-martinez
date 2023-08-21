@@ -1,0 +1,18 @@
+[2.121s] Invoking command in '/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/btpy': PYTHONPATH=/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/btpy/prefix_override:/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/btpy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/btpy/build --no-deps install_data
+[2.603s] running develop
+[2.971s] running egg_info
+[2.971s] writing btpy.egg-info/PKG-INFO
+[2.972s] writing dependency_links to btpy.egg-info/dependency_links.txt
+[2.972s] writing entry points to btpy.egg-info/entry_points.txt
+[2.972s] writing requirements to btpy.egg-info/requires.txt
+[2.972s] writing top-level names to btpy.egg-info/top_level.txt
+[2.975s] reading manifest file 'btpy.egg-info/SOURCES.txt'
+[2.976s] writing manifest file 'btpy.egg-info/SOURCES.txt'
+[3.024s] running build_ext
+[3.025s] Creating /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/btpy/lib/python3.10/site-packages/btpy.egg-link (link to .)
+[3.027s] Installing translator script to /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/btpy/lib/btpy
+[3.028s] 
+[3.028s] Installed /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/btpy
+[3.028s] running install_data
+[3.029s] copying resource/tree.xml -> /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/btpy/share/btpy/resource
+[3.089s] Invoked command in '/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/btpy' returned '0': PYTHONPATH=/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/btpy/prefix_override:/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/btpy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/btpy/build --no-deps install_data

@@ -1,0 +1,523 @@
+[0.082s] Invoking command in '/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/aws_robomaker_small_house_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/omartinez/ws/smartloc_ws/install/webots_sim:/opt/ros/humble /usr/bin/cmake /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/src/ThirdParty/aws-robomaker-small-house-world -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world
+[0.325s] -- The C compiler identification is GNU 11.3.0
+[0.561s] -- The CXX compiler identification is GNU 11.3.0
+[0.588s] -- Detecting C compiler ABI info
+[0.814s] -- Detecting C compiler ABI info - done
+[0.858s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.858s] -- Detecting C compile features
+[0.859s] -- Detecting C compile features - done
+[0.867s] -- Detecting CXX compiler ABI info
+[1.121s] -- Detecting CXX compiler ABI info - done
+[1.149s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.154s] -- Detecting CXX compile features
+[1.171s] -- Detecting CXX compile features - done
+[1.205s] -- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[1.931s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[2.195s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.666s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.692s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.727s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.783s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.868s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.214s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.234s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[3.423s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[3.502s] -- Looking for pthread.h
+[3.761s] -- Looking for pthread.h - found
+[3.764s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.065s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.066s] -- Found Threads: TRUE  
+[4.687s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[4.690s] -- Checking for module 'bullet>=2.82'
+[4.747s] --   Found bullet, version 3.05
+[5.209s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[5.350s] -- Found assimp: /usr/include (found version "5.2.0") 
+[5.456s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[5.613s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[5.697s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[5.723s] -- Looking for ignition-math6 -- found version 6.14.0
+[5.762s] -- Searching for dependencies of ignition-math6
+[5.766s] -- Looking for OGRE...
+[5.768s] -- OGRE_PREFIX_WATCH changed.
+[5.790s] -- Checking for module 'OGRE'
+[5.832s] --   Found OGRE, version 1.9.0
+[5.986s] -- Found Ogre Ghadamon (1.9.0)
+[6.049s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[6.074s] -- Looking for OGRE_Paging...
+[6.135s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[6.135s] -- Looking for OGRE_Terrain...
+[6.172s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[6.173s] -- Looking for OGRE_Property...
+[6.215s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[6.215s] -- Looking for OGRE_RTShaderSystem...
+[6.263s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[6.264s] -- Looking for OGRE_Volume...
+[6.317s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[6.318s] -- Looking for OGRE_Overlay...
+[6.374s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[7.338s] -- Looking for ignition-math6 -- found version 6.14.0
+[7.351s] -- Looking for ignition-transport8 -- found version 8.2.1
+[7.353s] -- Searching for dependencies of ignition-transport8
+[7.464s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[7.541s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[7.562s] -- Checking for module 'libzmq >= 4'
+[7.635s] --   Found libzmq , version 4.3.4
+[7.832s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[7.855s] -- Checking for module 'uuid'
+[7.904s] --   Found uuid, version 2.37.2
+[8.039s] -- Found UUID: TRUE  
+[8.051s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[8.054s] -- Searching for dependencies of ignition-msgs5
+[8.151s] -- Looking for ignition-math6 -- found version 6.14.0
+[8.165s] -- Checking for module 'tinyxml2'
+[8.212s] --   Found tinyxml2, version 9.0.0
+[8.564s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[8.574s] -- Looking for ignition-common3 -- found version 3.14.0
+[8.576s] -- Searching for dependencies of ignition-common3
+[8.578s] -- Looking for dlfcn.h - found
+[8.585s] -- Looking for libdl - found
+[8.610s] -- Found DL: TRUE  
+[8.668s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[8.671s] -- Searching for <ignition-common3> component [graphics]
+[8.689s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[8.691s] -- Searching for dependencies of ignition-common3-graphics
+[8.692s] -- Looking for ignition-math6 -- found version 6.14.0
+[8.707s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[8.711s] -- Searching for dependencies of ignition-fuel_tools4
+[9.248s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[9.300s] -- Checking for module 'jsoncpp'
+[9.362s] --   Found jsoncpp, version 1.9.5
+[9.634s] -- Found JSONCPP: TRUE  
+[9.670s] -- Checking for module 'libzip'
+[9.750s] --   Found libzip, version 1.7.3
+[9.993s] -- Found ZIP: TRUE  
+[9.995s] -- Looking for ignition-common3 -- found version 3.14.0
+[9.996s] -- Looking for ignition-math6 -- found version 6.14.0
+[10.000s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[10.025s] -- Gazebo version: 11.10
+[10.026s] -- Checking for module 'tbb'
+[10.091s] --   Found tbb, version 2021.5.0
+[10.449s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[10.830s] -- Configuring done
+[10.856s] -- Generating done
+[10.866s] -- Build files have been written to: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/aws_robomaker_small_house_world
+[10.932s] Invoked command in '/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/aws_robomaker_small_house_world' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/omartinez/ws/smartloc_ws/install/webots_sim:/opt/ros/humble /usr/bin/cmake /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/src/ThirdParty/aws-robomaker-small-house-world -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world
+[10.933s] Invoking command in '/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/aws_robomaker_small_house_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/omartinez/ws/smartloc_ws/install/webots_sim:/opt/ros/humble /usr/bin/cmake --build /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/aws_robomaker_small_house_world -- -j8 -l8
+[11.146s] Invoked command in '/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/aws_robomaker_small_house_world' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/omartinez/ws/smartloc_ws/install/webots_sim:/opt/ros/humble /usr/bin/cmake --build /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/aws_robomaker_small_house_world -- -j8 -l8
+[11.410s] Invoking command in '/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/aws_robomaker_small_house_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/omartinez/ws/smartloc_ws/install/webots_sim:/opt/ros/humble /usr/bin/cmake --install /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/aws_robomaker_small_house_world
+[11.439s] -- Install configuration: ""
+[11.440s] -- Execute custom install script
+[11.443s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/launch/small_house.launch.py
+[11.503s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/launch/view_small_house.launch.py
+[11.551s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_AirconditionerA_01/materials/textures/aws_AirconditionerA_01.png
+[11.591s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_AirconditionerA_01/meshes/aws_AirconditionerA_01_collision.DAE
+[11.650s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_AirconditionerA_01/meshes/aws_AirconditionerA_01_visual.DAE
+[11.731s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_AirconditionerA_01/meshes/aws__Air conditioner_01.DAE
+[11.784s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_AirconditionerA_01/model.config
+[11.830s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_AirconditionerA_01/model.sdf
+[11.872s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_AirconditionerB_01/materials/textures/aws_AirconditionerB_01.png
+[11.946s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_AirconditionerB_01/meshes/aws_AirconditionerB_01_collision.DAE
+[12.007s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_AirconditionerB_01/meshes/aws_AirconditionerB_01_visual.DAE
+[12.058s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_AirconditionerB_01/model.config
+[12.088s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_AirconditionerB_01/model.sdf
+[12.142s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_BalconyTable_01/materials/textures/aws_BalconyTable_01.png
+[12.263s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_BalconyTable_01/meshes/aws_BalconyTable_01_collision.DAE
+[12.319s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_BalconyTable_01/meshes/aws_BalconyTable_01_visual.DAE
+[12.394s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_BalconyTable_01/model.config
+[12.448s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_BalconyTable_01/model.sdf
+[12.497s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Ball_01/materials/textures/aws_Ball_01.png
+[12.592s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Ball_01/meshes/aws_Ball_01_collision.DAE
+[12.623s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Ball_01/meshes/aws_Ball_01_visual.DAE
+[12.670s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Ball_01/model.config
+[12.752s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Ball_01/model.sdf
+[12.793s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Bed_01/materials/textures/aws_BedA_01.png
+[12.831s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Bed_01/materials/textures/aws_BedB_01.png
+[12.872s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Bed_01/materials/textures/aws_BedC_01.png
+[12.920s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Bed_01/materials/textures/aws_Bed_01.png
+[12.947s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Bed_01/meshes/aws_Bed_01_collision.DAE
+[12.971s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Bed_01/meshes/aws_Bed_01_visual.DAE
+[13.053s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Bed_01/model.config
+[13.092s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Bed_01/model.sdf
+[13.136s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Board_01/materials/textures/aws_Board_01.png
+[13.185s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Board_01/meshes/aws_Board_01_collision.DAE
+[13.224s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Board_01/meshes/aws_Board_01_visual.DAE
+[13.253s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Board_01/model.config
+[13.315s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Board_01/model.sdf
+[13.373s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Carpet_01/materials/textures/aws_Carpet_01.png
+[13.437s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Carpet_01/meshes/aws_Carpet_01_collision.DAE
+[13.459s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Carpet_01/meshes/aws_Carpet_01_visual.DAE
+[13.490s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Carpet_01/model.config
+[13.540s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Carpet_01/model.sdf
+[13.585s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_ChairA_01/materials/textures/aws_ChairA_01.png
+[13.604s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_ChairA_01/meshes/aws_ChairA_01_collision.DAE
+[13.658s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_ChairA_01/meshes/aws_ChairA_01_visual.DAE
+[13.698s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_ChairA_01/model.config
+[13.726s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_ChairA_01/model.sdf
+[13.749s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_ChairD_01/materials/textures/aws_ChairD_01.png
+[13.774s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_ChairD_01/meshes/aws_ChairD_01_collision.DAE
+[13.801s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_ChairD_01/meshes/aws_ChairD_01_visual.DAE
+[13.847s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_ChairD_01/model.config
+[13.897s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_ChairD_01/model.sdf
+[13.943s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Chandelier_01/materials/textures/aws_Chandelier_01.png
+[13.974s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Chandelier_01/meshes/aws_Chandelier_01.DAE
+[14.009s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Chandelier_01/meshes/aws_Chandelier_01_collision.DAE
+[14.030s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Chandelier_01/meshes/aws_Chandelier_01_visual.DAE
+[14.051s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Chandelier_01/model.config
+[14.084s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Chandelier_01/model.sdf
+[14.118s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_CoffeeTable_01/materials/textures/aws_CoffeeTable_01.png
+[14.171s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_CoffeeTable_01/meshes/aws_CoffeeTable_01_collision.DAE
+[14.223s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_CoffeeTable_01/meshes/aws_CoffeeTable_01_visual.DAE
+[14.264s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_CoffeeTable_01/model.config
+[14.337s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_CoffeeTable_01/model.sdf
+[14.371s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_CookingBench_01/materials/textures/aws_CookingBench_01.png
+[14.391s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_CookingBench_01/meshes/aws_CookingBench_01.DAE
+[14.414s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_CookingBench_01/meshes/aws_CookingBench_01_collision.DAE
+[14.438s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_CookingBench_01/meshes/aws_CookingBench_01_visual.DAE
+[14.480s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_CookingBench_01/model.config
+[14.520s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_CookingBench_01/model.sdf
+[14.594s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Curtain_01/materials/textures/aws_Curtain_01.png
+[14.629s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Curtain_01/meshes/aws_Curtain_01_collision.DAE
+[14.679s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Curtain_01/meshes/aws_Curtain_01_visual.DAE
+[14.710s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Curtain_01/model.config
+[14.763s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Curtain_01/model.sdf
+[14.801s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitA_01/materials/textures/aws_DeskPortraitA_01.png
+[14.878s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitA_01/materials/textures/aws_DeskPortraitA_02.png
+[14.905s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitA_01/meshes/aws_DeskPortraitA_01_collision.DAE
+[14.950s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitA_01/meshes/aws_DeskPortraitA_01_visual.DAE
+[14.981s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitA_01/model.config
+[15.020s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitA_01/model.sdf
+[15.081s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitA_02/materials/textures/aws_DeskPortraitA_01.png
+[15.114s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitA_02/materials/textures/aws_DeskPortraitA_02.png
+[15.132s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitA_02/meshes/aws_DeskPortraitA_01_collision.DAE
+[15.155s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitA_02/meshes/aws_DeskPortraitA_01_visual.DAE
+[15.212s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitA_02/model.config
+[15.237s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitA_02/model.sdf
+[15.264s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitB_01/materials/textures/aws_DeskPortraitB_01.png
+[15.290s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitB_01/materials/textures/aws_DeskPortraitB_02.png
+[15.312s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitB_01/meshes/aws_DeskPortraitB_01_collision.DAE
+[15.333s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitB_01/meshes/aws_DeskPortraitB_01_visual.DAE
+[15.358s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitB_01/model.config
+[15.390s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitB_01/model.sdf
+[15.428s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitB_02/materials/textures/aws_DeskPortraitB_01.png
+[15.460s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitB_02/materials/textures/aws_DeskPortraitB_02.png
+[15.494s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitB_02/meshes/aws_DeskPortraitB_01_collision.DAE
+[15.536s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitB_02/meshes/aws_DeskPortraitB_01_visual.DAE
+[15.580s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitB_02/model.config
+[15.620s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitB_02/model.sdf
+[15.672s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitC_01/materials/textures/aws_DeskPortraitC_01.png
+[15.711s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitC_01/materials/textures/aws_DeskPortraitC_02.png
+[15.741s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitC_01/meshes/aws_DeskPortraitC_01_collision.DAE
+[15.781s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitC_01/meshes/aws_DeskPortraitC_01_visual.DAE
+[15.824s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitC_01/model.config
+[15.866s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitC_01/model.sdf
+[15.887s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitC_02/materials/textures/aws_DeskPortraitC_01.png
+[15.914s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitC_02/materials/textures/aws_DeskPortraitC_02.png
+[15.942s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitC_02/meshes/aws_DeskPortraitC_01_collision.DAE
+[15.987s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitC_02/meshes/aws_DeskPortraitC_01_visual.DAE
+[16.061s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitC_02/model.config
+[16.099s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitC_02/model.sdf
+[16.179s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitD_01/materials/textures/aws_DeskPortraitD_01.png
+[16.213s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitD_01/materials/textures/aws_DeskPortraitD_02.png
+[16.290s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitD_01/meshes/aws_DeskPortraitD_01_collision.DAE
+[16.316s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitD_01/meshes/aws_DeskPortraitD_01_visual.DAE
+[16.349s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitD_01/model.config
+[16.411s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitD_01/model.sdf
+[16.456s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitD_02/materials/textures/aws_DeskPortraitD_01.png
+[16.498s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitD_02/materials/textures/aws_DeskPortraitD_02.png
+[16.550s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitD_02/meshes/aws_DeskPortraitD_01_collision.DAE
+[16.597s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitD_02/meshes/aws_DeskPortraitD_01_visual.DAE
+[16.635s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitD_02/model.config
+[16.659s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitD_02/model.sdf
+[16.714s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitD_03/materials/textures/aws_DeskPortraitD_01.png
+[16.814s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitD_03/materials/textures/aws_DeskPortraitD_02.png
+[16.859s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitD_03/meshes/aws_DeskPortraitD_01_collision.DAE
+[16.983s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitD_03/meshes/aws_DeskPortraitD_01_visual.DAE
+[17.026s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitD_03/model.config
+[17.065s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitD_03/model.sdf
+[17.126s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitD_04/materials/textures/aws_DeskPortraitD_01.png
+[17.215s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitD_04/materials/textures/aws_DeskPortraitD_02.png
+[17.265s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitD_04/meshes/aws_DeskPortraitD_01_collision.DAE
+[17.291s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitD_04/meshes/aws_DeskPortraitD_01_visual.DAE
+[17.355s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitD_04/model.config
+[17.379s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitD_04/model.sdf
+[17.402s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Door_01/materials/textures/aws_Door_01.png
+[17.426s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Door_01/meshes/aws_Door_01_collision.DAE
+[17.453s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Door_01/meshes/aws_Door_01_visual.DAE
+[17.489s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Door_01/model.config
+[17.540s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Door_01/model.sdf
+[17.683s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Dumbbell_01/materials/textures/aws_Dumbbell_01.png
+[17.731s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Dumbbell_01/meshes/aws_Dumbbell_01_collision.DAE
+[17.797s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Dumbbell_01/meshes/aws_Dumbbell_01_visual.DAE
+[17.871s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Dumbbell_01/model.config
+[17.915s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Dumbbell_01/model.sdf
+[17.985s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_FitnessEquipment_01/materials/textures/aws_FitnessEquipment_01.png
+[18.054s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_FitnessEquipment_01/meshes/aws_FitnessEquipment_01_collision.DAE
+[18.133s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_FitnessEquipment_01/meshes/aws_FitnessEquipment_01_visual.DAE
+[18.187s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_FitnessEquipment_01/model.config
+[18.235s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_FitnessEquipment_01/model.sdf
+[18.281s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_FloorB_01/materials/textures/aws_FloorB_01.png
+[18.323s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_FloorB_01/meshes/aws_FloorB_01_collision.DAE
+[18.377s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_FloorB_01/meshes/aws_FloorB_01_visual.DAE
+[18.428s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_FloorB_01/model.config
+[18.492s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_FloorB_01/model.sdf
+[18.535s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_FoldingDoor_01/materials/textures/aws_FoldingDoor_01.png
+[18.600s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_FoldingDoor_01/meshes/aws_FoldingDoor_01_collision.DAE
+[18.653s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_FoldingDoor_01/meshes/aws_FoldingDoor_01_visual.DAE
+[18.722s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_FoldingDoor_01/model.config
+[18.802s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_FoldingDoor_01/model.sdf
+[18.833s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_FoldingDoor_02/materials/textures/aws_FoldingDoor_02.png
+[18.907s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_FoldingDoor_02/meshes/aws_FoldingDoor_02_collision.DAE
+[18.992s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_FoldingDoor_02/meshes/aws_FoldingDoor_02_visual.DAE
+[19.081s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_FoldingDoor_02/model.config
+[19.154s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_FoldingDoor_02/model.sdf
+[19.214s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Handle_01/materials/textures/aws_Handle_01.png
+[19.283s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Handle_01/meshes/aws_ handle_01_collision.DAE
+[19.348s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Handle_01/meshes/aws_Handle_01_collision.DAE
+[19.399s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Handle_01/meshes/aws_Handle_01_visual.DAE
+[19.448s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Handle_01/model.config
+[19.507s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Handle_01/model.sdf
+[19.540s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_HouseWallB_01/materials/textures/aws_HouseWallB_01.png
+[19.560s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_HouseWallB_01/meshes/aws_HouseWallB_01_collision.DAE
+[19.575s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_HouseWallB_01/meshes/aws_HouseWallB_01_visual.DAE
+[19.626s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_HouseWallB_01/model.config
+[19.694s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_HouseWallB_01/model.sdf
+[19.777s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_KitchenCabinet_01/materials/textures/aws_KitchenCabinet_01.png
+[19.870s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_KitchenCabinet_01/meshes/aws_KitchenCabinet_01_collision.DAE
+[19.966s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_KitchenCabinet_01/meshes/aws_KitchenCabinet_01_visual.DAE
+[20.050s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_KitchenCabinet_01/model.config
+[20.135s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_KitchenCabinet_01/model.sdf
+[20.205s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_KitchenTable_01/materials/textures/aws_KitchenTable_01.png
+[20.225s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_KitchenTable_01/meshes/aws_KitchenTable_01_collision.DAE
+[20.272s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_KitchenTable_01/meshes/aws_KitchenTable_01_visual.DAE
+[20.329s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_KitchenTable_01/model.config
+[20.373s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_KitchenTable_01/model.sdf
+[20.422s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_KitchenUtensils_01/materials/textures/aws_KitchenUtensils_01.png
+[20.481s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_KitchenUtensils_01/meshes/aws_KitchenUtensils_01_collision.DAE
+[20.562s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_KitchenUtensils_01/meshes/aws_KitchenUtensils_01_visual.DAE
+[20.626s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_KitchenUtensils_01/model.config
+[20.696s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_KitchenUtensils_01/model.sdf
+[20.756s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_LightC_01/materials/textures/aws_LightC_01.png
+[20.817s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_LightC_01/meshes/aws_LightC_01_collision.DAE
+[20.878s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_LightC_01/meshes/aws_LightC_01_visual.DAE
+[20.927s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_LightC_01/model.config
+[20.989s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_LightC_01/model.sdf
+[21.054s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_NightStand_01/materials/textures/aws_NightStand_01.png
+[21.140s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_NightStand_01/meshes/aws_NightStand_01_collision.DAE
+[21.173s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_NightStand_01/meshes/aws_NightStand_01_visual.DAE
+[21.259s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_NightStand_01/model.config
+[21.314s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_NightStand_01/model.sdf
+[21.385s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Pillow_01/materials/textures/aws_Pillow_01.png
+[21.470s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Pillow_01/meshes/aws_Pillow_01_collision.DAE
+[21.521s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Pillow_01/meshes/aws_Pillow_01_visual.DAE
+[21.561s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Pillow_01/model.config
+[21.663s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Pillow_01/model.sdf
+[21.733s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitA_01/materials/textures/aws_PortraitA_01.png
+[21.799s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitA_01/materials/textures/aws_PortraitA_02.png
+[21.843s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitA_01/meshes/aws_PortraitA_01_collision.DAE
+[21.877s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitA_01/meshes/aws_PortraitA_01_visual.DAE
+[21.902s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitA_01/model.config
+[21.927s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitA_01/model.sdf
+[21.979s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitA_02/materials/textures/aws_PortraitA_01.png
+[22.031s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitA_02/materials/textures/aws_PortraitA_02.png
+[22.110s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitA_02/meshes/aws_PortraitA_01_collision.DAE
+[22.168s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitA_02/meshes/aws_PortraitA_01_visual.DAE
+[22.262s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitA_02/model.config
+[22.306s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitA_02/model.sdf
+[22.348s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitB_01/materials/textures/aws_PortraitB_01.png
+[22.413s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitB_01/materials/textures/aws_PortraitB_02.png
+[22.450s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitB_01/meshes/aws_PortraitB_01_collision.DAE
+[22.497s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitB_01/meshes/aws_PortraitB_01_visual.DAE
+[22.554s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitB_01/model.config
+[22.578s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitB_01/model.sdf
+[22.623s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitB_02/materials/textures/aws_PortraitB_01.png
+[22.648s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitB_02/materials/textures/aws_PortraitB_02.png
+[22.676s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitB_02/meshes/aws_PortraitB_01_collision.DAE
+[22.730s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitB_02/meshes/aws_PortraitB_01_visual.DAE
+[22.783s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitB_02/model.config
+[22.804s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitB_02/model.sdf
+[22.858s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitB_03/materials/textures/aws_PortraitB_01.png
+[22.905s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitB_03/materials/textures/aws_PortraitB_02.png
+[22.979s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitB_03/meshes/aws_PortraitB_01_collision.DAE
+[23.003s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitB_03/meshes/aws_PortraitB_01_visual.DAE
+[23.031s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitB_03/model.config
+[23.056s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitB_03/model.sdf
+[23.082s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitC_01/materials/textures/aws_PortraitC_01.png
+[23.114s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitC_01/materials/textures/aws_PortraitC_02.png
+[23.166s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitC_01/meshes/aws_PortraitC_01_collision.DAE
+[23.223s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitC_01/meshes/aws_PortraitC_01_visual.DAE
+[23.264s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitC_01/model.config
+[23.305s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitC_01/model.sdf
+[23.331s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitD_01/materials/textures/aws_PortraitD_01.png
+[23.354s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitD_01/materials/textures/aws_PortraitD_02.png
+[23.382s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitD_01/meshes/aws_PortraitD_01_collision.DAE
+[23.420s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitD_01/meshes/aws_PortraitD_01_visual.DAE
+[23.475s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitD_01/model.config
+[23.520s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitD_01/model.sdf
+[23.545s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitD_02/materials/textures/aws_PortraitD_01.png
+[23.570s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitD_02/materials/textures/aws_PortraitD_02.png
+[23.592s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitD_02/meshes/aws_PortraitD_01_collision.DAE
+[23.629s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitD_02/meshes/aws_PortraitD_01_visual.DAE
+[23.651s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitD_02/model.config
+[23.676s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitD_02/model.sdf
+[23.702s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitE_01/materials/textures/aws_PortraitE_01.png
+[23.729s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitE_01/materials/textures/aws_PortraitE_02.png
+[23.799s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitE_01/meshes/aws_PortraitE_01_collision.DAE
+[23.863s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitE_01/meshes/aws_PortraitE_01_visual.DAE
+[23.893s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitE_01/model.config
+[23.941s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitE_01/model.sdf
+[23.995s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitE_02/materials/textures/aws_PortraitE_01.png
+[24.048s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitE_02/materials/textures/aws_PortraitE_02.png
+[24.075s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitE_02/meshes/aws_PortraitE_01_collision.DAE
+[24.099s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitE_02/meshes/aws_PortraitE_01_visual.DAE
+[24.160s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitE_02/model.config
+[24.182s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitE_02/model.sdf
+[24.203s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Quilt_01/materials/textures/aws_Quilt_01.png
+[24.239s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Quilt_01/meshes/aws_Quilt_01_collision.DAE
+[24.281s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Quilt_01/meshes/aws_Quilt_01_visual.DAE
+[24.311s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Quilt_01/model.config
+[24.395s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Quilt_01/model.sdf
+[24.445s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Rangehood_01/materials/textures/aws_Rangehood_01.png
+[24.470s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Rangehood_01/meshes/aws_Rangehood_01_collision.DAE
+[24.551s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Rangehood_01/meshes/aws_Rangehood_01_visual.DAE
+[24.590s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Rangehood_01/model.config
+[24.670s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Rangehood_01/model.sdf
+[24.739s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_ReadingDesk_01/materials/textures/aws_ReadingDesk_01.png
+[24.811s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_ReadingDesk_01/meshes/aws_ReadingDesk_01_collision.DAE
+[24.851s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_ReadingDesk_01/meshes/aws_ReadingDesk_01_visual.DAE
+[24.895s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_ReadingDesk_01/model.config
+[24.984s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_ReadingDesk_01/model.sdf
+[25.034s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Refrigerator_01/materials/textures/aws_Refrigerator_01.png
+[25.084s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Refrigerator_01/materials/textures/aws_Refrigerator_02.png
+[25.146s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Refrigerator_01/meshes/aws_Refrigerator_01.DAE
+[25.212s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Refrigerator_01/meshes/aws_Refrigerator_01_collision.DAE
+[25.254s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Refrigerator_01/meshes/aws_Refrigerator_01_visual.DAE
+[25.301s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Refrigerator_01/model.config
+[25.346s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Refrigerator_01/model.sdf
+[25.381s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_RoomCeiling_01/materials/textures/aws_RoomCeiling_01.png
+[25.433s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_RoomCeiling_01/meshes/aws_RoomCeiling_01_collision.DAE
+[25.485s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_RoomCeiling_01/meshes/aws_RoomCeiling_01_visual.DAE
+[25.541s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_RoomCeiling_01/model.config
+[25.633s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_RoomCeiling_01/model.sdf
+[25.703s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_RoomWall_01/materials/textures/aws_RoomWall_01.png
+[25.751s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_RoomWall_01/meshes/aws_RoomWall_01_collision.DAE
+[25.802s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_RoomWall_01/meshes/aws_RoomWall_01_visual.DAE
+[25.875s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_RoomWall_01/model.config
+[25.931s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_RoomWall_01/model.sdf
+[25.961s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_RoomWindow_01/materials/textures/aws_RoomWindow_01.png
+[26.000s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_RoomWindow_01/meshes/aws_RoomWindow_01_collision.DAE
+[26.053s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_RoomWindow_01/meshes/aws_RoomWindow_01_visual.DAE
+[26.082s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_RoomWindow_01/model.config
+[26.124s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_RoomWindow_01/model.sdf
+[26.164s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_SeasoningBox_01/materials/textures/aws_SeasoningBox_01.png
+[26.198s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_SeasoningBox_01/meshes/aws_SeasoningBox_01_collision.DAE
+[26.249s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_SeasoningBox_01/meshes/aws_SeasoningBox_01_visual.DAE
+[26.286s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_SeasoningBox_01/model.config
+[26.306s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_SeasoningBox_01/model.sdf
+[26.332s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_SecurityCamera_01/materials/textures/aws_SecurityCamera_01.png
+[26.378s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_SecurityCamera_01/meshes/aws_SecurityCamera_01_collision.DAE
+[26.403s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_SecurityCamera_01/meshes/aws_SecurityCamera_01_visual.DAE
+[26.432s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_SecurityCamera_01/model.config
+[26.494s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_SecurityCamera_01/model.sdf
+[26.583s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_ShoeRack_01/materials/textures/aws_ShoeRack_01.png
+[26.614s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_ShoeRack_01/meshes/aws_ShoeRack_01_collision.DAE
+[26.670s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_ShoeRack_01/meshes/aws_ShoeRack_01_visual.DAE
+[26.692s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_ShoeRack_01/model.config
+[26.768s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_ShoeRack_01/model.sdf
+[26.811s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_SofaB_01/materials/textures/aws_SofaB_01.png
+[26.855s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_SofaB_01/meshes/aws_SofaB_01_collision.DAE
+[26.902s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_SofaB_01/meshes/aws_SofaB_01_visual.DAE
+[26.950s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_SofaB_01/model.config
+[27.005s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_SofaB_01/model.sdf
+[27.058s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_SofaC_01/materials/textures/aws_SofaC_01.png
+[27.134s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_SofaC_01/meshes/aws_SofaC_01_collision.DAE
+[27.160s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_SofaC_01/meshes/aws_SofaC_01_visual.DAE
+[27.199s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_SofaC_01/model.config
+[27.243s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_SofaC_01/model.sdf
+[27.304s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Sofa_01/materials/textures/aws_Sofa_01.png
+[27.357s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Sofa_01/meshes/aws_Sofa_01.DAE
+[27.396s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Sofa_01/meshes/aws_Sofa_01_collision.DAE
+[27.454s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Sofa_01/meshes/aws_Sofa_01_visual.DAE
+[27.532s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Sofa_01/model.config
+[27.564s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Sofa_01/model.sdf
+[27.631s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_TVCabinet_01/materials/textures/aws_TVCabinet_01.png
+[27.686s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_TVCabinet_01/meshes/aws_TVCabinet_01_collision.DAE
+[27.739s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_TVCabinet_01/meshes/aws_TVCabinet_01_visual.DAE
+[27.795s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_TVCabinet_01/model.config
+[27.822s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_TVCabinet_01/model.sdf
+[27.871s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_TV_01/materials/textures/aws_TV_01.png
+[27.902s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_TV_01/meshes/aws_TV_01_collision.DAE
+[27.925s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_TV_01/meshes/aws_TV_01_visual.DAE
+[27.947s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_TV_01/model.config
+[27.971s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_TV_01/model.sdf
+[28.006s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_TV_02/materials/textures/aws_TV_01.png
+[28.061s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_TV_02/meshes/aws_TV_01_collision.DAE
+[28.094s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_TV_02/meshes/aws_TV_01_visual.DAE
+[28.114s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_TV_02/model.config
+[28.136s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_TV_02/model.sdf
+[28.159s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Tablet_01/materials/textures/aws_Tablet_01_nologo.png
+[28.188s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Tablet_01/meshes/aws_Tablet_01_collision.DAE
+[28.212s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Tablet_01/meshes/aws_Tablet_01_visual.DAE
+[28.233s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Tablet_01/model.config
+[28.256s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Tablet_01/model.sdf
+[28.278s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Tableware_01/materials/textures/aws_Tableware_01.png
+[28.335s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Tableware_01/meshes/aws_Tableware_01_collision.DAE
+[28.412s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Tableware_01/meshes/aws_Tableware_01_visual.DAE
+[28.495s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Tableware_01/model.config
+[28.544s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Tableware_01/model.sdf
+[28.588s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Trash_01/materials/textures/aws_Trash_01.png
+[28.638s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Trash_01/meshes/aws_Trash_01_collision.DAE
+[28.661s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Trash_01/meshes/aws_Trash_01_visual.DAE
+[28.706s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Trash_01/model.config
+[28.746s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Trash_01/model.sdf
+[28.773s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Vase_01/materials/textures/aws_Vase_01.png
+[28.812s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Vase_01/meshes/aws_Vase_01_collision.DAE
+[28.836s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Vase_01/meshes/aws_Vase_01_visual.DAE
+[28.860s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Vase_01/model.config
+[28.882s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Vase_01/model.sdf
+[28.909s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Wardrobe_01/materials/textures/aws_Wardrobe_01.png
+[28.934s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Wardrobe_01/meshes/aws_Wardrobe_01_collision.DAE
+[28.974s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Wardrobe_01/meshes/aws_Wardrobe_01_visual.DAE
+[29.002s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Wardrobe_01/model.config
+[29.027s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Wardrobe_01/model.sdf
+[29.064s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/worlds/small_house.world
+[29.113s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/maps/turtlebot3_waffle_pi/map.pgm
+[29.191s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/maps/turtlebot3_waffle_pi/map.yaml
+[29.238s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/photos/DeskPortraitA_01.jpg
+[29.304s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/photos/DeskPortraitA_02.jpg
+[29.362s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/photos/DeskPortraitB_01.jpg
+[29.416s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/photos/DeskPortraitB_02.jpg
+[29.495s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/photos/DeskPortraitC_01.jpg
+[29.535s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/photos/DeskPortraitC_02.jpg
+[29.586s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/photos/DeskPortraitD_01.jpg
+[29.630s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/photos/DeskPortraitD_02.jpg
+[29.667s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/photos/DeskPortraitD_03.jpg
+[29.698s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/photos/DeskPortraitD_04.jpg
+[29.753s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/photos/PortraitA_01.jpg
+[29.837s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/photos/PortraitA_02.jpg
+[29.877s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/photos/PortraitB_01.jpg
+[29.932s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/photos/PortraitB_02.jpg
+[29.996s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/photos/PortraitB_03.jpg
+[30.072s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/photos/PortraitC_01.jpg
+[30.119s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/photos/PortraitD_01.jpg
+[30.183s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/photos/PortraitD_02.jpg
+[30.250s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/photos/PortraitE_01.jpg
+[30.295s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/photos/PortraitE_02.jpg
+[30.339s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/param/waffle_pi.yaml
+[30.382s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/routes/route.yaml
+[30.427s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/ament_index/resource_index/package_run_dependencies/aws_robomaker_small_house_world
+[30.462s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/ament_index/resource_index/parent_prefix_path/aws_robomaker_small_house_world
+[30.526s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/environment/ament_prefix_path.sh
+[30.582s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/environment/ament_prefix_path.dsv
+[30.612s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/environment/path.sh
+[30.661s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/environment/path.dsv
+[30.718s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/local_setup.bash
+[30.791s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/local_setup.sh
+[30.830s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/local_setup.zsh
+[30.889s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/local_setup.dsv
+[30.938s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/package.dsv
+[31.051s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/ament_index/resource_index/packages/aws_robomaker_small_house_world
+[31.107s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/cmake/ament_cmake_export_dependencies-extras.cmake
+[31.150s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/cmake/aws_robomaker_small_house_worldConfig.cmake
+[31.195s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/cmake/aws_robomaker_small_house_worldConfig-version.cmake
+[31.224s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/package.xml
+[31.286s] Invoked command in '/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/aws_robomaker_small_house_world' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/omartinez/ws/smartloc_ws/install/webots_sim:/opt/ros/humble /usr/bin/cmake --install /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/aws_robomaker_small_house_world

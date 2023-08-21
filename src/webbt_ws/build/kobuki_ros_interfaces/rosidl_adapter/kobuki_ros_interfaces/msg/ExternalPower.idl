@@ -1,0 +1,34 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from kobuki_ros_interfaces/msg/ExternalPower.msg
+// generated code does not contain a copyright notice
+
+
+module kobuki_ros_interfaces {
+  module msg {
+    module ExternalPower_Constants {
+      @verbatim (language="comment", text=
+        "Power sources" "\n"        "DB25 connector only")
+      const uint8 PWR_3_3V1A = 0;
+      @verbatim (language="comment", text=
+        "DB25 connector and Micro Molex connector")
+      const uint8 PWR_5V1A = 1;
+      @verbatim (language="comment", text=
+        "Micro Molex connector only")
+      const uint8 PWR_12V5A = 2;
+      @verbatim (language="comment", text=
+        "Micro Molex connector only")
+      const uint8 PWR_12V1_5A = 3;
+      @verbatim (language="comment", text=
+        "State")
+      const uint8 OFF = 0;
+      const uint8 ON = 1;
+    };
+    @verbatim (language="comment", text=
+      "Turn on/off Kobuki's external power sources")
+    struct ExternalPower {
+      uint8 source;
+
+      uint8 state;
+    };
+  };
+};
