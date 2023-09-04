@@ -12,9 +12,9 @@ setup(
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
         ('share/' + package_name + '/py_gardener', [
-            'py_gardener/parser.py',
-            'py_gardener/translator.py',
-            'py_gardener/garden_tools.py'
+            'py_gardener/gn_parser.py',
+            'py_gardener/gn_factory.py',
+            'py_gardener/gn_tools.py'
         ]),
     ],
     install_requires=['setuptools', 'py_trees', 'py_trees_ros', 'std_msgs', 'geometry_msgs', 'sensor_msgs'],
@@ -33,9 +33,4 @@ setup(
     description='An translator to achieve BT.cpp behavior with py_trees',
     license='BSD',
     tests_require=['pytest'],
-    entry_points={
-        'console_scripts': [
-            'translator = py_gardener.translator:translator_main',
-        ],
-    },
 )

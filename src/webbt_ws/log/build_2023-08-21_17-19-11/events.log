@@ -1,0 +1,72 @@
+[0.000000] (-) TimerEvent: {}
+[0.000138] (-) JobUnselected: {'identifier': 'aws_robomaker_bookstore_world'}
+[0.000342] (-) JobUnselected: {'identifier': 'aws_robomaker_racetrack_world'}
+[0.000391] (-) JobUnselected: {'identifier': 'aws_robomaker_small_house_world'}
+[0.000414] (-) JobUnselected: {'identifier': 'aws_robomaker_small_warehouse_world'}
+[0.000832] (-) JobUnselected: {'identifier': 'ir_robots'}
+[0.000887] (-) JobUnselected: {'identifier': 'kobuki_bumper2pc'}
+[0.000910] (-) JobUnselected: {'identifier': 'kobuki_description'}
+[0.000945] (-) JobUnselected: {'identifier': 'kobuki_keyop'}
+[0.000978] (-) JobUnselected: {'identifier': 'kobuki_random_walker'}
+[0.001001] (-) JobUnselected: {'identifier': 'kobuki_ros'}
+[0.001477] (-) JobUnselected: {'identifier': 'kobuki_ros_interfaces'}
+[0.002026] (-) JobUnselected: {'identifier': 'kobuki_safety_controller'}
+[0.002135] (-) JobUnselected: {'identifier': 'laser_filters'}
+[0.002202] (-) JobUnselected: {'identifier': 'pal_gripper'}
+[0.002249] (-) JobUnselected: {'identifier': 'pal_gripper_controller_configuration'}
+[0.002307] (-) JobUnselected: {'identifier': 'pal_gripper_description'}
+[0.002360] (-) JobUnselected: {'identifier': 'py_gardener'}
+[0.002405] (-) JobUnselected: {'identifier': 'py_trees_ros_tutorials'}
+[0.002466] (-) JobUnselected: {'identifier': 'py_trees_ros_viewer'}
+[0.002520] (-) JobUnselected: {'identifier': 'rplidar_ros'}
+[0.002614] (-) JobUnselected: {'identifier': 'sophus'}
+[0.002642] (-) JobUnselected: {'identifier': 'tiago_bringup'}
+[0.002673] (-) JobUnselected: {'identifier': 'tiago_controller_configuration'}
+[0.002706] (-) JobUnselected: {'identifier': 'tiago_description'}
+[0.002736] (-) JobUnselected: {'identifier': 'tiago_robot'}
+[0.002760] (client_demo) JobQueued: {'identifier': 'client_demo', 'dependencies': OrderedDict([('py_gardener', '/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/py_gardener')])}
+[0.002846] (client_demo) JobStarted: {'identifier': 'client_demo'}
+[0.099393] (-) TimerEvent: {}
+[0.199679] (-) TimerEvent: {}
+[0.299997] (-) TimerEvent: {}
+[0.400314] (-) TimerEvent: {}
+[0.500652] (-) TimerEvent: {}
+[0.600989] (-) TimerEvent: {}
+[0.701378] (-) TimerEvent: {}
+[0.801671] (-) TimerEvent: {}
+[0.901947] (-) TimerEvent: {}
+[1.002245] (-) TimerEvent: {}
+[1.061456] (client_demo) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/client_demo/build', '--no-deps', 'install_data'], 'cwd': '/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/client_demo', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'omartinez', 'LC_TIME': 'es_ES.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/omartinez/ws/smartloc_ws/install/turtlebot4_msgs/lib:/home/omartinez/ws/smartloc_ws/install/smartloc_sim/lib:/home/omartinez/ws/smartloc_ws/install/rfid_sensor_plugin/lib:/home/omartinez/ws/smartloc_ws/install/custom_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:', 'HOME': '/home/omartinez', 'OLDPWD': '/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'GAZEBO_MASTER_URI': 'http://localhost:11345', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'es_ES.UTF-8', 'SYSTEMD_EXEC_PID': '4669', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'MANDATORY_PATH': '/usr/share/gconf/ubuntu.mandatory.path', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/omartinez/ws/smartloc_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'omartinez', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'DEFAULTS_PATH': '/usr/share/gconf/ubuntu.default.path', 'USERNAME': 'omartinez', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/usr/share/gazebo/../../share/gazebo-11/models::/home/omartinez/test_ws:/home/omartinez/Universidad/Tercero/Q2/MSR/p5_ws/src/p5-mundogazebo-omartinez2020b/description/sdf', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'OGRE_RESOURCE_PATH': '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0', 'PATH': '/usr/bin:/usr/bin:/opt/ros/humble/bin:/home/omartinez/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Omega:@/tmp/.ICE-unix/4648,unix/Omega:/tmp/.ICE-unix/4648', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'es_ES.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/1966436a_fae6_4038_81d4_48ff5903013d', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'es_ES.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.133', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/py_gardener:/home/omartinez/ws/smartloc_ws/install/webots_sim:/home/omartinez/ws/smartloc_ws/install/turtlebot4_simulator:/home/omartinez/ws/smartloc_ws/install/turtlebot4_ignition_bringup:/home/omartinez/ws/smartloc_ws/install/turtlebot4_node:/home/omartinez/ws/smartloc_ws/install/turtlebot4_navigation:/home/omartinez/ws/smartloc_ws/install/turtlebot4_ignition_toolbox:/home/omartinez/ws/smartloc_ws/install/turtlebot4_msgs:/home/omartinez/ws/smartloc_ws/install/turtlebot4_ignition_gui_plugins:/home/omartinez/ws/smartloc_ws/install/turtlebot4_description:/home/omartinez/ws/smartloc_ws/install/smartpredict_bridge:/home/omartinez/ws/smartloc_ws/install/smartloc_sim:/home/omartinez/ws/smartloc_ws/install/rfid_sensor_plugin:/home/omartinez/ws/smartloc_ws/install/position_calculator:/home/omartinez/ws/smartloc_ws/install/custom_interfaces:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'es_ES.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'es_ES.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo/../../share/gazebo-11:', 'LC_IDENTIFICATION': 'es_ES.UTF-8', 'GAZEBO_MODEL_DATABASE_URI': 'http://models.gazebosim.org', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/client_demo', 'TURTLEBOT3_MODEL': 'burger', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'GAZEBO_PLUGIN_PATH': '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/client_demo/prefix_override:/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/client_demo/lib/python3.10/site-packages:/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/py_gardener:/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/py_gardener/lib/python3.10/site-packages:/home/omartinez/ws/smartloc_ws/build/webots_sim:/home/omartinez/ws/smartloc_ws/install/webots_sim/lib/python3.10/site-packages:/home/omartinez/ws/smartloc_ws/install/turtlebot4_navigation/local/lib/python3.10/dist-packages:/home/omartinez/ws/smartloc_ws/install/turtlebot4_msgs/local/lib/python3.10/dist-packages:/home/omartinez/ws/smartloc_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'es_ES.UTF-8', 'LC_PAPER': 'es_ES.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/omartinez/ws/smartloc_ws/install/turtlebot4_simulator:/home/omartinez/ws/smartloc_ws/install/turtlebot4_ignition_bringup:/home/omartinez/ws/smartloc_ws/install/turtlebot4_node:/home/omartinez/ws/smartloc_ws/install/turtlebot4_navigation:/home/omartinez/ws/smartloc_ws/install/turtlebot4_ignition_toolbox:/home/omartinez/ws/smartloc_ws/install/turtlebot4_msgs:/home/omartinez/ws/smartloc_ws/install/turtlebot4_ignition_gui_plugins:/home/omartinez/ws/smartloc_ws/install/turtlebot4_description:/home/omartinez/ws/smartloc_ws/install/smartpredict_bridge:/home/omartinez/ws/smartloc_ws/install/smartloc_sim:/home/omartinez/ws/smartloc_ws/install/rfid_sensor_plugin:/home/omartinez/ws/smartloc_ws/install/position_calculator:/home/omartinez/ws/smartloc_ws/install/custom_interfaces'}, 'shell': False}
+[1.102341] (-) TimerEvent: {}
+[1.202668] (-) TimerEvent: {}
+[1.302997] (-) TimerEvent: {}
+[1.403370] (-) TimerEvent: {}
+[1.468176] (client_demo) StdoutLine: {'line': b'running develop\n'}
+[1.503467] (-) TimerEvent: {}
+[1.603841] (-) TimerEvent: {}
+[1.704184] (-) TimerEvent: {}
+[1.775757] (client_demo) StdoutLine: {'line': b'running egg_info\n'}
+[1.776035] (client_demo) StdoutLine: {'line': b'creating client_demo.egg-info\n'}
+[1.776334] (client_demo) StdoutLine: {'line': b'writing client_demo.egg-info/PKG-INFO\n'}
+[1.776615] (client_demo) StdoutLine: {'line': b'writing dependency_links to client_demo.egg-info/dependency_links.txt\n'}
+[1.776834] (client_demo) StdoutLine: {'line': b'writing entry points to client_demo.egg-info/entry_points.txt\n'}
+[1.777085] (client_demo) StdoutLine: {'line': b'writing requirements to client_demo.egg-info/requires.txt\n'}
+[1.777239] (client_demo) StdoutLine: {'line': b'writing top-level names to client_demo.egg-info/top_level.txt\n'}
+[1.777632] (client_demo) StdoutLine: {'line': b"writing manifest file 'client_demo.egg-info/SOURCES.txt'\n"}
+[1.780528] (client_demo) StdoutLine: {'line': b"reading manifest file 'client_demo.egg-info/SOURCES.txt'\n"}
+[1.781415] (client_demo) StdoutLine: {'line': b"writing manifest file 'client_demo.egg-info/SOURCES.txt'\n"}
+[1.804296] (-) TimerEvent: {}
+[1.819532] (client_demo) StdoutLine: {'line': b'running build_ext\n'}
+[1.819955] (client_demo) StdoutLine: {'line': b'Creating /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/client_demo/lib/python3.10/site-packages/client-demo.egg-link (link to .)\n'}
+[1.820956] (client_demo) StdoutLine: {'line': b'Installing translator script to /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/client_demo/lib/py_gardener\n'}
+[1.821391] (client_demo) StdoutLine: {'line': b'\n'}
+[1.821655] (client_demo) StdoutLine: {'line': b'Installed /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/client_demo\n'}
+[1.821938] (client_demo) StdoutLine: {'line': b'running install_data\n'}
+[1.822093] (client_demo) StdoutLine: {'line': b'creating /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/client_demo/share/ament_index\n'}
+[1.822227] (client_demo) StdoutLine: {'line': b'creating /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/client_demo/share/ament_index/resource_index\n'}
+[1.822345] (client_demo) StdoutLine: {'line': b'creating /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/client_demo/share/ament_index/resource_index/packages\n'}
+[1.822476] (client_demo) StdoutLine: {'line': b'copying resource/client_demo -> /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/client_demo/share/ament_index/resource_index/packages\n'}
+[1.822606] (client_demo) StdoutLine: {'line': b'copying package.xml -> /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/client_demo/share/client_demo\n'}
+[1.865055] (client_demo) CommandEnded: {'returncode': 0}
+[1.882559] (client_demo) JobEnded: {'identifier': 'client_demo', 'rc': 0}
+[1.883650] (-) EventReactorShutdown: {}

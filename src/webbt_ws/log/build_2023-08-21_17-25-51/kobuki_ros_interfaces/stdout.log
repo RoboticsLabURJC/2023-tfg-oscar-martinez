@@ -1,0 +1,404 @@
+[  0%] Built target kobuki_ros_interfaces__cpp
+[ 12%] Built target kobuki_ros_interfaces__rosidl_generator_c
+[ 12%] Built target ament_cmake_python_symlink_kobuki_ros_interfaces
+[ 24%] Built target kobuki_ros_interfaces__rosidl_typesupport_c
+[ 37%] Built target kobuki_ros_interfaces__rosidl_typesupport_introspection_cpp
+[ 50%] Built target kobuki_ros_interfaces__rosidl_typesupport_introspection_c
+[ 60%] Built target kobuki_ros_interfaces__rosidl_typesupport_fastrtps_cpp
+[ 72%] Built target kobuki_ros_interfaces__rosidl_typesupport_cpp
+[ 84%] Built target kobuki_ros_interfaces__rosidl_typesupport_fastrtps_c
+[ 84%] Built target kobuki_ros_interfaces
+[ 85%] Built target kobuki_ros_interfaces__py
+[ 96%] Built target kobuki_ros_interfaces__rosidl_generator_py
+[ 97%] Built target kobuki_ros_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[ 98%] Built target kobuki_ros_interfaces__rosidl_typesupport_c__pyext
+[100%] Built target kobuki_ros_interfaces__rosidl_typesupport_introspection_c__pyext
+running egg_info
+writing kobuki_ros_interfaces.egg-info/PKG-INFO
+writing dependency_links to kobuki_ros_interfaces.egg-info/dependency_links.txt
+writing top-level names to kobuki_ros_interfaces.egg-info/top_level.txt
+reading manifest file 'kobuki_ros_interfaces.egg-info/SOURCES.txt'
+writing manifest file 'kobuki_ros_interfaces.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_kobuki_ros_interfaces_egg
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/share/ament_index/resource_index/rosidl_interfaces/kobuki_ros_interfaces
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/action/auto_docking.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/action/detail/auto_docking__functions.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/action/detail/auto_docking__struct.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/action/detail/auto_docking__type_support.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/bumper_event.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/button_event.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/cliff_event.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/controller_info.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/bumper_event__functions.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/bumper_event__struct.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/bumper_event__type_support.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/button_event__functions.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/button_event__struct.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/button_event__type_support.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/cliff_event__functions.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/cliff_event__struct.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/cliff_event__type_support.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/controller_info__functions.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/controller_info__struct.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/controller_info__type_support.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/digital_input_event__functions.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/digital_input_event__struct.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/digital_input_event__type_support.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/digital_output__functions.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/digital_output__struct.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/digital_output__type_support.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/dock_infra_red__functions.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/dock_infra_red__struct.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/dock_infra_red__type_support.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/external_power__functions.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/external_power__struct.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/external_power__type_support.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/keyboard_input__functions.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/keyboard_input__struct.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/keyboard_input__type_support.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/led__functions.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/led__struct.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/led__type_support.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/motor_power__functions.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/motor_power__struct.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/motor_power__type_support.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/power_system_event__functions.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/power_system_event__struct.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/power_system_event__type_support.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/robot_state_event__functions.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/robot_state_event__struct.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/robot_state_event__type_support.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/scan_angle__functions.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/scan_angle__struct.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/scan_angle__type_support.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/sensor_state__functions.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/sensor_state__struct.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/sensor_state__type_support.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/sound__functions.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/sound__struct.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/sound__type_support.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/version_info__functions.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/version_info__struct.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/version_info__type_support.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/wheel_drop_event__functions.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/wheel_drop_event__struct.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/wheel_drop_event__type_support.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/digital_input_event.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/digital_output.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/dock_infra_red.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/external_power.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/keyboard_input.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/led.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/motor_power.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/power_system_event.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/robot_state_event.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/rosidl_generator_c__visibility_control.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/scan_angle.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/sensor_state.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/sound.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/version_info.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/wheel_drop_event.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/environment/library_path.sh
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/environment/library_path.dsv
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/action/detail/auto_docking__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/bumper_event__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/button_event__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/cliff_event__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/controller_info__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/digital_input_event__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/digital_output__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/dock_infra_red__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/external_power__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/keyboard_input__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/led__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/motor_power__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/power_system_event__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/robot_state_event__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/scan_angle__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/sensor_state__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/sound__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/version_info__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/wheel_drop_event__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/action/auto_docking.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/action/detail/auto_docking__builder.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/action/detail/auto_docking__struct.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/action/detail/auto_docking__traits.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/bumper_event.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/button_event.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/cliff_event.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/controller_info.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/bumper_event__builder.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/bumper_event__struct.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/bumper_event__traits.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/button_event__builder.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/button_event__struct.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/button_event__traits.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/cliff_event__builder.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/cliff_event__struct.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/cliff_event__traits.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/controller_info__builder.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/controller_info__struct.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/controller_info__traits.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/digital_input_event__builder.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/digital_input_event__struct.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/digital_input_event__traits.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/digital_output__builder.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/digital_output__struct.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/digital_output__traits.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/dock_infra_red__builder.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/dock_infra_red__struct.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/dock_infra_red__traits.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/external_power__builder.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/external_power__struct.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/external_power__traits.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/keyboard_input__builder.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/keyboard_input__struct.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/keyboard_input__traits.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/led__builder.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/led__struct.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/led__traits.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/motor_power__builder.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/motor_power__struct.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/motor_power__traits.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/power_system_event__builder.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/power_system_event__struct.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/power_system_event__traits.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/robot_state_event__builder.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/robot_state_event__struct.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/robot_state_event__traits.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/scan_angle__builder.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/scan_angle__struct.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/scan_angle__traits.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/sensor_state__builder.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/sensor_state__struct.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/sensor_state__traits.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/sound__builder.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/sound__struct.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/sound__traits.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/version_info__builder.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/version_info__struct.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/version_info__traits.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/wheel_drop_event__builder.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/wheel_drop_event__struct.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/wheel_drop_event__traits.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/digital_input_event.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/digital_output.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/dock_infra_red.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/external_power.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/keyboard_input.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/led.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/motor_power.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/power_system_event.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/robot_state_event.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/scan_angle.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/sensor_state.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/sound.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/version_info.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/wheel_drop_event.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/action/detail/auto_docking__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/bumper_event__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/button_event__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/cliff_event__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/controller_info__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/digital_input_event__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/digital_output__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/dock_infra_red__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/external_power__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/keyboard_input__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/led__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/motor_power__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/power_system_event__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/robot_state_event__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/scan_angle__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/sensor_state__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/sound__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/version_info__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/wheel_drop_event__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/action/detail/auto_docking__rosidl_typesupport_introspection_c.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/bumper_event__rosidl_typesupport_introspection_c.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/button_event__rosidl_typesupport_introspection_c.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/cliff_event__rosidl_typesupport_introspection_c.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/controller_info__rosidl_typesupport_introspection_c.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/digital_input_event__rosidl_typesupport_introspection_c.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/digital_output__rosidl_typesupport_introspection_c.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/dock_infra_red__rosidl_typesupport_introspection_c.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/external_power__rosidl_typesupport_introspection_c.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/keyboard_input__rosidl_typesupport_introspection_c.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/led__rosidl_typesupport_introspection_c.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/motor_power__rosidl_typesupport_introspection_c.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/power_system_event__rosidl_typesupport_introspection_c.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/robot_state_event__rosidl_typesupport_introspection_c.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/scan_angle__rosidl_typesupport_introspection_c.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/sensor_state__rosidl_typesupport_introspection_c.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/sound__rosidl_typesupport_introspection_c.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/version_info__rosidl_typesupport_introspection_c.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/wheel_drop_event__rosidl_typesupport_introspection_c.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/action/detail/auto_docking__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/bumper_event__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/button_event__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/cliff_event__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/controller_info__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/digital_input_event__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/digital_output__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/dock_infra_red__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/external_power__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/keyboard_input__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/led__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/motor_power__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/power_system_event__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/robot_state_event__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/scan_angle__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/sensor_state__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/sound__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/version_info__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/wheel_drop_event__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/environment/pythonpath.sh
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/environment/pythonpath.dsv
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/local/lib/python3.10/dist-packages/kobuki_ros_interfaces-1.0.0-py3.10.egg-info/PKG-INFO
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/local/lib/python3.10/dist-packages/kobuki_ros_interfaces-1.0.0-py3.10.egg-info/SOURCES.txt
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/local/lib/python3.10/dist-packages/kobuki_ros_interfaces-1.0.0-py3.10.egg-info/dependency_links.txt
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/local/lib/python3.10/dist-packages/kobuki_ros_interfaces-1.0.0-py3.10.egg-info/top_level.txt
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/local/lib/python3.10/dist-packages/kobuki_ros_interfaces/__init__.py
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/local/lib/python3.10/dist-packages/kobuki_ros_interfaces/_kobuki_ros_interfaces_s.ep.rosidl_typesupport_c.c
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/local/lib/python3.10/dist-packages/kobuki_ros_interfaces/_kobuki_ros_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/local/lib/python3.10/dist-packages/kobuki_ros_interfaces/_kobuki_ros_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/local/lib/python3.10/dist-packages/kobuki_ros_interfaces/action/__init__.py
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/local/lib/python3.10/dist-packages/kobuki_ros_interfaces/action/_auto_docking.py
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/local/lib/python3.10/dist-packages/kobuki_ros_interfaces/action/_auto_docking_s.c
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/local/lib/python3.10/dist-packages/kobuki_ros_interfaces/kobuki_ros_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/local/lib/python3.10/dist-packages/kobuki_ros_interfaces/kobuki_ros_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/local/lib/python3.10/dist-packages/kobuki_ros_interfaces/kobuki_ros_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/local/lib/python3.10/dist-packages/kobuki_ros_interfaces/libkobuki_ros_interfaces__rosidl_generator_py.so
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/local/lib/python3.10/dist-packages/kobuki_ros_interfaces/msg/__init__.py
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/local/lib/python3.10/dist-packages/kobuki_ros_interfaces/msg/_bumper_event.py
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/local/lib/python3.10/dist-packages/kobuki_ros_interfaces/msg/_bumper_event_s.c
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/local/lib/python3.10/dist-packages/kobuki_ros_interfaces/msg/_button_event.py
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/local/lib/python3.10/dist-packages/kobuki_ros_interfaces/msg/_button_event_s.c
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/local/lib/python3.10/dist-packages/kobuki_ros_interfaces/msg/_cliff_event.py
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/local/lib/python3.10/dist-packages/kobuki_ros_interfaces/msg/_cliff_event_s.c
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/local/lib/python3.10/dist-packages/kobuki_ros_interfaces/msg/_controller_info.py
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/local/lib/python3.10/dist-packages/kobuki_ros_interfaces/msg/_controller_info_s.c
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/local/lib/python3.10/dist-packages/kobuki_ros_interfaces/msg/_digital_input_event.py
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/local/lib/python3.10/dist-packages/kobuki_ros_interfaces/msg/_digital_input_event_s.c
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/local/lib/python3.10/dist-packages/kobuki_ros_interfaces/msg/_digital_output.py
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/local/lib/python3.10/dist-packages/kobuki_ros_interfaces/msg/_digital_output_s.c
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/local/lib/python3.10/dist-packages/kobuki_ros_interfaces/msg/_dock_infra_red.py
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/local/lib/python3.10/dist-packages/kobuki_ros_interfaces/msg/_dock_infra_red_s.c
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/local/lib/python3.10/dist-packages/kobuki_ros_interfaces/msg/_external_power.py
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/local/lib/python3.10/dist-packages/kobuki_ros_interfaces/msg/_external_power_s.c
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/local/lib/python3.10/dist-packages/kobuki_ros_interfaces/msg/_keyboard_input.py
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/local/lib/python3.10/dist-packages/kobuki_ros_interfaces/msg/_keyboard_input_s.c
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/local/lib/python3.10/dist-packages/kobuki_ros_interfaces/msg/_led.py
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/local/lib/python3.10/dist-packages/kobuki_ros_interfaces/msg/_led_s.c
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/local/lib/python3.10/dist-packages/kobuki_ros_interfaces/msg/_motor_power.py
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/local/lib/python3.10/dist-packages/kobuki_ros_interfaces/msg/_motor_power_s.c
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/local/lib/python3.10/dist-packages/kobuki_ros_interfaces/msg/_power_system_event.py
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/local/lib/python3.10/dist-packages/kobuki_ros_interfaces/msg/_power_system_event_s.c
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/local/lib/python3.10/dist-packages/kobuki_ros_interfaces/msg/_robot_state_event.py
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/local/lib/python3.10/dist-packages/kobuki_ros_interfaces/msg/_robot_state_event_s.c
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/local/lib/python3.10/dist-packages/kobuki_ros_interfaces/msg/_scan_angle.py
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/local/lib/python3.10/dist-packages/kobuki_ros_interfaces/msg/_scan_angle_s.c
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/local/lib/python3.10/dist-packages/kobuki_ros_interfaces/msg/_sensor_state.py
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/local/lib/python3.10/dist-packages/kobuki_ros_interfaces/msg/_sensor_state_s.c
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/local/lib/python3.10/dist-packages/kobuki_ros_interfaces/msg/_sound.py
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/local/lib/python3.10/dist-packages/kobuki_ros_interfaces/msg/_sound_s.c
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/local/lib/python3.10/dist-packages/kobuki_ros_interfaces/msg/_version_info.py
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/local/lib/python3.10/dist-packages/kobuki_ros_interfaces/msg/_version_info_s.c
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/local/lib/python3.10/dist-packages/kobuki_ros_interfaces/msg/_wheel_drop_event.py
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/local/lib/python3.10/dist-packages/kobuki_ros_interfaces/msg/_wheel_drop_event_s.c
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/local/lib/python3.10/dist-packages/kobuki_ros_interfaces/kobuki_ros_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/local/lib/python3.10/dist-packages/kobuki_ros_interfaces/kobuki_ros_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/local/lib/python3.10/dist-packages/kobuki_ros_interfaces/kobuki_ros_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/BumperEvent.idl
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/CliffEvent.idl
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/DigitalOutput.idl
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/ExternalPower.idl
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/Led.idl
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/PowerSystemEvent.idl
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/SensorState.idl
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/VersionInfo.idl
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/ControllerInfo.idl
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/ButtonEvent.idl
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/DigitalInputEvent.idl
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/DockInfraRed.idl
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/KeyboardInput.idl
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/MotorPower.idl
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/RobotStateEvent.idl
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/Sound.idl
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/ScanAngle.idl
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/WheelDropEvent.idl
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/action/AutoDocking.idl
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/BumperEvent.msg
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/CliffEvent.msg
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/DigitalOutput.msg
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/ExternalPower.msg
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/Led.msg
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/PowerSystemEvent.msg
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/SensorState.msg
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/VersionInfo.msg
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/ControllerInfo.msg
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/ButtonEvent.msg
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/DigitalInputEvent.msg
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/DockInfraRed.msg
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/KeyboardInput.msg
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/MotorPower.msg
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/RobotStateEvent.msg
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/Sound.msg
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/ScanAngle.msg
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/WheelDropEvent.msg
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/action/AutoDocking.action
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/share/ament_index/resource_index/package_run_dependencies/kobuki_ros_interfaces
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/share/ament_index/resource_index/parent_prefix_path/kobuki_ros_interfaces
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/environment/path.sh
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/environment/path.dsv
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/local_setup.bash
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/local_setup.sh
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/local_setup.zsh
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/local_setup.dsv
+-- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/package.dsv
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/share/ament_index/resource_index/packages/kobuki_ros_interfaces
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/cmake/rosidl_cmake-extras.cmake
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/cmake/kobuki_ros_interfacesConfig.cmake
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/cmake/kobuki_ros_interfacesConfig-version.cmake
+-- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/package.xml
+-- Up-to-date: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/lib/libkobuki_ros_interfaces__rosidl_generator_c.so
+-- Up-to-date: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/lib/libkobuki_ros_interfaces__rosidl_typesupport_fastrtps_c.so
+-- Up-to-date: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/lib/libkobuki_ros_interfaces__rosidl_typesupport_fastrtps_cpp.so
+-- Up-to-date: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/lib/libkobuki_ros_interfaces__rosidl_typesupport_introspection_c.so
+-- Up-to-date: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/lib/libkobuki_ros_interfaces__rosidl_typesupport_c.so
+-- Up-to-date: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/lib/libkobuki_ros_interfaces__rosidl_typesupport_introspection_cpp.so
+-- Up-to-date: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/lib/libkobuki_ros_interfaces__rosidl_typesupport_cpp.so
+Listing '/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/local/lib/python3.10/dist-packages/kobuki_ros_interfaces'...
+Listing '/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/local/lib/python3.10/dist-packages/kobuki_ros_interfaces/action'...
+Listing '/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/local/lib/python3.10/dist-packages/kobuki_ros_interfaces/msg'...
+-- Up-to-date: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/lib/libkobuki_ros_interfaces__rosidl_generator_py.so
+-- Up-to-date: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/cmake/export_kobuki_ros_interfaces__rosidl_generator_cExport.cmake
+-- Up-to-date: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/cmake/export_kobuki_ros_interfaces__rosidl_generator_cExport-noconfig.cmake
+-- Up-to-date: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/cmake/export_kobuki_ros_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+-- Up-to-date: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/cmake/export_kobuki_ros_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Up-to-date: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/cmake/export_kobuki_ros_interfaces__rosidl_generator_cppExport.cmake
+-- Up-to-date: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/cmake/export_kobuki_ros_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Up-to-date: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/cmake/export_kobuki_ros_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Up-to-date: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/cmake/kobuki_ros_interfaces__rosidl_typesupport_introspection_cExport.cmake
+-- Up-to-date: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/cmake/kobuki_ros_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Up-to-date: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/cmake/kobuki_ros_interfaces__rosidl_typesupport_cExport.cmake
+-- Up-to-date: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/cmake/kobuki_ros_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+-- Up-to-date: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/cmake/kobuki_ros_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+-- Up-to-date: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/cmake/kobuki_ros_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Up-to-date: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/cmake/kobuki_ros_interfaces__rosidl_typesupport_cppExport.cmake
+-- Up-to-date: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/cmake/kobuki_ros_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+-- Up-to-date: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/cmake/export_kobuki_ros_interfaces__rosidl_generator_pyExport.cmake
+-- Up-to-date: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/cmake/export_kobuki_ros_interfaces__rosidl_generator_pyExport-noconfig.cmake

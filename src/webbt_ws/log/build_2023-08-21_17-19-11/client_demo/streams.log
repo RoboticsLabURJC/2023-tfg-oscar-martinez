@@ -1,0 +1,24 @@
+[1.060s] Invoking command in '/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/client_demo': AMENT_PREFIX_PATH=/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/py_gardener:${AMENT_PREFIX_PATH} PYTHONPATH=/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/client_demo/prefix_override:/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/client_demo/lib/python3.10/site-packages:/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/py_gardener:/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/py_gardener/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/client_demo/build --no-deps install_data
+[1.466s] running develop
+[1.773s] running egg_info
+[1.773s] creating client_demo.egg-info
+[1.774s] writing client_demo.egg-info/PKG-INFO
+[1.774s] writing dependency_links to client_demo.egg-info/dependency_links.txt
+[1.774s] writing entry points to client_demo.egg-info/entry_points.txt
+[1.774s] writing requirements to client_demo.egg-info/requires.txt
+[1.774s] writing top-level names to client_demo.egg-info/top_level.txt
+[1.775s] writing manifest file 'client_demo.egg-info/SOURCES.txt'
+[1.778s] reading manifest file 'client_demo.egg-info/SOURCES.txt'
+[1.779s] writing manifest file 'client_demo.egg-info/SOURCES.txt'
+[1.817s] running build_ext
+[1.817s] Creating /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/client_demo/lib/python3.10/site-packages/client-demo.egg-link (link to .)
+[1.818s] Installing translator script to /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/client_demo/lib/py_gardener
+[1.819s] 
+[1.819s] Installed /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/client_demo
+[1.819s] running install_data
+[1.819s] creating /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/client_demo/share/ament_index
+[1.819s] creating /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/client_demo/share/ament_index/resource_index
+[1.820s] creating /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/client_demo/share/ament_index/resource_index/packages
+[1.820s] copying resource/client_demo -> /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/client_demo/share/ament_index/resource_index/packages
+[1.820s] copying package.xml -> /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/client_demo/share/client_demo
+[1.863s] Invoked command in '/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/client_demo' returned '0': AMENT_PREFIX_PATH=/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/py_gardener:${AMENT_PREFIX_PATH} PYTHONPATH=/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/client_demo/prefix_override:/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/client_demo/lib/python3.10/site-packages:/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/py_gardener:/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/py_gardener/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/client_demo/build --no-deps install_data

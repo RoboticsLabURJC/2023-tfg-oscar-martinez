@@ -1,0 +1,39 @@
+[0.094s] Invoking command in '/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/sophus': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/py_trees_ros_viewer:/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/py_trees_ros_tutorials:/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/client_demo:/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/py_gardener:/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/btpy:/home/omartinez/ws/smartloc_ws/install/webots_sim:/opt/ros/humble /usr/bin/cmake --build /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/sophus -- -j8 -l8
+[0.318s] [  8%] Built target test_so2
+[0.345s] [ 16%] Built target test_common
+[0.357s] [ 25%] Built target test_se2
+[0.392s] [ 33%] Built target test_so3
+[0.397s] [ 41%] Built target test_sim2
+[0.423s] [ 50%] Built target test_rxso2
+[0.515s] [ 58%] Built target test_rxso3
+[0.531s] [ 66%] Built target HelloSO3
+[0.538s] [ 75%] Built target test_velocities
+[0.546s] [ 83%] Built target test_se3
+[0.564s] [ 91%] Built target test_geometry
+[0.590s] [100%] Built target test_sim3
+[0.642s] Invoked command in '/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/sophus' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/py_trees_ros_viewer:/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/py_trees_ros_tutorials:/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/client_demo:/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/py_gardener:/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/btpy:/home/omartinez/ws/smartloc_ws/install/webots_sim:/opt/ros/humble /usr/bin/cmake --build /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/sophus -- -j8 -l8
+[0.892s] Invoking command in '/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/sophus': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/py_trees_ros_viewer:/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/py_trees_ros_tutorials:/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/client_demo:/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/py_gardener:/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/btpy:/home/omartinez/ws/smartloc_ws/install/webots_sim:/opt/ros/humble /usr/bin/cmake --install /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/sophus
+[0.916s] -- Install configuration: "Release"
+[0.919s] -- Up-to-date: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/sophus/share/sophus/cmake/SophusTargets.cmake
+[0.919s] -- Up-to-date: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/sophus/share/sophus/cmake/SophusConfig.cmake
+[0.919s] -- Up-to-date: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/sophus/share/sophus/cmake/SophusConfigVersion.cmake
+[0.920s] -- Up-to-date: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/sophus/include/sophus/average.hpp
+[0.926s] -- Up-to-date: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/sophus/include/sophus/common.hpp
+[0.926s] -- Up-to-date: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/sophus/include/sophus/geometry.hpp
+[0.927s] -- Up-to-date: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/sophus/include/sophus/interpolate.hpp
+[0.927s] -- Up-to-date: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/sophus/include/sophus/interpolate_details.hpp
+[0.927s] -- Up-to-date: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/sophus/include/sophus/num_diff.hpp
+[0.927s] -- Up-to-date: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/sophus/include/sophus/rotation_matrix.hpp
+[0.927s] -- Up-to-date: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/sophus/include/sophus/rxso2.hpp
+[0.928s] -- Up-to-date: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/sophus/include/sophus/rxso3.hpp
+[0.928s] -- Up-to-date: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/sophus/include/sophus/se2.hpp
+[0.928s] -- Up-to-date: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/sophus/include/sophus/se3.hpp
+[0.928s] -- Up-to-date: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/sophus/include/sophus/sim2.hpp
+[0.928s] -- Up-to-date: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/sophus/include/sophus/sim3.hpp
+[0.928s] -- Up-to-date: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/sophus/include/sophus/sim_details.hpp
+[0.929s] -- Up-to-date: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/sophus/include/sophus/so2.hpp
+[0.929s] -- Up-to-date: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/sophus/include/sophus/so3.hpp
+[0.929s] -- Up-to-date: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/sophus/include/sophus/types.hpp
+[0.929s] -- Up-to-date: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/sophus/include/sophus/velocities.hpp
+[0.929s] -- Up-to-date: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/sophus/include/sophus/formatstring.hpp
+[0.954s] Invoked command in '/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/sophus' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/py_trees_ros_viewer:/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/py_trees_ros_tutorials:/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/client_demo:/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/py_gardener:/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/btpy:/home/omartinez/ws/smartloc_ws/install/webots_sim:/opt/ros/humble /usr/bin/cmake --install /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/sophus

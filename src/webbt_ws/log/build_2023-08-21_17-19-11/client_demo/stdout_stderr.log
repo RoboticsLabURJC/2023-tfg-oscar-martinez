@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating client_demo.egg-info
+writing client_demo.egg-info/PKG-INFO
+writing dependency_links to client_demo.egg-info/dependency_links.txt
+writing entry points to client_demo.egg-info/entry_points.txt
+writing requirements to client_demo.egg-info/requires.txt
+writing top-level names to client_demo.egg-info/top_level.txt
+writing manifest file 'client_demo.egg-info/SOURCES.txt'
+reading manifest file 'client_demo.egg-info/SOURCES.txt'
+writing manifest file 'client_demo.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/client_demo/lib/python3.10/site-packages/client-demo.egg-link (link to .)
+Installing translator script to /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/client_demo/lib/py_gardener
+
+Installed /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/client_demo
+running install_data
+creating /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/client_demo/share/ament_index
+creating /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/client_demo/share/ament_index/resource_index
+creating /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/client_demo/share/ament_index/resource_index/packages
+copying resource/client_demo -> /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/client_demo/share/ament_index/resource_index/packages
+copying package.xml -> /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/client_demo/share/client_demo

@@ -1,0 +1,73 @@
+[0.152s] Invoking command in '/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/laser_filters': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/py_trees_ros_viewer:/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/py_trees_ros_tutorials:/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/client_demo:/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/py_gardener:/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/btpy:/home/omartinez/ws/smartloc_ws/install/webots_sim:/opt/ros/humble /usr/bin/cmake --build /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/laser_filters -- -j8 -l8
+[0.302s] [ 12%] Built target gtest_main
+[0.305s] [ 25%] Built target gtest
+[0.315s] [ 37%] Built target laser_scan_filters
+[0.396s] [ 50%] Built target scan_to_cloud_filter_chain
+[0.399s] [ 75%] Built target test_scan_filter_chain
+[0.399s] [ 75%] Built target generic_laser_filter_node
+[0.407s] [ 87%] Built target test_shadow_detector
+[0.419s] [100%] Built target scan_to_scan_filter_chain
+[1.510s] Invoked command in '/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/laser_filters' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/py_trees_ros_viewer:/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/py_trees_ros_tutorials:/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/client_demo:/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/py_gardener:/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/btpy:/home/omartinez/ws/smartloc_ws/install/webots_sim:/opt/ros/humble /usr/bin/cmake --build /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/laser_filters -- -j8 -l8
+[1.838s] Invoking command in '/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/laser_filters': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/py_trees_ros_viewer:/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/py_trees_ros_tutorials:/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/client_demo:/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/py_gardener:/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/btpy:/home/omartinez/ws/smartloc_ws/install/webots_sim:/opt/ros/humble /usr/bin/cmake --install /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/laser_filters
+[1.864s] -- Install configuration: ""
+[1.864s] -- Execute custom install script
+[1.864s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/laser_filters/share/laser_filters//laser_filters_plugins.xml
+[1.865s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/laser_filters/include/laser_filters/angular_bounds_filter.h
+[1.865s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/laser_filters/include/laser_filters/angular_bounds_filter_in_place.h
+[1.865s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/laser_filters/include/laser_filters/array_filter.h
+[1.865s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/laser_filters/include/laser_filters/box_filter.h
+[1.866s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/laser_filters/include/laser_filters/footprint_filter.h
+[1.866s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/laser_filters/include/laser_filters/intensity_filter.h
+[1.866s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/laser_filters/include/laser_filters/interpolation_filter.h
+[1.866s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/laser_filters/include/laser_filters/median_filter.h
+[1.866s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/laser_filters/include/laser_filters/range_filter.h
+[1.867s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/laser_filters/include/laser_filters/scan_mask_filter.h
+[1.867s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/laser_filters/include/laser_filters/scan_shadow_detector.h
+[1.867s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/laser_filters/include/laser_filters/scan_shadows_filter.h
+[1.867s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/laser_filters/include/laser_filters/speckle_filter.h
+[1.868s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/laser_filters/share/laser_filters/environment/library_path.sh
+[1.868s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/laser_filters/share/laser_filters/environment/library_path.dsv
+[1.868s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/laser_filters/lib/liblaser_scan_filters.so
+[1.868s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/laser_filters/lib/laser_filters/scan_to_cloud_filter_chain
+[1.868s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/laser_filters/lib/laser_filters/scan_to_scan_filter_chain
+[1.869s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/laser_filters/lib/laser_filters/generic_laser_filter_node
+[1.869s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/laser_filters/share/laser_filters/examples/box_filter_example.launch.py
+[1.874s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/laser_filters/share/laser_filters/examples/box_filter_example.yaml
+[1.875s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/laser_filters/share/laser_filters/examples/footprint_filter_example.launch.py
+[1.875s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/laser_filters/share/laser_filters/examples/footprint_filter_example.yaml
+[1.875s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/laser_filters/share/laser_filters/examples/intensity_filter_example.launch.py
+[1.875s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/laser_filters/share/laser_filters/examples/intensity_filter_example.yaml
+[1.876s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/laser_filters/share/laser_filters/examples/mask_filter_example.launch.py
+[1.876s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/laser_filters/share/laser_filters/examples/mask_filter_example.yaml
+[1.876s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/laser_filters/share/laser_filters/examples/median_filter_example.launch.py
+[1.876s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/laser_filters/share/laser_filters/examples/median_filter_example.yaml
+[1.876s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/laser_filters/share/laser_filters/examples/multiple_filters_example.launch.py
+[1.877s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/laser_filters/share/laser_filters/examples/multiple_filters_example.yaml
+[1.877s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/laser_filters/share/laser_filters/examples/pass_through_example.launch.py
+[1.877s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/laser_filters/share/laser_filters/examples/pass_through_example.yaml
+[1.877s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/laser_filters/share/laser_filters/examples/range_filter_example.launch.py
+[1.878s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/laser_filters/share/laser_filters/examples/range_filter_example.yaml
+[1.878s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/laser_filters/share/laser_filters/examples/shadow_filter_example.launch.py
+[1.878s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/laser_filters/share/laser_filters/examples/shadow_filter_example.yaml
+[1.878s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/laser_filters/share/laser_filters/examples/speckle_filter_example.launch
+[1.879s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/laser_filters/share/laser_filters/examples/speckle_filter_example.yaml
+[1.879s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/laser_filters/share/ament_index/resource_index/package_run_dependencies/laser_filters
+[1.879s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/laser_filters/share/ament_index/resource_index/parent_prefix_path/laser_filters
+[1.879s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/laser_filters/share/laser_filters/environment/ament_prefix_path.sh
+[1.879s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/laser_filters/share/laser_filters/environment/ament_prefix_path.dsv
+[1.880s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/laser_filters/share/laser_filters/environment/path.sh
+[1.880s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/laser_filters/share/laser_filters/environment/path.dsv
+[1.880s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/laser_filters/share/laser_filters/local_setup.bash
+[1.880s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/laser_filters/share/laser_filters/local_setup.sh
+[1.881s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/laser_filters/share/laser_filters/local_setup.zsh
+[1.881s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/laser_filters/share/laser_filters/local_setup.dsv
+[1.881s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/laser_filters/share/laser_filters/package.dsv
+[1.889s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/laser_filters/share/ament_index/resource_index/packages/laser_filters
+[1.889s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/laser_filters/share/ament_index/resource_index/filters__pluginlib__plugin/laser_filters
+[1.889s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/laser_filters/share/laser_filters/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.893s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/laser_filters/share/laser_filters/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.893s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/laser_filters/share/laser_filters/cmake/ament_cmake_export_libraries-extras.cmake
+[1.893s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/laser_filters/share/laser_filters/cmake/laser_filtersConfig.cmake
+[1.893s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/laser_filters/share/laser_filters/cmake/laser_filtersConfig-version.cmake
+[1.894s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/laser_filters/share/laser_filters/package.xml
+[1.987s] Invoked command in '/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/laser_filters' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/py_trees_ros_viewer:/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/py_trees_ros_tutorials:/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/client_demo:/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/py_gardener:/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/btpy:/home/omartinez/ws/smartloc_ws/install/webots_sim:/opt/ros/humble /usr/bin/cmake --install /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/laser_filters

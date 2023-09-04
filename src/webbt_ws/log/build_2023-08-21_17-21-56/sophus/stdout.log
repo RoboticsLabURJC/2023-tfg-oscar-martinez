@@ -1,0 +1,35 @@
+[  8%] Built target test_so2
+[ 16%] Built target test_common
+[ 25%] Built target test_se2
+[ 33%] Built target test_so3
+[ 41%] Built target test_sim2
+[ 50%] Built target test_rxso2
+[ 58%] Built target test_rxso3
+[ 66%] Built target HelloSO3
+[ 75%] Built target test_velocities
+[ 83%] Built target test_se3
+[ 91%] Built target test_geometry
+[100%] Built target test_sim3
+-- Install configuration: "Release"
+-- Up-to-date: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/sophus/share/sophus/cmake/SophusTargets.cmake
+-- Up-to-date: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/sophus/share/sophus/cmake/SophusConfig.cmake
+-- Up-to-date: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/sophus/share/sophus/cmake/SophusConfigVersion.cmake
+-- Up-to-date: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/sophus/include/sophus/average.hpp
+-- Up-to-date: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/sophus/include/sophus/common.hpp
+-- Up-to-date: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/sophus/include/sophus/geometry.hpp
+-- Up-to-date: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/sophus/include/sophus/interpolate.hpp
+-- Up-to-date: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/sophus/include/sophus/interpolate_details.hpp
+-- Up-to-date: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/sophus/include/sophus/num_diff.hpp
+-- Up-to-date: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/sophus/include/sophus/rotation_matrix.hpp
+-- Up-to-date: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/sophus/include/sophus/rxso2.hpp
+-- Up-to-date: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/sophus/include/sophus/rxso3.hpp
+-- Up-to-date: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/sophus/include/sophus/se2.hpp
+-- Up-to-date: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/sophus/include/sophus/se3.hpp
+-- Up-to-date: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/sophus/include/sophus/sim2.hpp
+-- Up-to-date: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/sophus/include/sophus/sim3.hpp
+-- Up-to-date: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/sophus/include/sophus/sim_details.hpp
+-- Up-to-date: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/sophus/include/sophus/so2.hpp
+-- Up-to-date: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/sophus/include/sophus/so3.hpp
+-- Up-to-date: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/sophus/include/sophus/types.hpp
+-- Up-to-date: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/sophus/include/sophus/velocities.hpp
+-- Up-to-date: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/sophus/include/sophus/formatstring.hpp

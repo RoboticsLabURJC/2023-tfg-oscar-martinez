@@ -1,0 +1,18 @@
+[3.066s] Invoking command in '/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/py_trees_ros_viewer': PYTHONPATH=/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/py_trees_ros_viewer/prefix_override:/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/py_trees_ros_viewer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/py_trees_ros_viewer/build --no-deps install_data
+[3.131s] /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/py_trees_ros_viewer/setup.py:5: DeprecationWarning: The distutils package is deprecated and slated for removal in Python 3.12. Use setuptools or check PEP 632 for potential alternatives
+[3.131s]   from distutils import log
+[4.034s] running develop
+[4.559s] running egg_info
+[4.559s] writing py_trees_ros_viewer.egg-info/PKG-INFO
+[4.559s] writing dependency_links to py_trees_ros_viewer.egg-info/dependency_links.txt
+[4.559s] writing entry points to py_trees_ros_viewer.egg-info/entry_points.txt
+[4.559s] writing top-level names to py_trees_ros_viewer.egg-info/top_level.txt
+[4.566s] reading manifest file 'py_trees_ros_viewer.egg-info/SOURCES.txt'
+[4.567s] writing manifest file 'py_trees_ros_viewer.egg-info/SOURCES.txt'
+[4.651s] running build_ext
+[4.652s] Creating /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/py_trees_ros_viewer/lib/python3.10/site-packages/py-trees-ros-viewer.egg-link (link to .)
+[4.656s] Installing py-trees-tree-viewer script to /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/py_trees_ros_viewer/bin
+[4.657s] 
+[4.657s] Installed /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/py_trees_ros_viewer
+[4.658s] running install_data
+[4.786s] Invoked command in '/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/py_trees_ros_viewer' returned '0': PYTHONPATH=/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/py_trees_ros_viewer/prefix_override:/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/py_trees_ros_viewer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/py_trees_ros_viewer/build --no-deps install_data

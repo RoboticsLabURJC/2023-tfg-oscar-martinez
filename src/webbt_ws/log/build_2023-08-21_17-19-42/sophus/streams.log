@@ -1,0 +1,51 @@
+[0.196s] Invoking command in '/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/sophus': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/omartinez/ws/smartloc_ws/install/webots_sim:/opt/ros/humble /usr/bin/cmake --build /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/sophus -- -j8 -l8
+[0.531s] [35m[1mConsolidate compiler generated dependencies of target test_common[0m
+[0.541s] [35m[1mConsolidate compiler generated dependencies of target test_se2[0m
+[0.550s] [35m[1mConsolidate compiler generated dependencies of target test_sim2[0m
+[0.568s] [35m[1mConsolidate compiler generated dependencies of target test_so2[0m
+[0.571s] [35m[1mConsolidate compiler generated dependencies of target test_rxso2[0m
+[0.609s] [35m[1mConsolidate compiler generated dependencies of target test_se3[0m
+[0.639s] [35m[1mConsolidate compiler generated dependencies of target test_so3[0m
+[0.659s] [35m[1mConsolidate compiler generated dependencies of target test_rxso3[0m
+[0.669s] [  8%] Built target test_common
+[0.764s] [ 16%] Built target test_se2
+[0.807s] [ 29%] Built target test_sim2
+[0.810s] [ 33%] Built target test_so2
+[0.822s] [ 45%] Built target test_so3
+[0.827s] [ 50%] Built target test_rxso2
+[0.846s] [ 58%] Built target test_se3
+[0.871s] [ 66%] Built target test_rxso3
+[0.927s] [35m[1mConsolidate compiler generated dependencies of target test_sim3[0m
+[0.932s] [35m[1mConsolidate compiler generated dependencies of target test_geometry[0m
+[0.943s] [35m[1mConsolidate compiler generated dependencies of target test_velocities[0m
+[0.973s] [35m[1mConsolidate compiler generated dependencies of target HelloSO3[0m
+[1.082s] [ 75%] Built target test_velocities
+[1.108s] [ 83%] Built target test_sim3
+[1.152s] [ 91%] Built target HelloSO3
+[1.159s] [100%] Built target test_geometry
+[2.283s] Invoked command in '/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/sophus' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/omartinez/ws/smartloc_ws/install/webots_sim:/opt/ros/humble /usr/bin/cmake --build /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/sophus -- -j8 -l8
+[2.764s] Invoking command in '/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/sophus': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/omartinez/ws/smartloc_ws/install/webots_sim:/opt/ros/humble /usr/bin/cmake --install /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/sophus
+[2.846s] -- Install configuration: "Release"
+[2.846s] -- Up-to-date: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/sophus/share/sophus/cmake/SophusTargets.cmake
+[2.846s] -- Up-to-date: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/sophus/share/sophus/cmake/SophusConfig.cmake
+[2.846s] -- Up-to-date: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/sophus/share/sophus/cmake/SophusConfigVersion.cmake
+[2.846s] -- Installing: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/sophus/include/sophus/average.hpp
+[2.847s] -- Installing: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/sophus/include/sophus/common.hpp
+[2.848s] -- Installing: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/sophus/include/sophus/geometry.hpp
+[2.850s] -- Installing: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/sophus/include/sophus/interpolate.hpp
+[2.853s] -- Installing: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/sophus/include/sophus/interpolate_details.hpp
+[2.855s] -- Installing: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/sophus/include/sophus/num_diff.hpp
+[2.858s] -- Installing: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/sophus/include/sophus/rotation_matrix.hpp
+[2.858s] -- Installing: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/sophus/include/sophus/rxso2.hpp
+[2.859s] -- Installing: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/sophus/include/sophus/rxso3.hpp
+[2.863s] -- Installing: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/sophus/include/sophus/se2.hpp
+[2.866s] -- Installing: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/sophus/include/sophus/se3.hpp
+[2.869s] -- Installing: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/sophus/include/sophus/sim2.hpp
+[2.870s] -- Installing: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/sophus/include/sophus/sim3.hpp
+[2.873s] -- Installing: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/sophus/include/sophus/sim_details.hpp
+[2.875s] -- Installing: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/sophus/include/sophus/so2.hpp
+[2.876s] -- Installing: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/sophus/include/sophus/so3.hpp
+[2.879s] -- Installing: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/sophus/include/sophus/types.hpp
+[2.882s] -- Installing: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/sophus/include/sophus/velocities.hpp
+[2.883s] -- Installing: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/sophus/include/sophus/formatstring.hpp
+[3.016s] Invoked command in '/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/sophus' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/omartinez/ws/smartloc_ws/install/webots_sim:/opt/ros/humble /usr/bin/cmake --install /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/sophus

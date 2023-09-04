@@ -1,0 +1,3 @@
+[console_scripts]
+demo = client_demo.demo:demo_main
+

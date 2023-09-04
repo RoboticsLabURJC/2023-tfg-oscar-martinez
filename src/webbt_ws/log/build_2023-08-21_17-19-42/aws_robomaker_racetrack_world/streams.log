@@ -1,0 +1,204 @@
+[0.631s] Invoking command in '/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/aws_robomaker_racetrack_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/omartinez/ws/smartloc_ws/install/webots_sim:/opt/ros/humble /usr/bin/cmake --build /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/aws_robomaker_racetrack_world -- -j8 -l8
+[0.696s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.885s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.085s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.086s] -- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[1.160s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.169s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.186s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.229s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.273s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.495s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.500s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[1.605s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[2.242s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[2.319s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[2.323s] -- Looking for ignition-math6 -- found version 6.14.0
+[2.338s] -- Searching for dependencies of ignition-math6
+[2.342s] -- Looking for OGRE...
+[2.355s] -- Found Ogre Ghadamon (1.9.0)
+[2.357s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[2.385s] -- Looking for OGRE_Paging...
+[2.385s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[2.385s] -- Looking for OGRE_Terrain...
+[2.385s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[2.386s] -- Looking for OGRE_Property...
+[2.386s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[2.386s] -- Looking for OGRE_RTShaderSystem...
+[2.386s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[2.386s] -- Looking for OGRE_Volume...
+[2.387s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[2.387s] -- Looking for OGRE_Overlay...
+[2.387s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[3.008s] -- Looking for ignition-math6 -- found version 6.14.0
+[3.010s] -- Looking for ignition-transport8 -- found version 8.2.1
+[3.011s] -- Searching for dependencies of ignition-transport8
+[3.074s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[3.121s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[3.134s] -- Checking for module 'libzmq >= 4'
+[3.174s] --   Found libzmq , version 4.3.4
+[3.288s] -- Checking for module 'uuid'
+[3.324s] --   Found uuid, version 2.37.2
+[3.412s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[3.412s] -- Searching for dependencies of ignition-msgs5
+[3.477s] -- Looking for ignition-math6 -- found version 6.14.0
+[3.490s] -- Checking for module 'tinyxml2'
+[3.523s] --   Found tinyxml2, version 9.0.0
+[3.613s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[3.614s] -- Looking for ignition-common3 -- found version 3.14.0
+[3.615s] -- Searching for dependencies of ignition-common3
+[3.616s] -- Looking for dlfcn.h - found
+[3.616s] -- Looking for libdl - found
+[3.644s] -- Searching for <ignition-common3> component [graphics]
+[3.645s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[3.646s] -- Searching for dependencies of ignition-common3-graphics
+[3.647s] -- Looking for ignition-math6 -- found version 6.14.0
+[3.649s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[3.650s] -- Searching for dependencies of ignition-fuel_tools4
+[3.776s] -- Checking for module 'jsoncpp'
+[3.809s] --   Found jsoncpp, version 1.9.5
+[3.900s] -- Checking for module 'libzip'
+[3.934s] --   Found libzip, version 1.7.3
+[4.027s] -- Looking for ignition-common3 -- found version 3.14.0
+[4.027s] -- Looking for ignition-math6 -- found version 6.14.0
+[4.028s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[4.034s] -- Gazebo version: 11.10
+[4.283s] -- Configuring done
+[4.338s] -- Generating done
+[4.346s] -- Build files have been written to: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/aws_robomaker_racetrack_world
+[5.480s] Invoked command in '/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/aws_robomaker_racetrack_world' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/omartinez/ws/smartloc_ws/install/webots_sim:/opt/ros/humble /usr/bin/cmake --build /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/aws_robomaker_racetrack_world -- -j8 -l8
+[5.744s] Invoking command in '/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/aws_robomaker_racetrack_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/omartinez/ws/smartloc_ws/install/webots_sim:/opt/ros/humble /usr/bin/cmake --install /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/aws_robomaker_racetrack_world
+[5.928s] -- Install configuration: ""
+[5.928s] -- Execute custom install script
+[5.928s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/launch/racetrack.launch.py
+[5.929s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/launch/view_racetrack.launch.py
+[5.929s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Archway_01/materials/textures/aws_Archway_01.png
+[5.929s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Archway_01/meshes/aws_Archway_01_collision.DAE
+[5.929s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Archway_01/meshes/aws_Archway_01_visual.DAE
+[5.929s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Archway_01/model.config
+[5.930s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Archway_01/model.sdf
+[5.930s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Billboard_01/materials/textures/aws_Billboard_01.png
+[5.930s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Billboard_01/meshes/aws_Billboard_01_collision.DAE
+[5.930s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Billboard_01/meshes/aws_Billboard_01_visual.DAE
+[5.930s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Billboard_01/model.config
+[5.931s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Billboard_01/model.sdf
+[5.931s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Column_01/materials/textures/aws_Column_01.png
+[5.931s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Column_01/meshes/aws_Column_01_collision.DAE
+[5.931s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Column_01/meshes/aws_Column_01_visual.DAE
+[5.931s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Column_01/model.config
+[5.932s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Column_01/model.sdf
+[5.932s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_CrashworthBucket_01/materials/textures/aws_CrashworthBucket_01.png
+[5.939s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_CrashworthBucket_01/meshes/aws_CrashworthBucket_01_collision.DAE
+[5.939s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_CrashworthBucket_01/meshes/aws_CrashworthBucket_01_visual.DAE
+[5.939s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_CrashworthBucket_01/model.config
+[5.939s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_CrashworthBucket_01/model.sdf
+[5.940s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_FenceMesh_01/materials/textures/aws_FenceMesh_01.png
+[5.940s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_FenceMesh_01/meshes/aws_FenceMesh_01_collision.DAE
+[5.940s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_FenceMesh_01/meshes/aws_FenceMesh_01_visual.DAE
+[5.940s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_FenceMesh_01/model.config
+[5.941s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_FenceMesh_01/model.sdf
+[5.941s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Fence_01/materials/textures/aws_Fence_01.png
+[5.941s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Fence_01/meshes/aws_Fence_01_collision.DAE
+[5.941s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Fence_01/meshes/aws_Fence_01_visual.DAE
+[5.941s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Fence_01/model.config
+[5.942s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Fence_01/model.sdf
+[5.942s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Fence_02/materials/textures/aws_Fence_02.png
+[5.942s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Fence_02/meshes/aws_Fence_02_collision.DAE
+[5.942s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Fence_02/meshes/aws_Fence_02_visual.DAE
+[5.942s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Fence_02/model.config
+[5.943s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Fence_02/model.sdf
+[5.944s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Ground_01/materials/textures/aws_GroundN_01.png
+[5.944s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Ground_01/materials/textures/aws_Ground_01.png
+[5.944s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Ground_01/meshes/aws_Ground_01_collision.DAE
+[5.944s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Ground_01/meshes/aws_Ground_01_visual.DAE
+[5.944s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Ground_01/model.config
+[5.945s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Ground_01/model.sdf
+[5.945s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Light_01/materials/textures/aws_Light_01.png
+[5.945s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Light_01/meshes/aws_Light_01_collision.DAE
+[5.945s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Light_01/meshes/aws_Light_01_visual.DAE
+[5.945s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Light_01/model.config
+[5.946s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Light_01/model.sdf
+[5.946s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_RaceStartLight_01/materials/textures/aws_RaceStartLight_01.png
+[5.946s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_RaceStartLight_01/meshes/aws_RaceStartLight_01_collision.DAE
+[5.946s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_RaceStartLight_01/meshes/aws_RaceStartLight_01_visual.DAE
+[5.946s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_RaceStartLight_01/model.config
+[5.946s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_RaceStartLight_01/model.sdf
+[5.947s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_StonePier_01/materials/textures/aws_StonePier_01.png
+[5.947s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_StonePier_01/meshes/aws_StonePier_01_collision.DAE
+[5.966s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_StonePier_01/meshes/aws_StonePier_01_visual.DAE
+[5.966s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_StonePier_01/model.config
+[5.966s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_StonePier_01/model.sdf
+[5.966s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_StopSign_01/materials/textures/aws_StopSign_01.png
+[5.966s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_StopSign_01/meshes/aws_StopSign_01_collision.DAE
+[5.967s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_StopSign_01/meshes/aws_StopSign_01_visual.DAE
+[5.967s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_StopSign_01/model.config
+[5.967s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_StopSign_01/model.sdf
+[5.967s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_01/materials/textures/aws_Track_01.png
+[5.968s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_01/materials/textures/aws_Track_01A.png
+[5.968s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_01/meshes/aws_Track_01_collision.DAE
+[5.968s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_01/meshes/aws_Track_01_visual.DAE
+[5.968s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_01/model.config
+[5.969s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_01/model.sdf
+[5.969s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_02/materials/textures/aws_Track_02.png
+[5.969s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_02/materials/textures/aws_Track_02B.png
+[5.969s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_02/meshes/aws_Track_02_collision.DAE
+[5.970s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_02/meshes/aws_Track_02_visual.DAE
+[5.970s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_02/model.config
+[5.970s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_02/model.sdf
+[5.970s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_03/materials/textures/aws_Track_03.png
+[6.000s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_03/materials/textures/aws_Track_03B.png
+[6.001s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_03/meshes/aws_Track_03_collision.DAE
+[6.001s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_03/meshes/aws_Track_03_visual.DAE
+[6.001s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_03/model.config
+[6.001s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_03/model.sdf
+[6.002s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_04/materials/textures/aws_Track_04.png
+[6.002s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_04/materials/textures/aws_Track_04B.png
+[6.002s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_04/meshes/aws_Track_04_collision.DAE
+[6.002s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_04/meshes/aws_Track_04_visual.DAE
+[6.002s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_04/model.config
+[6.003s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_04/model.sdf
+[6.003s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_05/materials/aws_Track_05.png
+[6.003s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_05/materials/aws_Track_05B.png
+[6.003s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_05/materials/aws_Track_05C.png
+[6.003s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_05/materials/textures/aws_Track_05.png
+[6.004s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_05/materials/textures/aws_Track_05B.png
+[6.004s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_05/materials/textures/aws_Track_05C.png
+[6.004s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_05/meshes/aws_Track_05_collision.DAE
+[6.004s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_05/meshes/aws_Track_05_visual.DAE
+[6.004s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_05/model.config
+[6.004s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_05/model.sdf
+[6.005s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Trackline_01/materials/textures/aws_Trackline_01.png
+[6.005s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Trackline_01/meshes/aws_Trackline_01_collision.DAE
+[6.005s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Trackline_01/meshes/aws_Trackline_01_visual.DAE
+[6.005s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Trackline_01/model.config
+[6.005s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Trackline_01/model.sdf
+[6.006s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_TrafficCone_01/materials/textures/aws_TrafficCone_01.png
+[6.006s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_TrafficCone_01/meshes/aws_TrafficCone_01_coliision.DAE
+[6.006s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_TrafficCone_01/meshes/aws_TrafficCone_01_visual.DAE
+[6.006s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_TrafficCone_01/model.config
+[6.006s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_TrafficCone_01/model.sdf
+[6.007s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Wall_01/materials/textures/aws_Wall_01.png
+[6.007s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Wall_01/meshes/aws_Wall_01_collision.DAE
+[6.007s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Wall_01/meshes/aws_Wall_01_visual.DAE
+[6.007s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Wall_01/model.config
+[6.007s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Wall_01/model.sdf
+[6.008s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/worlds/racetrack_day.world
+[6.010s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/worlds/racetrack_day_empty.world
+[6.010s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/worlds/racetrack_night.world
+[6.010s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/ament_index/resource_index/package_run_dependencies/aws_robomaker_racetrack_world
+[6.011s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/ament_index/resource_index/parent_prefix_path/aws_robomaker_racetrack_world
+[6.011s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/environment/ament_prefix_path.sh
+[6.011s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/environment/ament_prefix_path.dsv
+[6.011s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/environment/path.sh
+[6.011s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/environment/path.dsv
+[6.012s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/local_setup.bash
+[6.028s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/local_setup.sh
+[6.028s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/local_setup.zsh
+[6.029s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/local_setup.dsv
+[6.029s] -- Symlinking: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/package.dsv
+[6.048s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/ament_index/resource_index/packages/aws_robomaker_racetrack_world
+[6.049s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.049s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/cmake/aws_robomaker_racetrack_worldConfig.cmake
+[6.049s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/cmake/aws_robomaker_racetrack_worldConfig-version.cmake
+[6.049s] -- Up-to-date symlink: /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/package.xml
+[6.180s] Invoked command in '/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/aws_robomaker_racetrack_world' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/omartinez/ws/smartloc_ws/install/webots_sim:/opt/ros/humble /usr/bin/cmake --install /home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/aws_robomaker_racetrack_world

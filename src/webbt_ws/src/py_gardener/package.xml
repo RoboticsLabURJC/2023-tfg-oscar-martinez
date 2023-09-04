@@ -3,7 +3,7 @@
   <name>py_gardener</name>
   <version>0.0.0</version>
   <description>Grow BT.cpp xml trees in py_trees</description>
-  <maintainer email="oscar.personal@robotics.com">Óscar Martínez</maintainer>
+  <maintainer email="oscar.robotics@tutanota.com">Óscar Martínez</maintainer>
   <license>GPLv3</license>
 
   <exec_depend>rclpy</exec_depend>
