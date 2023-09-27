@@ -16,15 +16,15 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "en-US"
-title                    : "TFG Adrián Madinabeitia Portanova"
+title                    : "TFG Óscar Martínez Martínez"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Adrián Madinabeitia Portanova"
-description              : "Neural networks in drones"
+name                     : "Óscar Martínez Martínez""
+description              : "Web-based development of robotic apps using Behavior Trees"
 
 url                      : https://roboticslaburjc.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : https://github.com/RoboticsLabURJC/2023-tfg-adrian-madinabeitia # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : https://github.com/RoboticsLabURJC/2023-tfg-oscar-martinez # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : "/assets/images/logo.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "/assets/images/logo.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -112,11 +112,11 @@ social:
 
 # Site Author
 author:
-  name             : "Adrián Madinabeitia Portanova"
+  name             : "Óscar Martínez Martínez"
   avatar           : "/assets/images/foto.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Robotics Software Engineer"
   location         : "Madrid, Spain"
-  email            : "portanova2002@gmail.com"
+  email            : "oscar.robotics@tutanota.com"
   links:
     #- label: "Email"
     #  icon: "fas fa-fw fa-envelope-square"
@@ -132,11 +132,11 @@ author:
 
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/madinabeip"
+      url: "https://github.com/oscarmrz"
 
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: https://www.linkedin.com/in/madinabeip/
+      url: https://www.linkedin.com/in/oscarmrz/
       
 #    - label: "Instagram"
 #      icon: "fab fa-fw fa-instagram"
