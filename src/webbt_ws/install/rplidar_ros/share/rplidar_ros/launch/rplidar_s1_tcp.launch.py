@@ -1,1 +1,0 @@
-/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/src/ThirdParty/rplidar_ros/launch/rplidar_s1_tcp.launch.py

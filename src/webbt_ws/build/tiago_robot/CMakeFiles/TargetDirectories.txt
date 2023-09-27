@@ -1,9 +1,0 @@
-/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/tiago_robot/CMakeFiles/uninstall.dir
-/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/tiago_robot/CMakeFiles/tiago_robot_uninstall.dir
-/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/tiago_robot/CMakeFiles/test.dir
-/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/tiago_robot/CMakeFiles/edit_cache.dir
-/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/tiago_robot/CMakeFiles/rebuild_cache.dir
-/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/tiago_robot/CMakeFiles/list_install_components.dir
-/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/tiago_robot/CMakeFiles/install.dir
-/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/tiago_robot/CMakeFiles/install/local.dir
-/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/tiago_robot/CMakeFiles/install/strip.dir

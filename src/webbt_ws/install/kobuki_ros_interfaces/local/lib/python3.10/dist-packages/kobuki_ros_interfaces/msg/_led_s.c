@@ -1,1 +1,0 @@
-/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/kobuki_ros_interfaces/rosidl_generator_py/kobuki_ros_interfaces/msg/_led_s.c

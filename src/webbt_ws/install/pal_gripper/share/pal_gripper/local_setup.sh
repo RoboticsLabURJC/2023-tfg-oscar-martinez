@@ -1,1 +1,0 @@
-/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/pal_gripper/ament_cmake_environment_hooks/local_setup.sh

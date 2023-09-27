@@ -1,1 +1,0 @@
-/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/kobuki_ros_interfaces/rosidl_generator_cpp/kobuki_ros_interfaces/msg/detail/robot_state_event__builder.hpp

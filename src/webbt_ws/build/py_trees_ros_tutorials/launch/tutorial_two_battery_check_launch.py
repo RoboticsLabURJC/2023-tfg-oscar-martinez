@@ -1,1 +1,0 @@
-/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/src/py_trees_ros_tutorials/launch/tutorial_two_battery_check_launch.py

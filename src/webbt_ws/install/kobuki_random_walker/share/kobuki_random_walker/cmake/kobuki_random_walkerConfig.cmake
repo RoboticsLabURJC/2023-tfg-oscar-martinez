@@ -1,1 +1,0 @@
-/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/kobuki_random_walker/ament_cmake_core/kobuki_random_walkerConfig.cmake

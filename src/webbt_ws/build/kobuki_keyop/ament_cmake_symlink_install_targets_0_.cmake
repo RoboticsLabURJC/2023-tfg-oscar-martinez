@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/build/kobuki_keyop/kobuki_keyop_node" "TARGETS" "kobuki_keyop_node" "DESTINATION" "lib/kobuki_keyop")

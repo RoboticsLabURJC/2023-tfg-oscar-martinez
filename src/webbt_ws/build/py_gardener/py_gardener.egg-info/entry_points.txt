@@ -1,3 +1,0 @@
-[console_scripts]
-translator = py_gardener.translator:translator_main
-

@@ -1,3 +1,0 @@
-[console_scripts]
-translator = btpy.translator:translator_main
-

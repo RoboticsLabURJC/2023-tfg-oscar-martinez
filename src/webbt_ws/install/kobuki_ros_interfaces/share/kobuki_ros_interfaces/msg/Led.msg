@@ -1,1 +1,0 @@
-/home/omartinez/2023-tfg-oscar-martinez/src/webbt_ws/src/ThirdParty/kobuki_ros_iterfaces/msg/Led.msg
