@@ -19,7 +19,7 @@ locale                   : "en-US"
 title                    : "TFG Óscar Martínez Martínez"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Óscar Martínez Martínez""
+name                     : "Óscar Martínez Martínez"
 description              : "Web-based development of robotic apps using Behavior Trees"
 
 url                      : https://roboticslaburjc.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
@@ -113,7 +113,7 @@ social:
 # Site Author
 author:
   name             : "Óscar Martínez Martínez"
-  avatar           : "/assets/images/foto.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/foto.jpeg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Robotics Software Engineer"
   location         : "Madrid, Spain"
   email            : "oscar.robotics@tutanota.com"
@@ -136,7 +136,7 @@ author:
 
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: https://www.linkedin.com/in/oscarmrz/
+      url: "https://www.linkedin.com/in/oscarmrz/"
       
 #    - label: "Instagram"
 #      icon: "fab fa-fw fa-instagram"
