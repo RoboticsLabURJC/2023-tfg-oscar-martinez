@@ -154,7 +154,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/madinabeip"
+      url: "https://github.com/oscarmrz"
 
       # url:
 #    - label: "GitLab"
@@ -165,7 +165,7 @@ footer:
       # url:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: https://www.linkedin.com/in/madinabeip/
+      url: https://www.linkedin.com/in/oscarmrz/
 
 
 # Reading Files
